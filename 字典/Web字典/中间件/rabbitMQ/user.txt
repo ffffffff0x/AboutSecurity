@@ -1,0 +1,6 @@
+guest
+rabbit
+admin
+manager
+root
+test
