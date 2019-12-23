@@ -2,11 +2,27 @@
 
 ---
 
-`字典来自网络,仅供学习和研究使用,请勿将字典用于非法用途,任何人造成的任何负面影响,与本人无关。`
+`字典来自网络,仅供学习和研究使用,请勿将字典用于非法用途,任何人造成的任何负面影响,与本人无关.`
+
+---
+
+# 分类
+
+```
+端口字典
+    按照端口渗透的想法,将不同端口承载的服务可爆破点作为字典内容
+
+Web 字典
+    顾名思义,在 web 渗透过程中出现的可爆破点作为字典内容
+
+杂项字典
+    目前是按排除法,除 web 和端口外的全部归类为杂项字典
+```
 
 ---
 
 # 来源
+- [boy-hack/wooyun-payload](https://github.com/boy-hack/wooyun-payload)
 - [Stardustsky/SaiDict](https://github.com/Stardustsky/SaiDict)
 - [rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)
 - [Weakpass](https://weakpass.com/)
@@ -32,7 +48,7 @@
 
 # 常用的数据库语句
 
-**SQL 查询重复出现次数最多的记录，按出现频率排序**
+**SQL 查询重复出现次数最多的记录,按出现频率排序**
 ```sql
 SELECT keyword, count( * ) AS count
 FROM article_keyword
@@ -55,7 +71,7 @@ select distinct * from tableName
 
 - 存在的表
     ```sql
-    insert into tab1 select distinct * from tab2
+    insert into tab2 select distinct * from tab1
     ```
 
 **查询A表有但B表没有**

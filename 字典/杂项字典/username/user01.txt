@@ -594,7 +594,6 @@ suy
 181339
 lst
 aptx
-1.98706E+15
 1478523
 sensen
 hackdiy

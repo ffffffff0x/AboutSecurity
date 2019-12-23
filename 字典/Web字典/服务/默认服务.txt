@@ -1,0 +1,27 @@
+
+zabbix
+admin   zabbix
+guest
+
+Nexus
+admin   admin123
+
+ActiveMQ
+admin   admin
+
+GeoServer
+admin   geoserver
+
+zenoss
+admin   zenoss
+
+cacti
+admin   admin
+
+splunk
+admin   changeme
+
+Lotus Domino
+admin   password
+
+
