@@ -36,6 +36,8 @@ Web 字典
 - [Bo0oM/fuzz.txt](https://github.com/Bo0oM/fuzz.txt)
 - [EdOverflow/bugbounty-cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet)
 - [tennc/fuzzdb](https://github.com/tennc/fuzzdb)
+- [7dog7/bottleneckOsmosis](https://github.com/7dog7/bottleneckOsmosis)
+- [k8gege/PasswordDic](https://github.com/k8gege/PasswordDic)
 
 ---
 

