@@ -1,5 +1,3 @@
 postgres
 test
 admin
-web
-scott

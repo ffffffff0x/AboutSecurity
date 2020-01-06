@@ -106,11 +106,8 @@ ftppass
 password
 1q2w3e4r
 123qaz
-oracle
 123456qwerty
 password123
 1q2w3e
 abc123
-okmnji
 q1w2e3r4
-mysql

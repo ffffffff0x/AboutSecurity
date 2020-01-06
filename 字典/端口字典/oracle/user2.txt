@@ -32,8 +32,6 @@ asp
 ast
 atm
 audiouser
-aurora$jis$utility$
-aurora$orb$unauthenticated
 ax
 az
 bc4j

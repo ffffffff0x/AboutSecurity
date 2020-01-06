@@ -26,7 +26,6 @@ password123
 12345678
 1q2w3e
 abc123
-okmnji
 test123
 123456789
 q1w2e3r4
@@ -228,7 +227,6 @@ instance
 inv
 invalid
 <invalid>
-invalid password
 ipa
 ipd
 iplanet

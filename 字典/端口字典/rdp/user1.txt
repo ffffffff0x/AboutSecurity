@@ -1,9 +1,5 @@
 administrator
 admin
-dba
 test
 user
-ftp
 manager
-webadmin
-dbadmin

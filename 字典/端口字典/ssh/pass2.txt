@@ -29,7 +29,7 @@ password123
 12345678
 1q2w3e
 abc123
-okmnji
+
 test123
 123456789
 postgres
@@ -200,12 +200,11 @@ sanhe123
 3H8IDC!!#
 3H8IDC72sanhe000
 xiaoyili
-sanhe000~!@#  
-ccfeng66131421  
+sanhe000~!@#
+ccfeng66131421
 !@#59560955
 tkggja850518`1
 anada325!@#
-www.txwscx.comsritgyxf2sxy19831122zx
 ZHONGGUO$#@!999@
 admin13906271234
 395835961

@@ -19,7 +19,6 @@ www-data
 test1
 ghost
 postgres
-michael
 alex
 sales
 nagios

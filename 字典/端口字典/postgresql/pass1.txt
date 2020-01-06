@@ -7,8 +7,6 @@ admin888
 administrator
 administrator123
 root123
-ftp
-ftppass
 123456
 password
 12345
@@ -23,14 +21,12 @@ qazwsx
 123qwe
 123qaz
 0000
-oracle
 1234567
 123456qwerty
 password123
 12345678
 1q2w3e
 abc123
-okmnji
 test123
 123456789
 q1w2e3r4

@@ -1,6 +1,5 @@
 root
 !@
-wubao
 password
 123456
 admin
@@ -17,7 +16,6 @@ root123
 !qaz@wsx
 idc!@
 admin!@
-
 alpine
 qwerty
 12345678

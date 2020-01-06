@@ -1,4 +1,5 @@
-
+Abcd1234
+toor
 qweasdzxc
 Passw0rd
 admin123
@@ -15,7 +16,6 @@ qazwsx
 123456qwerty
 password123
 1q2w3e
-okmnji
 test123
 test12345
 test123456
