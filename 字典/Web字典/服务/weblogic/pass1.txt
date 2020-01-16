@@ -1,4 +1,7 @@
 weblogic
+11111111
+Oracle@123
+weblogic123456
 test
 qweasdzxc
 Passw0rd

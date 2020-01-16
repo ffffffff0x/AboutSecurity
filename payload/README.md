@@ -8,19 +8,13 @@
 
 # 分类
 
-```
-CORS
-
-Dnslog
-
-SQL-Inj
-
-ssrf+LFI
-
-XSS
-
-XXE
-```
+- CORS
+- Dnslog
+- LFI
+- SQL-Inj
+- SSRF
+- XSS
+- XXE
 
 ---
 
