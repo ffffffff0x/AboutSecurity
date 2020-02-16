@@ -29,7 +29,6 @@ password123
 12345678
 1q2w3e
 abc123
-
 test123
 123456789
 postgres

@@ -498,3 +498,4 @@
 /Customize/Audit/MessageMonitor/groupSearch.php
 /new/client.php
 /notice.php
+/logout.php
