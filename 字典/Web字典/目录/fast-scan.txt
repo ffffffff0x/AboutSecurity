@@ -5,6 +5,7 @@
 /login
 /plus
 /news
+/doc
 /web
 /upload
 /manager
