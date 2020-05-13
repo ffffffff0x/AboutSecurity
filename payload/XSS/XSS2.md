@@ -326,7 +326,7 @@ curl -I http://example.com | grep 'Content-Security-Policy'
 
 Either paste the CSP into https://csp-evaluator.withgoogle.com/ or just submit the target's address into the "Content Security Policy" field. The CSP Evaluator will notify you if one of the whitelisted domains has JSONP endpoints.
 
-![image](https://user-images.githubusercontent.com/18099289/32136707-a1c12510-bc12-11e7-8a80-8a22b3e94232.png)
+![](https://user-images.githubusercontent.com/18099289/32136707-a1c12510-bc12-11e7-8a80-8a22b3e94232.png)
 
 Now we can use a Google dork to find some JSONP endpoints on the domains listed above.
 
