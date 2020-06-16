@@ -332,7 +332,6 @@
 /spider_bin/mysql50_sys/tail.txt
 /src/txt/third-party/source code for imgupload with flash.txt
 /static/artdialog/artdialog5.txt
-/static/ckplayer/ckplayer6.3??????.txt
 /static/js/lib/cmp4/skins/movie/qqplayer.txt
 /static/js/lib/cmp4/skins/movie/tvlive.txt
 /static/js/lib/cmp4/skins/movie/vplayer.txt
@@ -521,7 +520,6 @@
 /bbsxp5.16tolybbs6.1_by_isaersoft.txt
 /bf/jutongdate.txt
 /biaoti.txt
-/bid/?????ļ?????.txt
 /bihutimusic/css/css.txt
 /bin/debug.txt
 /bin/ipmanager.txt
@@ -1074,11 +1072,8 @@
 /88bmw.com.txt
 /db/db.txt
 /xrvnwwwroot.txt
-/njvv????.txt
 /ykdsweb.txt
-/lcqc????.txt
 /csaoweb.txt
-/vbds????.txt
 /vsjsftp.txt
 /hewrwwwroot.txt
 /rtoawww.txt

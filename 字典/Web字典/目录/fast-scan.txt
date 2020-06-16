@@ -1,3 +1,4 @@
+/robots.txt
 /admin
 /user
 /.svn

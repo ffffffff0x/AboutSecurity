@@ -184,15 +184,11 @@
 /ad/d_chanad.mdb
 /ad/databackup/#kenqiao_label.mdb
 /ad/databackup/#kenqiao_page.mdb
-/ad/databackup/?ɼ?????.mdb/#??11??2??@sa.mdb
 /ad/database/article.mdb
 /ad/database/myb.mdb
 /ad/database/???? myb.mdb
 /ad/dv_chanad.mdb
-/ad/firste_data/#firste_city.mdb
-/ad/firste_data/#firste_city_1.mdb
 /ad/tender.mdb
-/ad/???? ad_data.mdb
 /adanced/security.mdb
 /add.as/book.mdb
 /add/countdata.mdb
@@ -215,7 +211,6 @@
 /address/address.mdb
 /addressip.mdb
 /adds/gbmdb.mdb
-/adds/???? gbmdb.mdb
 /adffjhfgdfghsdfgsdfghjf.mdb
 /adm/bbspp1.mdb
 /adm/database/cnwyasp.mdb
@@ -224,13 +219,8 @@
 /adm/order.mdb
 /adma.mdb
 /admi/data/#photo.mdb
-/admi/data/529ec336ded44aaa/data.mdb
-/admi/data/529ec336ded44aaa/paper.mdb
-/admi/data/5c1a91db52dedaaa/data.mdb
 /admi/data/bn365.mdb
 /admin./data/#data.mdb
-/admin.asp/data/lie#193.mdb
-/admin.asp/data/?հ????ݿ?.mdb
 /admin.asp/vote.mdb
 /admin.mdb
 /admin/#db.mdb
@@ -483,7 +473,6 @@
 /back/database/data.mdb
 /back/database/db.mdb
 /back/database/mjptw_data.mdb
-/back/database/???? ax_webdata.mdb
 /back/kaoqin.mdb
 /back_4s5e_g.mdb
 /back_up.mdb
@@ -511,9 +500,7 @@
 /backup2.mdb
 /backup3.mdb
 /baigo_bbs_data.mdb
-/baipu_jxc/data/#baipu_jxc.mdb
 /bak#hospital.mdb
-/bak/#zhi_rui__base(init).mdb
 /bak/#zhi_rui__base2.mdb
 /bak/bakdatebase.mdb
 /bak_mynntdata.mdb

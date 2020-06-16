@@ -36,6 +36,7 @@
 - [tennc/fuzzdb](https://github.com/tennc/fuzzdb)
 - [7dog7/bottleneckOsmosis](https://github.com/7dog7/bottleneckOsmosis)
 - [k8gege/PasswordDic](https://github.com/k8gege/PasswordDic)
+- [klionsec/SuperWordlist](https://github.com/klionsec/SuperWordlist)
 
 ---
 

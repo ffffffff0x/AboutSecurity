@@ -9,6 +9,7 @@ admin@huawei.com
 9300
 h3cadmin
 huawei
+huawei@1234
 Admin@huawei.com
 epicrouter
 SZIM

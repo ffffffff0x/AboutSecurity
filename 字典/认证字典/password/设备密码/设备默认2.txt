@@ -54,6 +54,9 @@ eudemon eudemon
 华为RTSP
 admin       HuaWei123
 
+华为switch
+huwei    huawei@1234
+
 H3C
 用户名:admin   密码:admin
 
@@ -72,3 +75,8 @@ admin/adminadmin
 齐治堡垒机
 shterm/shterm
 
+上海格尔安全认证网关管理系统
+admin/12345678
+
+ALTUSeN
+administrator    password

@@ -1,6 +1,7 @@
 /vip
 /0
 /1
+/robots.txt
 /163
 /1mobil
 /2
