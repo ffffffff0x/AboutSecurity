@@ -1,0 +1,5 @@
+access.log
+other_vhosts_access.log
+error.log
+httpd-access.log
+httpd-error.log
