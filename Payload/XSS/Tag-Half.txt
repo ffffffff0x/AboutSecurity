@@ -45,7 +45,8 @@
 <form
 <frame
 <frameset
-<h1> to <h6
+<h1
+<h2
 <head
 <header
 <hr

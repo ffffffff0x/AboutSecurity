@@ -4,6 +4,7 @@
 /.svn
 /.git
 /login
+/v2/api-docs
 /plus
 /news
 /doc
@@ -368,6 +369,7 @@
 /homepage/LoginHomepage.jsp
 /page/maint/common/UserResourceUpload.jsp
 /zpsys/index.jsp
+/swagger-ui.html
 /vc/vc/para/opr_initvc.jsp
 /pages/manager/managerAddNManager.jsp
 /hdcy/zxzx_show.jsp
