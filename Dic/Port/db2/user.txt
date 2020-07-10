@@ -1,0 +1,4 @@
+db2admin
+db2as
+db2inst1
+db2fenc1

@@ -1,8 +1,4 @@
 
-zabbix
-admin   zabbix
-guest
-
 Nexus
 admin   admin123
 

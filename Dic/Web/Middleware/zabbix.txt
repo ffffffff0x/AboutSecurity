@@ -1,2 +1,0 @@
-zabbix/zabbix
-admin/zabbix

@@ -1,0 +1,3 @@
+zabbix
+admin
+guest

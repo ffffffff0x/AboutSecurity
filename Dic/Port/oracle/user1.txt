@@ -3,3 +3,6 @@ admin
 test
 web
 oracl
+scott
+internal
+sys

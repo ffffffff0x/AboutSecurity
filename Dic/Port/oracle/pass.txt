@@ -8,6 +8,7 @@ admin123
 admin888
 administrator
 administrator123
+change_on_install
 root123
 123456
 password
@@ -97,7 +98,7 @@ cdouglas
 ce
 centra
 central
-change_on_install
+scott
 cids
 cis
 cisinfo
