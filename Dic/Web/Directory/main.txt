@@ -159,6 +159,7 @@
 /feng
 /file
 /files
+/flyspray
 /font
 /forum
 /francis
@@ -669,6 +670,7 @@
 /editor/FCKeditor
 /editor/FCKeditor/editor
 /weblogin
+/backend
 /backend/admin
 /backend/admin/eWebEditor
 /ledmin
@@ -23329,6 +23331,7 @@
 /postnew
 /postreply
 /postreward
+/posts
 /postsh
 /pot999
 /poto
