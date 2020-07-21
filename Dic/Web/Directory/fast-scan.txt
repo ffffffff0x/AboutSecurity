@@ -1,4 +1,6 @@
 /robots.txt
+/.htaccess
+/.htpasswd
 /admin
 /user
 /.svn
@@ -503,3 +505,4 @@
 /new/client.php
 /notice.php
 /logout.php
+/security.txt
