@@ -8,24 +8,12 @@
 
 # 分类
 
-- Auth : 认证字典
-    - 账号和密码
-
-- Network : 网络
-    - 排除的私有 IP 段、本地 IP 段、dns 服务器列表
-
-- Port : 端口字典
-    - 按照端口渗透的想法,将不同端口承载的服务可爆破点作为字典内容
-
-- Regular : 规则字典
-    - 各种规则、排列的字典整理
-
-- Web : Web 字典
-    - 顾名思义,在 web 渗透过程中出现的可爆破点作为字典内容
+![](../assets/img/Dic.png)
 
 ---
 
 # 来源
+
 - [boy-hack/wooyun-payload](https://github.com/boy-hack/wooyun-payload)
 - [Stardustsky/SaiDict](https://github.com/Stardustsky/SaiDict)
 - [rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)
@@ -47,9 +35,60 @@
 ---
 
 # 特点
+
 1. 整合以上来源 80% 以上内容
 2. 任意字典使用数据库去重
 3. 删掉一些离谱的比如 "dfasddsf"、"20100112"
+
+---
+
+# 密码规则
+
+```
+123
+1234
+123456
+12345
+@123
+@123456
+@12345
+#123
+#123456
+#12345
+_123
+_123456
+_12345
+123!@#
+!@#$
+!@#
+~!@
+!@#123
+2017
+2016
+2015
+@2017
+@2016
+@2015
+
+生日生成组合(19880808)
+年份列表(1987,1988,1989)
+姓名组合+网络昵称+亲人姓名+生日
+1337模式替换(r1n9z3r0)
+常用密码链接字符 .!@#&*(wy@123)
+排列组合叠字 aaa,bbb,123,!@#
+常用键盘布局(qwerty)
+公司相关信息 域名+简称(wy@360buy)
+大小写变换，根据元音或字母开头
+
+Username+生日
+Username@特定字符
+Username@生日
+中文名拼音+生日
+中文名拼音@生日
+中文名拼音@特定字符
+Domain@特定字符
+Username@Domain
+```
 
 ---
 

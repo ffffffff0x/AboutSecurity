@@ -16,6 +16,8 @@ root123
 !qaz@wsx
 idc!@
 admin!@
+oracle123
+oracle@123
 alpine
 qwerty
 12345678

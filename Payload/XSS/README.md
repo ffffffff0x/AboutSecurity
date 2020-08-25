@@ -1,5 +1,9 @@
 # XSS
 
+---
+
+`payload 来自网络,仅供学习和研究使用,请勿将字典用于非法用途,任何人造成的任何负面影响,与本人无关.`
+
 **payload**
 - [ismailtasdelen/xss-payload-list](https://github.com/ismailtasdelen/xss-payload-list)
 - [masatokinugawa/filterbypass](https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet)

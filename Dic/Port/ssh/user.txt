@@ -21,5 +21,6 @@ ghost
 postgres
 alex
 sales
+user
 nagios
 nobody

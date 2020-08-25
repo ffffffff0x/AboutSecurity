@@ -17,3 +17,9 @@ test2
 111
 123123
 assessor
+user
+ceshi
+supervisor
+0
+0001
+1001
