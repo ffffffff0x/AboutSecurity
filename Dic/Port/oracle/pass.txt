@@ -452,7 +452,6 @@ ultimate
 um_admin
 um_client
 unknown
-<unknown>
 user
 user0
 user1
