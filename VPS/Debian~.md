@@ -2,26 +2,8 @@
 
 ---
 
-# Net
-```bash
-nano /etc/network/interfaces
-
-auto enp7s0
-iface enp7s0 inet static
-address 10.0.208.222
-netmask 255.255.240.0
-gateway 10.0.208.1
-dns-nameservers 10.0.208.1
-```
-```bash
-systemctl restart networking.service
-```
-```vim
-vim /etc/resolv.conf
-nameserver 8.8.8.8
-```
-
 # SSH
+
 ```bash
 apt update
 apt install -y ssh
@@ -33,7 +15,10 @@ service ssh restart
 systemctl enable ssh
 ```
 
+---
+
 # apt
+
 **Ubuntu apt 换源**
 ```vim
 sudo tee /etc/apt/sources.list <<-'EOF'
@@ -67,10 +52,9 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main con
 EOF
 ```
 
-**Kali apt 换源**
+**kali apt 换源**
 ```vim
 sudo tee /etc/apt/sources.list <<-'EOF'
-deb http://http.kali.org/kali kali-rolling main non-free contrib
 
 # 清华源
 deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
@@ -90,7 +74,10 @@ deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 EOF
 ```
 
-# base
+---
+
+# 基础安装
+
 ```bash
 rm -rf /var/cache/apt/archives/lock
 rm -rf /var/lib/dpkg/lock-frontend
@@ -114,11 +101,14 @@ sudo apt-get install -y \
     software-properties-common
 apt update
 
-echo "nameserver 114.114.114.114" > /etc/resolvconf/resolv.conf.d/head
+echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
 resolvconf -u
 ```
 
+---
+
 # proxychains
+
 ```bash
 rz
 
@@ -131,7 +121,10 @@ cd .. && rm -rf proxychains-ng
 vim /etc/proxychains.conf
 ```
 
+---
+
 # python
+
 ```bash
 rm -rf /var/cache/apt/archives/lock
 rm -rf /var/lib/dpkg/lock-frontend
@@ -141,6 +134,7 @@ rm /var/lib/apt/lists/lock
 
 apt install -y python
 ```
+
 ```bash
 proxychains4 bash
 wget https://bootstrap.pypa.io/get-pip.py
@@ -159,11 +153,12 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [install]
 trusted-host = https://pypi.tuna.tsinghua.edu.cn
 EOF
-
-pip install pyinstaller
 ```
 
+---
+
 # docker
+
 ```bash
 rm -rf /var/cache/apt/archives/lock
 rm -rf /var/lib/dpkg/lock-frontend
@@ -187,6 +182,7 @@ apt install -y docker-ce
 docker version
 sudo systemctl start docker
 ```
+
 ```bash
 proxychains4 bash
 wget https://github.com/docker/compose/releases/download/1.25.5/docker-compose-Linux-x86_64
@@ -196,7 +192,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://rf7ead45.mirror.aliyuncs.com"]
+  "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
 }
 EOF
 sudo systemctl daemon-reload
@@ -206,7 +202,10 @@ sudo systemctl enable docker
 docker-compose version
 ```
 
+---
+
 # bash-insulter
+
 ```bash
 git clone https://github.com/No-Github/bash-insulter.git bash-insulter
 cp bash-insulter/src/bash.command-not-found /etc/
