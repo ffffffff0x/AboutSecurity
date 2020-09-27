@@ -2,7 +2,13 @@
 
 ---
 
-# 1.安装配置基础环境
+- 渗透脚本放在 /pentest
+- 残留文件放在 /tmp/test
+- 默认下所有命令走 proxychains4
+
+---
+
+# 1.配置基础环境
 
 ```bash
 # SSH
@@ -24,10 +30,16 @@ deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
 deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 EOF
+apt update
 
 # 依赖
-apt install -y gcc g++ make vim git curl lrzsz wget unzip resolvconf
-apt install -y apt-transport-https ca-certificates software-properties-common
+apt install -y gcc
+apt install -y g++
+apt install -y make
+apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
+apt install -y apt-transport-https
+apt install -y ca-certificates
+apt install -y software-properties-common
 
 # 换 DNS
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
@@ -40,6 +52,17 @@ apt install -y xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 # /tmp/test 作为存放临时文件的文件夹
 mkdir /pentest
 mkdir /tmp/test
+
+# proxychains-ng
+cd /tmp/test
+# rz 一个 proxychains-ng.zip
+unzip proxychains-ng.zip
+cd proxychains-ng
+./configure
+make && make install
+cp ./src/proxychains.conf /etc/proxychains.conf
+cd .. && rm -rf proxychains-ng
+vim /etc/proxychains.conf    # 改成你懂的
 
 # AboutSecurity
 cd /
@@ -94,7 +117,7 @@ go env -w GOPROXY="https://goproxy.io,direct"
 
 ---
 
-# 3.安装渗透工具
+# 3.安全工具安装
 
 ```bash
 cd /tmp/test
@@ -102,6 +125,15 @@ cd /tmp/test
 # Misc工具
 gem install zsteg
 apt install -y foremost lrzsz parallel owasp-mantra-ff
+apt install -y rarcrack
+
+# hashcat、7z2hashcat
+cd /pentest
+wget https://hashcat.net/files/hashcat-6.1.1.7z
+wget https://raw.githubusercontent.com/philsmd/7z2hashcat/master/7z2hashcat.pl
+7z x hashcat-6.1.1.7z && rm -rf hashcat-6.1.1.7z
+cd hashcat-6.1.1 && chmod +x hashcat.bin && cp hashcat.bin hashcat
+ln -s /pentest/hashcat-6.1.1/hashcat /usr/sbin/hashcat
 
 # ncat
 apt install ncat
@@ -113,7 +145,28 @@ apt install powershell
 pwsh            # 启动
 $PSVersionTable # 测试一下
 
+# binwalk
+cd /tmp/test
+wget https://github.com/ReFirmLabs/binwalk/archive/master.zip
+unzip master.zip
+(cd binwalk-master && sudo python setup.py uninstall && sudo python setup.py install)
+
+# sasquatch
+cd /tmp/test
+sudo apt-get install -y build-essential liblzma-dev liblzo2-dev zlib1g-dev
+git clone https://github.com/devttys0/sasquatch
+cd sasquatch
+./build.sh
+
+# unyaffs
+cd /tmp/test
+wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/unyaffs/unyaffs
+mv unyaffs /usr/local/bin/
+chmod +x /usr/local/bin/unyaffs
+unyaffs
+
 # ffuf
+cd /tmp/test
 wget https://github.com/ffuf/ffuf/releases/download/v1.1.0/ffuf_1.1.0_linux_amd64.tar.gz
 tar -zxvf ffuf_1.1.0_linux_amd64.tar.gz
 mv ffuf /usr/local/bin/

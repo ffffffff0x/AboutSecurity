@@ -14,7 +14,7 @@ rm -f /var/run/yum.pid
 
 yum groupinstall -y "Development Tools"
 yum install -y yum-utils
-yum install -y vim make gcc gcc-c++ curl git lrzsz wget unzip openssl-devel epel-release
+yum install -y vim make gcc gcc-c++ curl git lrzsz wget unzip openssl-devel epel-release p7zip
 yum update
 ```
 

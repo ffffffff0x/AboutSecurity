@@ -93,7 +93,7 @@ rm -rf /var/lib/dpkg/lock
 rm /var/lib/dpkg/lock
 rm /var/lib/apt/lists/lock
 
-apt install -y gcc g++ make vim git curl lrzsz wget unzip resolvconf
+apt install -y gcc g++ make vim git curl lrzsz wget unzip resolvconf p7zip
 sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
