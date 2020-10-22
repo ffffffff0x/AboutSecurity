@@ -10,6 +10,7 @@
 /yonghu_shanchu.php
 /yonghu_tianjia.php
 /yonghu_tianjia_sql.php
+/index.php~
 /yongjin.php
 /youku.php
 /yourpage.php

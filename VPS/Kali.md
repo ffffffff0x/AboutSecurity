@@ -33,8 +33,7 @@ EOF
 apt update
 
 # 依赖
-apt install -y gcc
-apt install -y g++
+apt install -y gcc g++
 apt install -y make
 apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
 apt install -y apt-transport-https
@@ -57,7 +56,7 @@ mkdir /tmp/test
 cd /tmp/test
 # rz 一个 proxychains-ng.zip
 unzip proxychains-ng.zip
-cd proxychains-ng
+cd proxychains-ng-master
 ./configure
 make && make install
 cp ./src/proxychains.conf /etc/proxychains.conf
@@ -82,7 +81,45 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/Applications/Go
 source $HOME/.profile
 source ~/.bash_profile
+
+ln -s /usr/local/go/bin/go /usr/bin/go
 go version
+
+# Docker
+apt remove docker docker-engine docker.io
+apt update
+apt install -y \
+  apt-transport-https \
+  ca-certificates \
+  curl \
+  software-properties-common \
+  gnupg
+
+curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+echo 'deb https://download.docker.com/linux/debian stretch stable'> /etc/apt/sources.list.d/docker.list
+apt update
+apt install -y docker-ce
+
+docker version
+sudo systemctl start docker
+
+# docker-compose
+cd /tmp/test
+wget https://github.com/docker/compose/releases/download/1.25.5/docker-compose-Linux-x86_64
+mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+sudo systemctl enable docker
+
+docker-compose version
 ```
 
 ---
@@ -120,12 +157,16 @@ go env -w GOPROXY="https://goproxy.io,direct"
 # 3.安全工具安装
 
 ```bash
+mkdir /tmp/test
 cd /tmp/test
 
 # Misc工具
 gem install zsteg
-apt install -y foremost lrzsz parallel owasp-mantra-ff
+apt install -y foremost lrzsz parallel owasp-mantra-ff btscanner
 apt install -y rarcrack
+
+# Ciphey
+python3 -m pip install ciphey --upgrade
 
 # hashcat、7z2hashcat
 cd /pentest
@@ -135,13 +176,18 @@ wget https://raw.githubusercontent.com/philsmd/7z2hashcat/master/7z2hashcat.pl
 cd hashcat-6.1.1 && chmod +x hashcat.bin && cp hashcat.bin hashcat
 ln -s /pentest/hashcat-6.1.1/hashcat /usr/sbin/hashcat
 
+# RustScan
+cd /tmp/test
+wget https://github.com/RustScan/RustScan/releases/download/1.10.0/rustscan_1.10.0_amd64.deb
+dpkg -i rustscan_1.10.0_amd64.deb
+
 # ncat
-apt install ncat
+apt install -y ncat
 update-alternatives --config nc
 1
 
 # powershell
-apt install powershell
+apt install -y powershell
 pwsh            # 启动
 $PSVersionTable # 测试一下
 
@@ -153,7 +199,7 @@ unzip master.zip
 
 # sasquatch
 cd /tmp/test
-sudo apt-get install -y build-essential liblzma-dev liblzo2-dev zlib1g-dev
+apt install -y build-essential liblzma-dev liblzo2-dev zlib1g-dev
 git clone https://github.com/devttys0/sasquatch
 cd sasquatch
 ./build.sh
@@ -184,7 +230,6 @@ python3 oneforall.py --help
 # ksubdomain
 cd /tmp/test
 apt install -y libpcap-dev
-
 wget https://github.com/knownsec/ksubdomain/releases/download/v0.5.1/ksubdomain_linux.zip
 unzip ksubdomain_linux.zip
 mv ksubdomain /usr/local/bin/
@@ -192,7 +237,8 @@ chmod +x /usr/local/bin/ksubdomain
 ksubdomain
 
 # python模块
-pip install PyJWT pyshark requests sqlparse threadpool urllib3 lxml pyzbar
+pip install PyJWT pyshark requests sqlparse threadpool urllib3 lxml pyzbar ftfy
+pip3 install updog
 
 # AWVS-13
 docker pull secfa/docker-awvs

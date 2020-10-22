@@ -207,6 +207,7 @@ docker-compose version
 # bash-insulter
 
 ```bash
+cd /tmp/test
 git clone https://github.com/No-Github/bash-insulter.git bash-insulter
 cp bash-insulter/src/bash.command-not-found /etc/
 chmod 777 /etc/bash.command-not-found
