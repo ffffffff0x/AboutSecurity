@@ -156,6 +156,7 @@ Evav
 evil
 evilhack
 evilhacker
+EBRUser
 evilhk
 f19ht
 fclshark

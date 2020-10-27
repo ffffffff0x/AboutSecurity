@@ -1,8 +1,8 @@
-# RedHat 系配置
+# RedHat system infrastructure configuration.
 
 ---
 
-# 基础安装
+# Basic installation
 
 ```bash
 rm -f /var/run/yum.pid
@@ -84,6 +84,8 @@ sudo systemctl daemon-reload
 ---
 
 # bash-insulter
+
+> Install or skip according to your preference🤣
 
 ```bash
 git clone https://github.com/No-Github/bash-insulter.git bash-insulter

@@ -2901,6 +2901,7 @@
 /admin/login/www.rar
 /admin/login/wwwroot.rar
 /admin/login/wwwroot.zip
+/admin/ffffffff0x.zip
 /admin/temp.rar
 /admin/temp.zip
 /admin/web.rar

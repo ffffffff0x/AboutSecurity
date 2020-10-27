@@ -2,100 +2,85 @@
 
 ---
 
-`字典来自网络,仅供学习和研究使用,请勿将字典用于非法用途,任何人造成的任何负面影响,与本人无关.`
-
----
-
-# 分类
+# Directory structure
 
 ![](../assets/img/Dic.png)
 
 ---
 
-# 来源
+# password rule
 
-- [boy-hack/wooyun-payload](https://github.com/boy-hack/wooyun-payload)
-- [Stardustsky/SaiDict](https://github.com/Stardustsky/SaiDict)
-- [rootphantomer/Blasting_dictionary](https://github.com/rootphantomer/Blasting_dictionary)
-- [Weakpass](https://weakpass.com/)
-- [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
-- [r35tart/RW_Password](https://github.com/r35tart/RW_Password)
-- [wainshine/Chinese-Names-Corpus](https://github.com/wainshine/Chinese-Names-Corpus)
-- [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
-- [berzerk0/Probable-Wordlists](https://github.com/berzerk0/Probable-Wordlists)
-- [H4lo/dictionary](https://github.com/H4lo/dictionary)
-- [TheKingOfDuck/fuzzDicts](https://github.com/TheKingOfDuck/fuzzDicts)
-- [Bo0oM/fuzz.txt](https://github.com/Bo0oM/fuzz.txt)
-- [EdOverflow/bugbounty-cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet)
-- [tennc/fuzzdb](https://github.com/tennc/fuzzdb)
-- [7dog7/bottleneckOsmosis](https://github.com/7dog7/bottleneckOsmosis)
-- [k8gege/PasswordDic](https://github.com/k8gege/PasswordDic)
-- [klionsec/SuperWordlist](https://github.com/klionsec/SuperWordlist)
-- [SmithEcon/Fuzz_dic](https://github.com/SmithEcon/Fuzz_dic)
+常见组合 (Common)
+- `payload` + 123
+- `payload` + 1234
+- `payload` + 123456
+- `payload` + 12345
+- `payload` + @123
+- `payload` + @123456
+- `payload` + @12345
+- `payload` + #123
+- `payload` + #123456
+- `payload` + #12345
+- `payload` + _123
+- `payload` + _123456
+- `payload` + _12345
+- `payload` + 123!@#
+- `payload` + !@#$
+- `payload` + !@#
+- `payload` + ~!@
+- `payload` + !@#123
+- `payload` + 2017
+- `payload` + 2016
+- `payload` + 2015
+- `payload` + @2017
+- `payload` + @2016
+- `payload` + @2015
 
----
+生日组合 (Birthday)
+- 19880808
+- tony19980808
+- tony@19980808
 
-# 特点
+年份列表 (years)
+- 1987
+- 1988
+- 1989
 
-1. 整合以上来源 80% 以上内容
-2. 任意字典使用数据库去重
-3. 删掉一些离谱的比如 "dfasddsf"、"20100112"
+1337模式替换 (leet)
+- 1earn
 
----
+键盘布局 (Keyboard layout)
+- qwerty
 
-# 密码规则
+大小写变换 (case reversal)
+- admin
+- Admin
+- admIn
 
-```
-123
-1234
-123456
-12345
-@123
-@123456
-@12345
-#123
-#123456
-#12345
-_123
-_123456
-_12345
-123!@#
-!@#$
-!@#
-~!@
-!@#123
-2017
-2016
-2015
-@2017
-@2016
-@2015
+单位名+`@`+`年份/123/或常见弱口令` (company + sth.)
+- Huawei@123
 
-生日生成组合(19880808)
-年份列表(1987,1988,1989)
-姓名组合+网络昵称+亲人姓名+生日
-1337模式替换(r1n9z3r0)
-常用密码链接字符 .!@#&*(wy@123)
-排列组合叠字 aaa,bbb,123,!@#
-常用键盘布局(qwerty)
-公司相关信息 域名+简称(wy@360buy)
-大小写变换，根据元音或字母开头
+单位名+小写业务名+`@`+`年份/123/或常见弱口令` (company + business + sth.)
+- BEIJINGXXyy@2019
 
-Username+生日
-Username@特定字符
-Username@生日
-中文名拼音+生日
-中文名拼音@生日
-中文名拼音@特定字符
-Domain@特定字符
-Username@Domain
-```
+大写地名+小写业务名+`@`+`年份/123/或常见弱口令` (Place + business + sth.)
+- BEIJINGinfo@2019
+
+管理员名+`@`+`年份/123/或常见弱口令` (Administrator + sth.)
+- tony@2019
+
+医院工号 (Hospital staff ID)
+- 0000-9999
+
+公司相关信息 域名+简称 (Company Information Domain+Abbreviation)
+- wy@360buy
+- xxx.com@123
 
 ---
 
-# 常用的数据库语句
+# Common SQL
 
-**SQL 查询重复出现次数最多的记录,按出现频率排序**
+**SQL 查询重复出现次数最多的记录,按出现频率排序 (The records with the highest number of queries, sorted by frequency.)**
 ```sql
 SELECT keyword, count( * ) AS count
 FROM article_keyword
@@ -104,24 +89,24 @@ ORDER BY count DESC
 LIMIT 20
 ```
 
-**查询不重复的记录**
+**查询不重复的记录 (Searching for non-duplicate records)**
 ```sql
 select distinct * from tableName
 ```
 
-**查询不重复的记录转入其他表**
+**查询不重复的记录转入其他表 (Transferring non-duplicate queries to other tables)**
 
-- 新表
+- 转移到新表 (Transfer to new table)
     ```sql
     create table tab2 as select distinct * from tab1
     ```
 
-- 存在的表
+- 转移到存在的表 (Transfer to the exist table)
     ```sql
     insert into tab2 select distinct * from tab1
     ```
 
-**查询A表有但B表没有**
+**查询A表有但B表没有的数据 (Queries the data that exist in Table A but not in Table B.)**
 ```sql
 select a.name
 from tab1 a left join tab2 b
@@ -129,8 +114,8 @@ on a.name = b.name
 where b.name is null
 ```
 
-**不应该出现在web目录字典的字符**
-```
+**不应该出现在web目录字典的字符 (Characters that should not appear in the web directory dictionary)**
+```sql
 !
 @
 #
@@ -199,8 +184,8 @@ _.
 \
 ```
 
-**直接查询上述**
-```
+**查询库中脏数据**
+```sql
 SELECT * FROM `tab1` where text like '%\!%'
 or text like '%\@%'
 or text like '%\#%'
@@ -270,9 +255,8 @@ or text like '%\\%'
 ```
 
 **容易误伤的匹配**
-```
+```sql
 or text like '%\-%'
-or text like '%s8%'
 or text like '%asked%'
 or text like '%chufang%'
 or text like '%chongzhi%'
@@ -444,3 +428,19 @@ or text like '%\/z\_d%'
 or text like '%\/Yz\_Plug%'
 or text like '%\/yz\_qq%'
 ```
+
+---
+
+# Combine and re-duplicates
+
+```bash
+cat file1.txt file2.txt fileN.txt > out.txt
+sort out.txt | uniq > out2.txt
+```
+
+---
+
+# Recommended tools
+
+- [PilotEdit](https://www.pilotedit.com/) - 大文件编辑器 (Large file editor)
+- [glogg](https://glogg.bonnefon.org/download.html) - 大文件查看工具(只读) (Large file viewing tool (read only))

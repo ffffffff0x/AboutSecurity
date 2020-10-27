@@ -1,14 +1,14 @@
-# Kali 配置
+# Kali system infrastructure configuration.
 
 ---
 
-- 渗透脚本放在 /pentest
-- 残留文件放在 /tmp/test
-- 默认下所有命令走 proxychains4
+- The penetration tool is placed in /pentest
+- Residual files are placed in /tmp/test
+- By default, all commands are passed through proxychains4
 
 ---
 
-# 1.配置基础环境
+# Basic installation (基本配置)
 
 ```bash
 # SSH
@@ -19,7 +19,7 @@ systemctl enable ssh
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_rsa_key
 
-# apt 换源
+# apt mirror
 sudo tee /etc/apt/sources.list <<-'EOF'
 deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
@@ -32,7 +32,7 @@ deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 EOF
 apt update
 
-# 依赖
+# 安装依赖 (install dependence)
 apt install -y gcc g++
 apt install -y make
 apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
@@ -40,11 +40,11 @@ apt install -y apt-transport-https
 apt install -y ca-certificates
 apt install -y software-properties-common
 
-# 换 DNS
+# Change DNS
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
 resolvconf -u
 
-# 安装中文字体
+# 安装中文字体 (Install fonts)
 apt install -y xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 
 # /pentest 作为存放渗透工具的文件夹
@@ -54,14 +54,14 @@ mkdir /tmp/test
 
 # proxychains-ng
 cd /tmp/test
-# rz 一个 proxychains-ng.zip
+# rz upload a proxychains-ng.zip
 unzip proxychains-ng.zip
 cd proxychains-ng-master
 ./configure
 make && make install
 cp ./src/proxychains.conf /etc/proxychains.conf
 cd .. && rm -rf proxychains-ng
-vim /etc/proxychains.conf    # 改成你懂的
+vim /etc/proxychains.conf    # Change it to your proxy.
 
 # AboutSecurity
 cd /
@@ -74,7 +74,7 @@ python3 get-pip.py
 
 # go
 cd /tmp/test
-# rz 一个 go1.13.linux-amd64.tar.gz
+# rz upload a go1.13.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 export GOROOT=/usr/local/go
@@ -124,10 +124,12 @@ docker-compose version
 
 ---
 
-# 2.换源
+# Change mirrors (换源)
+
+> If your service does not go through any firewall, you know, this step is not needed
 
 ```bash
-# pip 换源
+# pip mirrors
 mkdir -p ~/.pip/
 sudo tee ~/.pip/pip.conf <<-'EOF'
 [global]
@@ -136,7 +138,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 trusted-host = https://pypi.tuna.tsinghua.edu.cn
 EOF
 
-# docker 换源
+# docker mirrors
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
@@ -147,23 +149,27 @@ sudo systemctl enable docker
 sudo systemctl restart docker
 sudo systemctl daemon-reload
 
-# GO 换源
+# GO Proxy
 go env -w GO111MODULE=on
 go env -w GOPROXY="https://goproxy.io,direct"
 ```
 
 ---
 
-# 3.安全工具安装
+# Security tool installation (安全工具安装配置)
 
 ```bash
 mkdir /tmp/test
 cd /tmp/test
 
-# Misc工具
+# python module
+pip install PyJWT pyshark requests sqlparse threadpool urllib3 lxml pyzbar ftfy
+pip3 install updog
+
+# Misc Tools
 gem install zsteg
 apt install -y foremost lrzsz parallel owasp-mantra-ff btscanner
-apt install -y rarcrack
+apt install -y rarcrack jq
 
 # Ciphey
 python3 -m pip install ciphey --upgrade
@@ -188,8 +194,8 @@ update-alternatives --config nc
 
 # powershell
 apt install -y powershell
-pwsh            # 启动
-$PSVersionTable # 测试一下
+pwsh
+$PSVersionTable
 
 # binwalk
 cd /tmp/test
@@ -219,6 +225,17 @@ mv ffuf /usr/local/bin/
 chmod +x /usr/local/bin/ffuf
 ffuf -V
 
+# JSFinder
+cd /pentest
+git clone https://github.com/Threezh1/JSFinder.git
+
+# WebAliveScan
+cd /pentest
+git clone https://github.com/broken5/WebAliveScan.git
+cd WebAliveScan/
+pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+python3 webscan.py
+
 # oneforall
 cd /pentest
 git clone https://gitee.com/shmilylty/OneForAll.git
@@ -236,16 +253,12 @@ mv ksubdomain /usr/local/bin/
 chmod +x /usr/local/bin/ksubdomain
 ksubdomain
 
-# python模块
-pip install PyJWT pyshark requests sqlparse threadpool urllib3 lxml pyzbar ftfy
-pip3 install updog
-
 # AWVS-13
 docker pull secfa/docker-awvs
 docker run -it -d -p 13443:3443 secfa/docker-awvs
-    # 容器的相关信息
+    # 容器的相关信息 (Information about the container)
     # awvs13 username: admin@admin.com
     # awvs13 password: Admin123
-    # AWVS版本：13.0.200217097
-    # 浏览器访问：https://127.0.0.1:13443/ 即可
+    # AWVS Version：13.0.200217097
+    # browser access：https://127.0.0.1:13443/
 ```

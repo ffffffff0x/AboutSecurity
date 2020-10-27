@@ -1,0 +1,3 @@
+/etc/httpd/conf/
+/etc/apache2/
+/usr/local/etc/apache22/

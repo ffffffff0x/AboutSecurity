@@ -1,4 +1,4 @@
-# Debian 系配置
+# Debian system infrastructure configuration.
 
 ---
 
@@ -17,10 +17,12 @@ systemctl enable ssh
 
 ---
 
-# apt
+# Change mirrors (换源)
 
-**Ubuntu apt 换源**
-```vim
+> If your service does not go through any firewall, you know, this step is not needed
+
+**Ubuntu apt mirror**
+```bash
 sudo tee /etc/apt/sources.list <<-'EOF'
 
 deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
@@ -36,8 +38,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 EOF
 ```
 
-**Debain apt 换源**
-```vim
+**Debain apt mirror**
+```bash
 sudo tee /etc/apt/sources.list <<-'EOF'
 
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
@@ -52,8 +54,8 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main con
 EOF
 ```
 
-**kali apt 换源**
-```vim
+**kali apt mirror**
+```bash
 sudo tee /etc/apt/sources.list <<-'EOF'
 
 # 清华源
@@ -76,7 +78,7 @@ EOF
 
 ---
 
-# 基础安装
+# Basic installation (基本配置)
 
 ```bash
 rm -rf /var/cache/apt/archives/lock
@@ -140,7 +142,7 @@ proxychains4 bash
 wget https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py
 
-# 或
+# or
 
 apt-get install -y python-pip
 ```
@@ -205,6 +207,8 @@ docker-compose version
 ---
 
 # bash-insulter
+
+> Install or skip according to your preference🤣
 
 ```bash
 cd /tmp/test

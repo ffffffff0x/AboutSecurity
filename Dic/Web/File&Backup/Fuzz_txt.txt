@@ -879,6 +879,7 @@
 /mysql/alter_table.txt
 /nc_odb.txt
 /nc_odb/nc_odb.txt
+/ffffffff0x.txt
 /news/news.txt
 /notempty.txt
 /nothinginhere.txt

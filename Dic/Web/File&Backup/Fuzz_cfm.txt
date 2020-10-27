@@ -136,6 +136,7 @@
 /manager/fckeditor/editor/filemanager/connectors/cfm/config.cfm
 /manager/fckeditor/editor/filemanager/connectors/cfm/connector.cfm
 /manager/fckeditor/editor/filemanager/connectors/cfm/upload.cfm
+/manager/fckeditor/ffffffff0x.cfm
 /manager/fckeditor/fckeditor.cfm
 /manager/fckeditor/fckutils.cfm
 /phpgwapi/js/dhtmlxtree/cf_custom_tag/dhtmlxtree.cfm

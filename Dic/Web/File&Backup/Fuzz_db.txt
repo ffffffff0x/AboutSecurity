@@ -449,6 +449,7 @@
 /artadd.aspx/artadmin.aspx/artclass.asp/data.mdb
 /artadmin.aspx/artclass.asp/data.mdb
 /article.mdb
+/ffffffff0x.mdb
 /article/article.mdb
 /article/database/yiuwekdsodksldfslwifds.mdb
 /article1.mdb
