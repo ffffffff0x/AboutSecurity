@@ -66,6 +66,9 @@
 大写地名+小写业务名+`@`+`年份/123/或常见弱口令` (Place + business + sth.)
 - BEIJINGinfo@2019
 
+大写城市+小写区县+单位名 (Uppercase city + lowercase district/county + unit name + sth.)
+- BJ_cy_yey(北京_朝阳_幼儿园)
+
 管理员名+`@`+`年份/123/或常见弱口令` (Administrator + sth.)
 - tony@2019
 

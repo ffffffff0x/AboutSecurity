@@ -57,6 +57,11 @@
 
 ## Disclaimer&License
 
-- <sup>This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</sup>
+- <sup>This work is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</sup>
+    - <sup>Share — copy and redistribute the material in any medium or format</sup>
+    - <sup>Adapt — remix, transform, and build upon the material for any purpose, even commercially.</sup>
+    - <sup>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</sup>
+    - <sup>ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</sup>
+    - <sup>No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</sup>
 - <sup>Note: All documents in this project are for study and research purposes only, please do not use the documents in the project for illegal purposes, any negative impact caused by anyone has nothing to do with me.</sup>
 - <sup>Note: Downloading this repository will most likely result in your anti-virus software reporting viruses, please whitelist the project path. There are no malicious files in this project, however, due to the risk of local files containing attacks, it is not recommended to store these files on servers or other critical systems.</sup>
