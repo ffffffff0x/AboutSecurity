@@ -420,6 +420,7 @@
 /system/stuuserregist.aspx
 /templates/index/hrlogon.jsp
 /test
+/.env
 /test.aspx
 /test.jsp
 /test.php

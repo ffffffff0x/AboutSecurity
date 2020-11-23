@@ -47,6 +47,19 @@ proxychains4 bash
 
 wget https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py
+
+# or
+
+yum install python-pip
+
+# Change mirrors
+mkdir -p ~/.pip/
+sudo tee ~/.pip/pip.conf <<-'EOF'
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[install]
+trusted-host = https://pypi.tuna.tsinghua.edu.cn
+EOF
 ```
 
 ---

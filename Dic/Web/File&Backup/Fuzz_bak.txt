@@ -20,6 +20,7 @@
 /138f.rar
 /14.rar
 /2.rar
+/config.tar.gz
 /22.rar
 /222.rar
 /3.rar

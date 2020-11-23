@@ -230,6 +230,13 @@ ffuf -V
 cd /pentest
 git clone https://github.com/Threezh1/JSFinder.git
 
+# SecretFinder
+cd /pentest
+git clone https://github.com/m4ll0k/SecretFinder.git
+cd SecretFinder
+pip install -r requirements.txt
+python3 SecretFinder.py
+
 # WebAliveScan
 cd /pentest
 git clone https://github.com/broken5/WebAliveScan.git

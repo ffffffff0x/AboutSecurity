@@ -145,9 +145,9 @@ python3 get-pip.py
 # or
 
 apt-get install -y python-pip
-```
+apt-get install -y python3-pip
 
-```bash
+# Change mirrors
 mkdir -p ~/.pip/
 sudo tee ~/.pip/pip.conf <<-'EOF'
 [global]

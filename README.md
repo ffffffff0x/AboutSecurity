@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/repo-size/No-Github/AboutSecurity?color=yellow">
 </p>
 
-[中文版本 (Chinese version)](README.zh-cn.md)
+English | [简体中文](README.zh-cn.md)
 
 ---
 
@@ -44,8 +44,7 @@
     * [Debian~](./VPS/Debian~.md) - Debian system infrastructure configuration.
     * [Kali](./VPS/Kali.md) - Kali system infrastructure configuration.
     * [RedHat~](./VPS/RedHat~.md) - RedHat system infrastructure configuration.
-* **[List-of-pentest](./List-of-pentest.md)** : Directly copy a pair during penetration testing for reference, information logging, teamwork, reporting, etc.
-* **[出报告专用(Only Chinese version)](./出报告专用.md)**: Record some of the usual penetration testing cases encountered, organized as follows, report dedicated😁
+* **[CheatSheet](./CheatSheet.md)** : Directly copy a pair during penetration testing for reference, information logging, teamwork, reporting, etc.
 
 ---
 

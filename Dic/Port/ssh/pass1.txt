@@ -2,6 +2,7 @@ root
 !@
 password
 123456
+Abcd1234
 admin
 12345
 1234
@@ -16,6 +17,7 @@ root123
 !qaz@wsx
 idc!@
 admin!@
+oracle
 oracle123
 oracle@123
 alpine
