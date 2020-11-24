@@ -2,7 +2,17 @@
 
 ---
 
-# 1. 网站前台
+# 网站前台
+
+## 信息收集
+
+- 子域枚举
+- 搜集真实 IP
+	- 端口扫描
+- IP 反查
+- whois 信息
+- 目录扫描
+- 组件版本信息
 
 ## 传输过程
 
@@ -194,7 +204,7 @@
 
 ---
 
-# 2. 网站后台
+# 网站后台
 
 - 第三方商家
 	- 商家账户遍历
@@ -231,7 +241,9 @@
 
 ---
 
-# 3. 主机
+# 主机
+
+- 端口扫描
 
 - 系统漏洞
 	- windows
@@ -280,7 +292,7 @@
 
 ---
 
-# 4. 域
+# 域
 
 - pth/ptt/ptk
 - NTDS.DIT
@@ -289,16 +301,28 @@
 - Kerberoasting
 - 委派
 - 毒化LLMNR和NBT-NS请求
+- MS14-068
+- zerologin
 
 ---
 
-# 5. 安全设备
+# 网络设备(路由器、交换机)
+
+- 端口扫描
+- SSH、Telnet 弱口令
+- web 弱口令
+- SNMP 默认字符串
+- CVE 漏洞
+
+---
+
+# 安全设备(WAF、EDR)
 
 - 见 [SecDevice-Exploits](https://github.com/No-Github/1earn/blob/master/1earn/Security/RedTeam/%E5%AE%89%E9%98%B2%E8%AE%BE%E5%A4%87/SecDevice-Exploits.md)
 
 ---
 
-# 6. 工控 ICS 环境
+# 工控 ICS 环境
 
 - 上位机编程软件
 	- WebAccess 远程溢出漏洞
@@ -322,7 +346,7 @@
 
 ---
 
-# 7. 移动端 / 客户端
+# 移动端 / 客户端
 
 - 服务端与客户端交互漏洞
 - API 接口漏洞
