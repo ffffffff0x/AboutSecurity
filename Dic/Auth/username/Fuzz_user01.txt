@@ -29,3 +29,5 @@ testuser
 测试账号
 测试账号0
 测试账号1
+superadmin
+riseadmin

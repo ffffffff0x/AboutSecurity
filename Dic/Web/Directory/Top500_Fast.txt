@@ -23,6 +23,7 @@
 /admin
 /Admin
 /admin/admin.asp
+/version.txt
 /admin/admin_login.asp
 /admin/Admin_Login.asp
 /admin.asp

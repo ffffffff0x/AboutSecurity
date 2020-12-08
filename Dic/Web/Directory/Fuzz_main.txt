@@ -190,9 +190,11 @@
 /access/passwords
 /account
 /account/
+/api/gateway/
 /accounting
 /accounts
 /accounts/
+/apollo_config_web/
 /acct
 /acct/
 /acct/login

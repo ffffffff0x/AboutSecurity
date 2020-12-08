@@ -54,28 +54,6 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main con
 EOF
 ```
 
-**kali apt mirror**
-```bash
-sudo tee /etc/apt/sources.list <<-'EOF'
-
-# 清华源
-deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
-deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
-
-# 官方源
-deb http://http.kali.org/kali kali-rolling main non-free contrib
-deb-src http://http.kali.org/kali kali-rolling main non-free contrib
-
-# 中科大
-deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-
-# 浙大
-deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
-deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
-EOF
-```
-
 ---
 
 # Basic installation (基本配置)
@@ -95,12 +73,21 @@ rm -rf /var/lib/dpkg/lock
 rm /var/lib/dpkg/lock
 rm /var/lib/apt/lists/lock
 
-apt install -y gcc g++ make vim git curl lrzsz wget unzip resolvconf p7zip
-sudo apt-get install -y \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
+# python
+wget https://bootstrap.pypa.io/get-pip.py
+python2 get-pip.py
+python2 -m pip install --upgrade pip
+sudo apt-get install -y python-dev
+sudo apt-get install -y python3-dev
+
+# 安装依赖 (install dependence)
+apt install -y gcc g++
+apt install -y make
+apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
+apt install -y apt-transport-https
+apt install -y ca-certificates
+apt install -y software-properties-common
+apt install -y kernel-devel
 apt update
 
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head

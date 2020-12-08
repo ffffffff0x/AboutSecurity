@@ -15,6 +15,7 @@ rm -f /var/run/yum.pid
 yum groupinstall -y "Development Tools"
 yum install -y yum-utils
 yum install -y vim make gcc gcc-c++ curl git lrzsz wget unzip openssl-devel epel-release p7zip
+yum install -y kernel-devel
 yum update
 ```
 
@@ -50,7 +51,9 @@ python3 get-pip.py
 
 # or
 
-yum install python-pip
+yum install -y python-pip
+yum install -y python-devel
+yum install -y python3-devel
 
 # Change mirrors
 mkdir -p ~/.pip/
