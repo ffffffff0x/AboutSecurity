@@ -13,6 +13,7 @@ baseball
 abc123
 football
 monkey
+admin
 letmein
 696969
 shadow

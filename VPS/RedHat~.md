@@ -54,6 +54,7 @@ python3 get-pip.py
 yum install -y python-pip
 yum install -y python-devel
 yum install -y python3-devel
+pip install --upgrade pip
 
 # Change mirrors
 mkdir -p ~/.pip/

