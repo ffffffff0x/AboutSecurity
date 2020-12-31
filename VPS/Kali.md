@@ -11,6 +11,29 @@
 # Basic installation (基本配置)
 
 ```bash
+# /pentest 作为存放渗透工具的文件夹
+# /tmp/test 作为存放临时文件的文件夹
+mkdir /pentest
+mkdir /tmp/test
+
+# apt mirror
+tee /etc/apt/sources.list <<-'EOF'
+deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
+deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+EOF
+
+rm -rf /var/cache/apt/archives/lock
+rm -rf /var/lib/dpkg/lock-frontend
+rm -rf /var/lib/dpkg/lock
+rm /var/lib/dpkg/lock
+rm /var/lib/apt/lists/lock
+
+apt update
+
 # SSH
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
@@ -19,28 +42,17 @@ systemctl enable ssh
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_rsa_key
 
-# apt mirror
-sudo tee /etc/apt/sources.list <<-'EOF'
-deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
-deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
-deb http://http.kali.org/kali kali-rolling main non-free contrib
-deb-src http://http.kali.org/kali kali-rolling main non-free contrib
-deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-EOF
-apt update
-
-# python
+# Python
 wget https://bootstrap.pypa.io/get-pip.py
 python2 get-pip.py
 python2 -m pip install --upgrade pip
-sudo apt-get install -y python-dev
-sudo apt-get install -y python3-dev
+apt-get install -y python-dev
+apt-get install -y python3-dev
 
 # 安装依赖 (install dependence)
 apt install -y gcc g++
 apt install -y make
-apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
+apt install -y vim git curl lrzsz wget unzip resolvconf p7zip rlwrap
 apt install -y apt-transport-https
 apt install -y ca-certificates
 apt install -y software-properties-common
@@ -50,15 +62,7 @@ apt install -y build-essential
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
 resolvconf -u
 
-# 安装中文字体 (Install fonts)
-apt install -y xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
-
-# /pentest 作为存放渗透工具的文件夹
-# /tmp/test 作为存放临时文件的文件夹
-mkdir /pentest
-mkdir /tmp/test
-
-# proxychains-ng
+# Proxychains-ng
 cd /tmp/test
 # rz upload a proxychains-ng.zip
 unzip proxychains-ng.zip
@@ -69,16 +73,15 @@ cp ./src/proxychains.conf /etc/proxychains.conf
 cd .. && rm -rf proxychains-ng
 vim /etc/proxychains.conf    # Change it to your proxy.
 
-# AboutSecurity
-cd /
-git clone https://github.com/ffffffff0x/AboutSecurity.git
+# 安装中文字体 (Install fonts)
+apt install -y xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 
 # pip3
 cd /tmp/test
 wget https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py
 
-# go
+# GO
 cd /tmp/test
 # rz upload a go1.13.linux-amd64.tar.gz
 tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
@@ -101,29 +104,29 @@ apt install -y \
   software-properties-common \
   gnupg
 
-curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | apt-key add -
 echo 'deb https://download.docker.com/linux/debian stretch stable'> /etc/apt/sources.list.d/docker.list
 apt update
 apt install -y docker-ce
 
 docker version
-sudo systemctl start docker
+systemctl start docker
 
-# docker-compose
+# Docker-Compose
 cd /tmp/test
 wget https://github.com/docker/compose/releases/download/1.25.5/docker-compose-Linux-x86_64
 mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json <<-'EOF'
+mkdir -p /etc/docker
+tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
 }
 EOF
-sudo systemctl daemon-reload
-sudo systemctl restart docker
-sudo systemctl enable docker
+systemctl daemon-reload
+systemctl restart docker
+systemctl enable docker
 
 docker-compose version
 ```
@@ -137,23 +140,23 @@ docker-compose version
 ```bash
 # pip mirrors
 mkdir -p ~/.pip/
-sudo tee ~/.pip/pip.conf <<-'EOF'
+tee ~/.pip/pip.conf <<-'EOF'
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [install]
 trusted-host = https://pypi.tuna.tsinghua.edu.cn
 EOF
 
-# docker mirrors
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json <<-'EOF'
+# Docker mirrors
+mkdir -p /etc/docker
+tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
 }
 EOF
-sudo systemctl enable docker
-sudo systemctl restart docker
-sudo systemctl daemon-reload
+systemctl enable docker
+systemctl restart docker
+systemctl daemon-reload
 
 # GO Proxy
 go env -w GO111MODULE=on
@@ -168,7 +171,11 @@ go env -w GOPROXY="https://goproxy.io,direct"
 mkdir /tmp/test
 cd /tmp/test
 
-# redis
+# AboutSecurity
+cd /pentest
+git clone https://github.com/ffffffff0x/AboutSecurity.git
+
+# Redis
 apt install -y redis
 
 # python module
@@ -231,7 +238,7 @@ $PSVersionTable
 cd /tmp/test
 wget https://github.com/ReFirmLabs/binwalk/archive/master.zip
 unzip master.zip
-(cd binwalk-master && sudo python setup.py uninstall && sudo python setup.py install)
+(cd binwalk-master && python setup.py uninstall && python setup.py install)
 
 # sasquatch
 cd /tmp/test
@@ -289,6 +296,12 @@ unzip ksubdomain_linux.zip
 mv ksubdomain /usr/local/bin/
 chmod +x /usr/local/bin/ksubdomain
 ksubdomain
+
+# Impacket
+cd /pentest
+git clone https://github.com/SecureAuthCorp/impacket.git
+cd impacket
+pip3 install .
 
 # AWVS-13
 docker pull secfa/docker-awvs

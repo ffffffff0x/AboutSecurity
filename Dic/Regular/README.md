@@ -30,7 +30,7 @@
 linux 下使用 jq 工具,以 Administrative-divisions-of-China 中的 pcas.json 为例
 
 ```bash
-apt install jq
+apt install -y jq
 
 cat pcas.json | jq '."北京市"' > out.txt                      # 获取北京市所有辖区、街道信息
 cat pcas.json | jq '."北京市"."市辖区"' > out.txt

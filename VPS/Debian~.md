@@ -2,28 +2,11 @@
 
 ---
 
-# SSH
+# Basic installation (基本配置)
 
 ```bash
-apt update
-apt install -y ssh
-```
-```bash
-echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
-service ssh restart
-systemctl enable ssh
-```
-
----
-
-# Change mirrors (换源)
-
-> If your service does not go through any firewall, you know, this step is not needed
-
-**Ubuntu apt mirror**
-```bash
-sudo tee /etc/apt/sources.list <<-'EOF'
+# Ubuntu apt mirror
+tee /etc/apt/sources.list <<-'EOF'
 
 deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
@@ -36,11 +19,9 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted univers
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 EOF
-```
 
-**Debain apt mirror**
-```bash
-sudo tee /etc/apt/sources.list <<-'EOF'
+# Debain apt mirror
+tee /etc/apt/sources.list <<-'EOF'
 
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
@@ -52,33 +33,32 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib n
 deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
 EOF
-```
 
----
-
-# Basic installation (基本配置)
-
-```bash
 rm -rf /var/cache/apt/archives/lock
 rm -rf /var/lib/dpkg/lock-frontend
 rm -rf /var/lib/dpkg/lock
 rm /var/lib/dpkg/lock
 rm /var/lib/apt/lists/lock
 
+# SSH
 apt update
+apt install -y ssh
 
-rm -rf /var/cache/apt/archives/lock
-rm -rf /var/lib/dpkg/lock-frontend
-rm -rf /var/lib/dpkg/lock
-rm /var/lib/dpkg/lock
-rm /var/lib/apt/lists/lock
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+service ssh restart
+systemctl enable ssh
 
 # python
+apt install -y python
 wget https://bootstrap.pypa.io/get-pip.py
 python2 get-pip.py
+python3 get-pip.py
 python2 -m pip install --upgrade pip
-sudo apt-get install -y python-dev
-sudo apt-get install -y python3-dev
+apt-get install -y python-dev
+apt-get install -y python3-dev
+apt-get install -y python-pip
+apt-get install -y python3-pip
 
 # 安装依赖 (install dependence)
 apt install -y gcc g++
@@ -90,65 +70,22 @@ apt install -y software-properties-common
 apt install -y kernel-devel
 apt update
 
+# Change DNS
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
 resolvconf -u
-```
-
----
 
 # proxychains
-
-```bash
-rz
-
+cd /tmp/
+# rz upload a proxychains-ng.zip
 unzip proxychains-ng.zip
 cd proxychains-ng-master
 ./configure
 make && make install
 cp ./src/proxychains.conf /etc/proxychains.conf
 cd .. && rm -rf proxychains-ng
-vim /etc/proxychains.conf
-```
-
----
-
-# python
-
-```bash
-rm -rf /var/cache/apt/archives/lock
-rm -rf /var/lib/dpkg/lock-frontend
-rm -rf /var/lib/dpkg/lock
-rm /var/lib/dpkg/lock
-rm /var/lib/apt/lists/lock
-
-apt install -y python
-```
-
-```bash
-proxychains4 bash
-wget https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py
-
-# or
-
-apt-get install -y python-pip
-apt-get install -y python3-pip
-
-# Change mirrors
-mkdir -p ~/.pip/
-sudo tee ~/.pip/pip.conf <<-'EOF'
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-[install]
-trusted-host = https://pypi.tuna.tsinghua.edu.cn
-EOF
-```
-
----
+vim /etc/proxychains.conf    # Change it to your proxy.
 
 # docker
-
-```bash
 rm -rf /var/cache/apt/archives/lock
 rm -rf /var/lib/dpkg/lock-frontend
 rm -rf /var/lib/dpkg/lock
@@ -156,39 +93,55 @@ rm /var/lib/dpkg/lock
 rm /var/lib/apt/lists/lock
 
 apt remove docker docker-engine docker.io
-sudo apt-get install -y \
+apt-get install -y \
   apt-transport-https \
   ca-certificates \
   curl \
   software-properties-common \
   gnupg
 
-curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | apt-key add -
 echo 'deb https://download.docker.com/linux/debian stretch stable'> /etc/apt/sources.list.d/docker.list
 apt update
 apt install -y docker-ce
 
 docker version
-sudo systemctl start docker
-```
+systemctl start docker
+systemctl enable docker
 
-```bash
-proxychains4 bash
+# docker-compose
 wget https://github.com/docker/compose/releases/download/1.25.5/docker-compose-Linux-x86_64
 mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json <<-'EOF'
+docker-compose version
+```
+
+---
+
+# Change mirrors (换源)
+
+> If your service does not go through any firewall, you know, this step is not needed
+
+```bash
+# pip
+mkdir -p ~/.pip/
+tee ~/.pip/pip.conf <<-'EOF'
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[install]
+trusted-host = https://pypi.tuna.tsinghua.edu.cn
+EOF
+
+# Docker
+mkdir -p /etc/docker
+tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
 }
 EOF
-sudo systemctl daemon-reload
-sudo systemctl restart docker
-sudo systemctl enable docker
-
-docker-compose version
+systemctl daemon-reload
+systemctl restart docker
 ```
 
 ---
