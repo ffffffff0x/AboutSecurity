@@ -489,3 +489,6 @@
 /zecmd/zecmd.jsp
 /zfmllist.aspx
 /zpsys/index.jsp
+/druid/websession.html
+/system/druid/websession.html
+/webpage/system/druid/websession.html

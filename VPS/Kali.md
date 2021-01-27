@@ -18,12 +18,12 @@ mkdir /tmp/test
 
 # apt mirror
 tee /etc/apt/sources.list <<-'EOF'
+deb https://mirrors.aliyun.com/kali kali-rolling main non-free contrib
+deb-src https://mirrors.aliyun.com/kali kali-rolling main non-free contrib
 deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
 deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib
-deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
 EOF
 
 rm -rf /var/cache/apt/archives/lock
@@ -42,21 +42,16 @@ systemctl enable ssh
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_rsa_key
 
-# Python
-wget https://bootstrap.pypa.io/get-pip.py
-python2 get-pip.py
-python2 -m pip install --upgrade pip
-apt-get install -y python-dev
-apt-get install -y python3-dev
-
 # 安装依赖 (install dependence)
 apt install -y gcc g++
-apt install -y make
-apt install -y vim git curl lrzsz wget unzip resolvconf p7zip rlwrap
+apt install -y make cmake
+apt install -y vim git curl lrzsz wget unzip resolvconf p7zip-full rlwrap
 apt install -y apt-transport-https
 apt install -y ca-certificates
 apt install -y software-properties-common
 apt install -y build-essential
+apt install -y jq
+apt install -y gdb socat telnet tree tcpdump iptraf iftop nethogs openssl libssl-dev libssh2-1-dev
 
 # Change DNS
 echo "nameserver 223.5.5.5" > /etc/resolvconf/resolv.conf.d/head
@@ -72,6 +67,13 @@ make && make install
 cp ./src/proxychains.conf /etc/proxychains.conf
 cd .. && rm -rf proxychains-ng
 vim /etc/proxychains.conf    # Change it to your proxy.
+
+# pip
+wget https://bootstrap.pypa.io/get-pip.py
+python2 get-pip.py
+python2 -m pip install --upgrade pip
+apt-get install -y python-dev
+apt-get install -y python3-dev
 
 # 安装中文字体 (Install fonts)
 apt install -y xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
@@ -111,23 +113,13 @@ apt install -y docker-ce
 
 docker version
 systemctl start docker
+systemctl enable docker
 
 # Docker-Compose
 cd /tmp/test
 wget https://github.com/docker/compose/releases/download/1.25.5/docker-compose-Linux-x86_64
 mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
-
-mkdir -p /etc/docker
-tee /etc/docker/daemon.json <<-'EOF'
-{
-  "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
-}
-EOF
-systemctl daemon-reload
-systemctl restart docker
-systemctl enable docker
-
 docker-compose version
 ```
 
@@ -142,9 +134,10 @@ docker-compose version
 mkdir -p ~/.pip/
 tee ~/.pip/pip.conf <<-'EOF'
 [global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+index-url = https://mirrors.aliyun.com/pypi/simple/
+
 [install]
-trusted-host = https://pypi.tuna.tsinghua.edu.cn
+trusted-host=mirrors.aliyun.com
 EOF
 
 # Docker mirrors
@@ -175,32 +168,30 @@ cd /tmp/test
 cd /pentest
 git clone https://github.com/ffffffff0x/AboutSecurity.git
 
-# Redis
+# Misc Tools
+apt install -y foremost parallel owasp-mantra-ff btscanner
+apt install -y rarcrack
+apt install -y powershell
 apt install -y redis
+apt install -y xdot
+gem install zsteg
 
 # python module
 pip install PyJWT pyshark requests sqlparse threadpool urllib3 lxml pyzbar bs4
 pip install ftfy
 pip3 install updog
-python2 -m pip install distorm3 yara pycrypto openpyxl ujson pil
+python2 -m pip install yara pycrypto openpyxl ujson pil
 python2 -m pip install Crypto
 python2 -m pip install pycryptodome
 python2 -m pip install pytz
 python2 -m pip install Pillow
+python3 -m pip install ciphey --upgrade
 
 # distorm
 cd /tmp/test
 git clone https://github.com/gdabah/distorm
 cd distorm
 python2 -m pip install distorm3
-
-# Misc Tools
-gem install zsteg
-apt install -y foremost lrzsz parallel owasp-mantra-ff btscanner
-apt install -y rarcrack jq
-
-# Ciphey
-python3 -m pip install ciphey --upgrade
 
 # Volatility
 cd /pentest
@@ -209,13 +200,12 @@ cd volatility
 python setup.py build
 python setup.py install
 python vol.py --info
-apt install -y xdot
 
 # hashcat、7z2hashcat
 cd /pentest
-wget https://hashcat.net/files/hashcat-6.1.1.7z
+wget https://hashcat.net/files/hashcat-6.1.1.7z --no-check-certificate
 wget https://raw.githubusercontent.com/philsmd/7z2hashcat/master/7z2hashcat.pl
-7z x hashcat-6.1.1.7z && rm -rf hashcat-6.1.1.7z
+7za x hashcat-6.1.1.7z && rm -rf hashcat-6.1.1.7z
 cd hashcat-6.1.1 && chmod +x hashcat.bin && cp hashcat.bin hashcat
 ln -s /pentest/hashcat-6.1.1/hashcat /usr/sbin/hashcat
 
@@ -226,26 +216,12 @@ dpkg -i rustscan_1.10.0_amd64.deb
 
 # ncat
 apt install -y ncat
-update-alternatives --config nc
-1
-
-# powershell
-apt install -y powershell
-pwsh
-$PSVersionTable
+update-alternatives --set nc /usr/bin/ncat
 
 # binwalk
 cd /tmp/test
-wget https://github.com/ReFirmLabs/binwalk/archive/master.zip
-unzip master.zip
-(cd binwalk-master && python setup.py uninstall && python setup.py install)
-
-# sasquatch
-cd /tmp/test
-apt install -y build-essential liblzma-dev liblzo2-dev zlib1g-dev
-git clone https://github.com/devttys0/sasquatch
-cd sasquatch
-./build.sh
+git clone https://github.com/ReFirmLabs/binwalk.git && cd binwalk
+sudo ./deps.sh && python setup.py uninstall && python setup.py install
 
 # unyaffs
 cd /tmp/test
@@ -282,7 +258,7 @@ python3 webscan.py
 
 # oneforall
 cd /pentest
-git clone https://gitee.com/shmilylty/OneForAll.git
+git clone https://github.com/shmilylty/OneForAll
 cd OneForAll/
 python3 -m pip install -U pip setuptools wheel -i https://mirrors.aliyun.com/pypi/simple/
 pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/

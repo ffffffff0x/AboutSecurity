@@ -12,8 +12,9 @@ yum clean all && yum makecache
 
 yum groupinstall -y "Development Tools"
 yum install -y yum-utils
-yum install -y vim make gcc gcc-c++ curl git lrzsz wget unzip openssl-devel epel-release p7zip
+yum install -y vim make gcc gcc-c++ curl git lrzsz wget unzip openssl-devel p7zip
 yum install -y kernel-devel
+yum install -y dnf telnet tree gdb
 yum update
 
 # Proxychains-ng
@@ -66,9 +67,10 @@ chmod +x /usr/local/bin/docker-compose
 mkdir -p ~/.pip/
 tee ~/.pip/pip.conf <<-'EOF'
 [global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+index-url = https://mirrors.aliyun.com/pypi/simple/
+
 [install]
-trusted-host = https://pypi.tuna.tsinghua.edu.cn
+trusted-host=mirrors.aliyun.com
 EOF
 
 # Docker

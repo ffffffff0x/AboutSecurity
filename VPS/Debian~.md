@@ -49,25 +49,14 @@ echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 service ssh restart
 systemctl enable ssh
 
-# python
-apt install -y python
-wget https://bootstrap.pypa.io/get-pip.py
-python2 get-pip.py
-python3 get-pip.py
-python2 -m pip install --upgrade pip
-apt-get install -y python-dev
-apt-get install -y python3-dev
-apt-get install -y python-pip
-apt-get install -y python3-pip
-
 # 安装依赖 (install dependence)
 apt install -y gcc g++
-apt install -y make
-apt install -y vim git curl lrzsz wget unzip resolvconf p7zip
+apt install -y make cmake
+apt install -y vim git curl lrzsz wget unzip resolvconf p7zip-full telnet tree
 apt install -y apt-transport-https
 apt install -y ca-certificates
 apt install -y software-properties-common
-apt install -y kernel-devel
+apt install -y kernel-devel telnet tree gdb
 apt update
 
 # Change DNS
@@ -84,6 +73,20 @@ make && make install
 cp ./src/proxychains.conf /etc/proxychains.conf
 cd .. && rm -rf proxychains-ng
 vim /etc/proxychains.conf    # Change it to your proxy.
+
+# python
+apt install -y python
+apt install -y python3
+
+# pip
+wget https://bootstrap.pypa.io/get-pip.py
+python2 get-pip.py
+python3 get-pip.py
+python2 -m pip install --upgrade pip
+apt-get install -y python-dev
+apt-get install -y python3-dev
+apt-get install -y python-pip
+apt-get install -y python3-pip
 
 # docker
 rm -rf /var/cache/apt/archives/lock
@@ -128,9 +131,10 @@ docker-compose version
 mkdir -p ~/.pip/
 tee ~/.pip/pip.conf <<-'EOF'
 [global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+index-url = https://mirrors.aliyun.com/pypi/simple/
+
 [install]
-trusted-host = https://pypi.tuna.tsinghua.edu.cn
+trusted-host=mirrors.aliyun.com
 EOF
 
 # Docker
