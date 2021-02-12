@@ -278,6 +278,7 @@ cd /pentest
 git clone https://github.com/SecureAuthCorp/impacket.git
 cd impacket
 pip3 install .
+python3 setup.py install
 
 # AWVS-13
 docker pull secfa/docker-awvs
