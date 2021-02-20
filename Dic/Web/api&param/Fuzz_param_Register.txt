@@ -36,3 +36,5 @@ RegisterInfo
 Registerinfo
 RegInit
 Reginit
+user/register
+wp-login.php?action=register
