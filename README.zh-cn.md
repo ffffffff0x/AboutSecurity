@@ -32,12 +32,15 @@
         * 各种规则、排列的字典整理。
     * Web : Web 字典
         * 顾名思义,在 web 渗透过程中出现的可爆破点作为字典内容。
-* **[Payload](./Payload/README.md)**
+* **Payload**
+    * Burp
     * CORS
+    * email
+    * Format
     * LFI
     * OOB
     * SQL-Inj
-    * SSRF
+    * SSI
     * XSS
     * XXE
 * **VPS**

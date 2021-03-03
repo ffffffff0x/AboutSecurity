@@ -32,12 +32,15 @@ English | [简体中文](README.zh-cn.md)
         * Various rules, arrangement of dictionaries.
     * Web : Web Dictionaries
         * As the name implies, burstable points that appear during web penetration serve as dictionary content.
-* **[Payload](./Payload/README.md)**
+* **Payload**
+    * Burp
     * CORS
+    * email
+    * Format
     * LFI
     * OOB
     * SQL-Inj
-    * SSRF
+    * SSI
     * XSS
     * XXE
 * **VPS**
