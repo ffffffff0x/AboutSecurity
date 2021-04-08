@@ -36200,7 +36200,6 @@ resetmodule
 resetpass
 resetpasskey
 resetpw
-resetpwd
 resetrating
 resettest
 resettext

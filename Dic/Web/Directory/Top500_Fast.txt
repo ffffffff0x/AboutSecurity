@@ -5,6 +5,7 @@
 /1.php
 /1/sjleader/login.jsp
 /1/sx/login.jsp
+.well-known/security.txt
 /2001
 /2014
 /2015

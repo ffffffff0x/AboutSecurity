@@ -142,6 +142,7 @@ application/x-vsd
 application/vnd.visio
 application/vnd.visio
 application/vnd.visio
+application/x-www-form-urlencoded
 audio/wav
 application/x-wb1
 application/x-wb3

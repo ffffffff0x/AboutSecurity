@@ -34,6 +34,7 @@
 *.stripe.network;
 *.jsdelivr.net;
 *.wappalyzer.com;
+*.facebook.com;
 *.deepl.com;
 *.fofa.so;
 *.aliyun.com;
@@ -58,9 +59,12 @@
 *.aspnetcdn.com;
 *.trustpilot.com;
 *.any.run;
+*.adblockplus.org;
 *.bangcle.com;
 *.cmd5.com;
 *.stackadapt.com;
 *.intercomcdn.com;
 *.intercom.io;
 *.h5.analytics.126.net;
+*.popupblockerscript.com;
+*.githubapp.com;

@@ -75442,8 +75442,6 @@
 /动态模/default.aspx
 /动态模糊数据查询/bin/动态模/default.aspx
 /友情连接.ascx
-/反/员工登陆.aspx
-/反/管理员工作界面.aspx
 /反馈.aspx
 /反馈信息.aspx
 /后台/a/addpost.aspx
@@ -75453,7 +75451,6 @@
 /后台/a/delpictures.aspx
 /后台/a/delpost.aspx
 /后台/a/promanage.aspx
-/后台/反/员工登陆.aspx
 /后台/反/管理员工作界面.aspx
 /后台/反馈信息.aspx
 /后台登录.aspx
