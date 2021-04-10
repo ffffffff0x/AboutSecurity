@@ -89,6 +89,8 @@
 /batch.common.php
 /bbs
 /bbs/topic
+/swagger/v1/swagger.json
+/swagger/v2/swagger.json
 /Body.asp
 //bos/desktop/RequestOrResponse.aspx
 /Broadcast/Broadcast.aspx

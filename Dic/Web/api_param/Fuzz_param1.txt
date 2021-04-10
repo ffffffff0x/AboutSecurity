@@ -25,6 +25,10 @@ accountrealName
 accountmobilePhone
 accountcardNo
 accid
+CheckFileExist
+CheckUpdater
+HasUpdate
+DownLoad
 accrealName
 accmobilePhone
 acccardNo
