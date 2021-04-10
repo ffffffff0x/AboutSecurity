@@ -266,3 +266,4 @@
 /XFPortalAction!index.action
 /YsqPersonAdd.action
 /zlxyAct!chushihua.action
+/authCode.action

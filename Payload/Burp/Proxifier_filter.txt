@@ -1,3 +1,6 @@
+127.0.0.1;
+*.wx.qq.com;
+*.weixin.qq.com;
 *.trello.com;
 *.firefox.com;
 *.google.com;
@@ -7,9 +10,11 @@
 *.pki.goog;
 *.googleapis.com;
 *.gstatic.com;
+*.magi.com;
 *.firefox.com;
 *.mozilla.org;
 *.mozilla.net;
+*.t00ls.net;
 *.ffffffff0x.com;
 *.googletagmanager.com;
 *.doubleclick.net;
@@ -24,6 +29,7 @@
 *.googleadservices.com;
 *.atlassian.com;
 *.trello.services;
+*.xray.cool;
 *.trellocdn.com;
 *.butlerfortrello.com;
 *.vultr.com;

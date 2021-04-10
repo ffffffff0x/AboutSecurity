@@ -34,6 +34,8 @@
 /abbreviation.jsp
 /abby.jsp
 /abc123.jsp
+/imgUploadSuccess.jsp
+/uploadSuccess.jsp
 /abcdef.jsp
 /abcde.jsp
 /abcd.jsp
@@ -42,6 +44,8 @@
 /abel.jsp
 /abeng.jsp
 /aben.jsp
+/wqxtz.jsp
+/xyjg.jsp
 /abercrombie.jsp
 /aberones.jsp
 /abian.jsp
@@ -6553,6 +6557,7 @@
 /downtown.jsp
 /down_upfile.jsp
 /downward.jsp
+/login_old.jsp
 /dowson.jsp
 /doyle.jsp
 /dozen.jsp
