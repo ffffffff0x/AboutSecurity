@@ -90,9 +90,9 @@
     web.com//admin//    # ===> 200
     web.com/./admin/./  # ===> 200
     web.com/./admin/..  # ===> 200
-    web.com/%2f/admin/  # ===> 200
     web.com/admin.json  # ===> 200(ruby)
 
+    web.com/%2f/admin/  # ===> 200
     web.com/%2e/admin   # ===> 200
     web.com/%252e/admin # ===> 200
     web.com/%ef%bc%8fadmin  # ===> 200
@@ -100,6 +100,8 @@
     web.com/admin       # ===> 302
     web.com/admin..;/   # ===> 200
     ```
+- CORS
+- Open Redirect
 
 ## 传输过程
 
@@ -170,10 +172,10 @@
 	- 验证码可控
 	- 短信轰炸
 - XSS
-	- 假如管理员在后台可以看到登录失败的日志，那么存在存储型XSS的可能
-- JWT复用
+	- 假如管理员在后台可以看到登录失败的日志，那么存在存储型 XSS 的可能
+- JWT 复用
 - 恶意锁定用户账户
-- SQL注入(万能密码登录)
+- SQL 注入 (万能密码登录)
 - 越权
 	- 登录数据包中存在类似 type 的参数，可以修改测试越权
 

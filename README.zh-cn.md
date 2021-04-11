@@ -37,6 +37,7 @@
     * CORS
     * email
     * Format
+    * HPP
     * LFI
     * OOB
     * SQL-Inj

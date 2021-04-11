@@ -37,6 +37,7 @@ English | [简体中文](README.zh-cn.md)
     * CORS
     * email
     * Format
+    * HPP
     * LFI
     * OOB
     * SQL-Inj

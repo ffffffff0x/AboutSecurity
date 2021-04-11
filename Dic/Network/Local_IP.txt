@@ -14,4 +14,3 @@
 7F000001
 7F000002
 localhost
-localhost
