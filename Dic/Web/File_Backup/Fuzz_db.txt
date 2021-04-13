@@ -449,9 +449,7 @@
 /artadd.aspx/artadmin.aspx/artclass.asp/data.mdb
 /artadmin.aspx/artclass.asp/data.mdb
 /article.mdb
-/ffffffff0x.mdb
 /article/article.mdb
-/article/database/yiuwekdsodksldfslwifds.mdb
 /article1.mdb
 /articleco/mdb/bookshop.mdb
 /articles_database.mdb
@@ -478,7 +476,6 @@
 /back_4s5e_g.mdb
 /back_up.mdb
 /backdatabase.mdb
-/backdoor/databackup/fanerfreebeifen.mdb
 /backdoor/database/fanerfree.mdb
 /backstagemanagement/#shouyidb#.mdb
 /backup.mdb

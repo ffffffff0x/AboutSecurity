@@ -1,3 +1,4 @@
+
 Abcd1234
 password
 qweasdzxc
@@ -38,8 +39,6 @@ apache
 123123
 idc123!@#
 aaa123!@#
-qq123.com
-wantian##*(
 qwe123
 qwe1234
 123qwer
@@ -79,7 +78,6 @@ zhengui
 idc0.1
 7715123
 sdwer
-power.zhao
 sdwer123
 qwer1234
 esincs
@@ -126,9 +124,6 @@ qwe123!@#
 !@#123
 !@#321
 123#@!
-19861212
-19831212
-19841020
 #@!123
 #@!321
 idcidc
@@ -188,29 +183,17 @@ P@ssw0rd
 qsx6059410172.
 abc123!@#
 1q2w3e,./? ><
-senlinyan$
 admin001
-ranglm123456
-13920225257
 idc925111
 .......199
-xu15817079919
-yanjin0429
-zhangznw
-13527380230
 idc123&123
 662766
 122.224
 .......199@
-liuzhangzi1988
 123456!@#$%^
-dahouzi110
 trista188#**
 mm1237
 07736056123
-TnHoo15862380404
-189532210113
-gedingfeng1102888
 administrator
 administrator123
 administrator1234

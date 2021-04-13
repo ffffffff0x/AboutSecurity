@@ -393,7 +393,6 @@
 /ad_delnews.php
 /ad_dialog.php
 /ad_dy.php
-/ffffffff0x.php
 /ad_dysend.php
 /ad_edit.php
 /ad_editnews.php

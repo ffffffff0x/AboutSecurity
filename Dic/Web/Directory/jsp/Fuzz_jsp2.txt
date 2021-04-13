@@ -14647,15 +14647,12 @@
 /f_feed_open.jsp
 /ffenbach.jsp
 /ffff1.jsp
-/ffffffff0x.jsp
 /fffffff.jsp
 /ffffff.jsp
 /ffff.jsp
 /ffum.jsp
 /fger.jsp
 /fgfdghf.jsp
-/fghanistan.jsp
-/fghytjyjjj.jsp
 /fg.jsp
 /fgklb.jsp
 /f_han.jsp

@@ -176,7 +176,6 @@
 /fckeditor/editor/filemanager/browser/default
 /fckeditor/editor/filemanager/connectors/aspx/connector.aspx
 /feedback.asp
-/ffffffff0x.php
 /forum.php
 /ftb.imagegallery.aspx
 /ftp/com1/html

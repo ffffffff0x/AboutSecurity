@@ -565,7 +565,6 @@
 .vimrc
 .vs/
 .web
-.ffffffff0x
 .web-server-pid
 .webassets-cache
 .workspace/

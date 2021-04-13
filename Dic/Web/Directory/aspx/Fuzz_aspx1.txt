@@ -22,6 +22,7 @@
 /7am5xiao.aspx
 /7.aspx
 /7hsfdigshell0.aspx
+/Exit.aspx
 /7th.aspx
 /80.aspx
 /80f9digshell0.aspx
@@ -6810,7 +6811,6 @@
 /ffaly.aspx
 /ff.aspx
 /ffenbach.aspx
-/ffffffff0x.aspx
 /fg.aspx
 /fghanistan.aspx
 /fh.aspx

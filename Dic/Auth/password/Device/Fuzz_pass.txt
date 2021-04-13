@@ -406,7 +406,6 @@ tini
 tivonpw
 tl789
 tlJwpbo6
-ffffffff0x
 toor
 true
 trustno1

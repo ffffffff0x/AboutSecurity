@@ -339,7 +339,6 @@ $Qwerty8
 123456qwerty
 123456Qwerty
 123456s
-123456.salem
 123456Ss
 123456t
 123456w
@@ -469,7 +468,6 @@ $Qwerty8
 134679258
 134679852
 135246
-13527380230
 13579
 135790
 1357913579
@@ -665,7 +663,7 @@ $Qwerty8
 19861125
 198612
 19861210
-19861212
+
 19861216
 19861218
 19861220
@@ -1055,7 +1053,6 @@ $Qwerty8
 50cent
 51201314
 5121314
-513tyml.com
 5150
 51505150
 515151
@@ -5362,7 +5359,6 @@ china
 China2018
 chinaman
 chinatown
-chinayixun
 chinchilla
 chinchin
 chinese
@@ -8720,7 +8716,6 @@ feyenoord
 fffff
 ffffff
 ffffffff
-ffffffff0x
 Ffion12345
 ficken
 fiction
@@ -10411,8 +10406,6 @@ houston1
 howard
 howdy
 Hss@12345
-huachen1258zz
-huaiyukeji115
 huang123
 HUANGwei
 huanhuan
@@ -10475,7 +10468,6 @@ hyperion
 hysteria
 hyundai
 i
-Ialhosani.1973
 iamcool
 iamgod
 Iamrich123
@@ -10487,7 +10479,6 @@ iba123!
 ibanez
 ibelieve
 ibrahim
-ibrahimh+15
 icarus
 ice
 iceberg
@@ -11322,8 +11313,6 @@ joyride
 joystick
 Jr123456
 js77777
-jspower123.0
-jspower.com
 JT.1970!
 jtk2352
 juan
@@ -12378,7 +12367,6 @@ littlebit
 Littledog2
 littleman
 littleone
-lituobestsanmao
 liu123
 liu123456
 liuchang
@@ -15360,7 +15348,6 @@ Password112
 password12
 Password12
 Password12$
-password.1212
 password.123
 password@123
 password123
@@ -15656,7 +15643,6 @@ petunia
 peugeot
 pew6666,
 peyton
-ph.4485744
 phaedrus
 phantasm
 phantasy
@@ -16005,23 +15991,17 @@ potter
 powder
 powell
 power
-power0.123
 power1
 power123
-power123.0
 powerade
 power.com
 powered
 powerful
 powerhouse
-power.liu
 powerman
 powerpuff
 powers
-power.yu
-power.zhao
 pp.com
-pp.com@163.com
 ppppp
 pppppp
 ppppppp
@@ -16036,7 +16016,6 @@ prasad
 prashant
 praxis
 prayer
-praz.sana68
 preacher
 preciosa
 precioso
@@ -16419,7 +16398,6 @@ qq1234
 qq12345
 qq123456
 qq123456789
-qq123.com
 qq1314520
 qq5201314
 qq66666
@@ -16737,7 +16715,6 @@ ramadan.2018
 rambler
 rambo
 rambo1
-Rami777.911
 ramirez
 ramiro
 rammstein
@@ -18026,7 +18003,6 @@ shipyard
 shiraz
 shirley
 shirley1
-shisp.net
 shit
 shitface
 shithead
@@ -20296,7 +20272,6 @@ wangzi
 wanker
 wannabe
 wanted
-wantian##*(
 war.2019
 warcraft
 warcraft1
@@ -20782,7 +20757,6 @@ www123
 www123456
 www123456789
 www163com
-www.7x24.cn
 wwww
 wwwww
 wwwwww

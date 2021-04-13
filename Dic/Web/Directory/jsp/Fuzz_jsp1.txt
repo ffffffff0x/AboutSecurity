@@ -7734,8 +7734,6 @@
 /few.jsp
 /ffaly.jsp
 /ffenbach.jsp
-/ffffffff0x.jsp
-/fghanistan.jsp
 /fiber.jsp
 /fibre.jsp
 /fiction.jsp

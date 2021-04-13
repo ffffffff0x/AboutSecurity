@@ -7726,9 +7726,7 @@
 /fever.do
 /few.do
 /ffaly.do
-/ffenbach.do
-/ffffffff0x.do
-/fghanistan.do
+
 /fiber.do
 /fibre.do
 /fiction.do

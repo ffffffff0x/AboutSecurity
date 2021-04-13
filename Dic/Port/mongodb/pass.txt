@@ -6,6 +6,7 @@ admin123
 admin888
 administrator
 administrator123
+mongodb@123
 mongodb123
 mongodbpass
 123456

@@ -98,7 +98,6 @@
 /cgi/update.cgi
 /cgi_wwwolf.cgi
 /cgi-bin/addday.cgi
-/cgi-bin/ffffffff0x.cgi
 /cgi-bin/addday/cgi-bin/addday.cgi
 /cgi-bin/addday/cgi-bin/passwd.cgi
 /cgi-bin/addday/cgi-bin/setup.cgi

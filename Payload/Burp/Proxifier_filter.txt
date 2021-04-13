@@ -1,4 +1,3 @@
-127.0.0.1;
 *.wx.qq.com;
 *.weixin.qq.com;
 *.trello.com;
@@ -9,6 +8,7 @@
 *.github.com;
 *.pki.goog;
 *.googleapis.com;
+*.google.co.id;
 *.gstatic.com;
 *.magi.com;
 *.firefox.com;

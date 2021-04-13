@@ -201,7 +201,6 @@
 /admin/FCKeditor/editor/filemanager/connectors/php/connector.php
 /admin/FCKeditor/editor/filemanager/upload/test.php
 /admin/ewebeditor/upload.php
-/admin/ffffffff0x/upload.php
 /admin/fckeditor/editor/filemanager/connectors/php/upload.php
 /Fckeditor
 /web_Fckeditor

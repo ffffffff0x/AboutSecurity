@@ -138,7 +138,6 @@ sparky
 snoopy
 maverick
 phoenix
-ffffffff0x
 camaro
 sexy
 peanut
