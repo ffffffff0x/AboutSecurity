@@ -26,14 +26,14 @@ liu.wei
 wei.liu
 w.liu
 wang.xiuying
-xiuying   .wang
-xy   .wang
+xiuying.wang
+xy.wang
 zhang.li
 li.zhang
 l.zhang
 li.xiuying
-xiuying   .li
-xy   .li
+xiuying.li
+xy.li
 wang.li
 li.wang
 l.wang
@@ -41,8 +41,8 @@ zhang.jing
 jing.zhang
 j.zhang
 zhang.xiuying
-xiuying   .zhang
-xy   .zhang
+xiuying.zhang
+xy.zhang
 li.qiang
 qiang.li
 q.li

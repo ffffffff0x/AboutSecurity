@@ -12,3 +12,6 @@ margin=250&width=250&height=250
 margin=250&w=250&h=250
 size=250&margin=250
 size=250&margin=250&width=250&height=250
+undefined
+none
+null
