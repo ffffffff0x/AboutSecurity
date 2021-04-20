@@ -1,0 +1,25 @@
+Mozilla/5.0 (compatible; Baiduspider/2.0;http://www.baidu.com/search/spider.html)
+Mozilla/5.0(compatible;Baiduspiderrender/2.0;+http://www.baidu.com/search/spider.html)
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 likeMac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)
+Mozilla/5.0 (compatible; Baiduspider/2.0;+http://www.baidu.com/search/spider.html）
+Mozilla/5.0 (Linux;u;Android 4.2.2;zh-cn;) AppleWebKit/534.46 (KHTML,likeGecko) Version/5.1 Mobile Safari/10600.6.3 (compatible; Baiduspider/2.0;+http://www.baidu.com/search/spider.html)
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Googlebot/2.1 (+http://www.googlebot.com/bot.html)
+Googlebot/2.1 (+http://www.google.com/bot.html)
+Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+iaskspider/2.0(+http://iask.com/help/help_index.html”)
+Mozilla/5.0 (compatible; iaskspider/1.0; MSIE 6.0)
+Sogou web spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou Push Spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou inst spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou News Spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou Pic Spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou Video Spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Mozilla/5.0 (compatible; YodaoBot/1.0;http://www.yodao.com/help/webmaster/spider/;)
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+Sosospider+(+http://help.soso.com/webspider.htm)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider(compatible; HaosouSpider; http://www.haosou.com/help/help_3_2.html
+Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko)Version/4.0 Mobile Safari/534.30; 360Spider
+Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30; HaosouSpider
