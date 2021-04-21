@@ -765,6 +765,7 @@
 /adpage
 /adpaysettings
 /adpic
+/Html_editor
 /adrea
 /adria
 /adriaens
@@ -1935,6 +1936,7 @@
 /asians/
 /asjobcom
 /asjobcom/index
+/editor_manage_login_kinghua
 /ask
 /ask/admin
 /ask/data/
@@ -12482,7 +12484,6 @@
 /html_edit
 /htmledit
 /htmledit/
-/html_editor
 /HtmlEditor
 /htmlencode2
 /htmlexcel

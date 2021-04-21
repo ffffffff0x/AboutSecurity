@@ -1,5 +1,6 @@
 /0001000.asp
 /006425.asp
+/editor_manage_login_kinghua/default.asp
 /00/conn.asp
 /00hdz_shop_newshop.asp
 /01.asp
@@ -18,6 +19,7 @@
 /0manager/admin.asp
 /0manager.asp
 /0wtdupfile_photo.asp
+/upload.asp
 /0x5emyup.asp
 /0yw2diy.asp
 /102938.asp

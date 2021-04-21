@@ -1,3 +1,4 @@
+12345678
 123456789
 a123456
 123456
@@ -8,6 +9,7 @@ qq123456
 abc123456
 123456a
 123456789a
+foobar
 147258369
 zxcvbnm
 987654321
@@ -105,3 +107,17 @@ cityos_123
 WNT123
 Password@_
 true1234
+newpass
+testpass
+5f4dcc3b5aa765d61d8327deb882cf99
+login
+new password
+xxxxxxxx
+password2
+new_password
+test123
+mypassword
+yourpassword
+mypass
+password1
+oldpassword

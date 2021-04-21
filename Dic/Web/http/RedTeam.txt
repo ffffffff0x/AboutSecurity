@@ -1,0 +1,40 @@
+Spider-Name: crawlergo
+Accept: acunetix/wvs
+Acunetix-* : *
+User-agent: Fuzz Faster U Fool
+User-Agent: Hello, world
+User-Agent: Scanbot
+User-Agent: webcrusier
+User-Agent: Akari(selfrep)
+User-Agent: gobuster
+User-Agent: \bRsas\b
+User-Agent: xsstest
+User-Agent: n-stealth
+User-Agent: AlScanner
+User-Agent: w3af.sf.net
+User-Agent: CrowdStrike
+User-Agent: nessus
+User-Agent: Havij
+User-Agent: dbappsecurity
+User-Agent: Sucuri
+User-Agent: nmap-nse
+User-Agent: sglmap
+User-Agent: HP ASC
+User-Agent: w3af.sourcefor
+User-Agent: Hydra
+User-Agent: nmap scripting
+User-Agent: WhatWeb
+User-Agent: nmap nse
+User-Agent: w3af.org
+User-Agent: SqIninja
+User-Agent: Arachni
+User-Agent: WPScan
+User-Agent: Wfuzz
+User-Agent: ScanAlert
+User-Agent: Pangolin
+User-Agent: Go-http-client
+User-Agent: AppScan
+User-Agent: OpenVAS
+User-Agent: Webinspect
+User-Agent: WebVulnscan
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
