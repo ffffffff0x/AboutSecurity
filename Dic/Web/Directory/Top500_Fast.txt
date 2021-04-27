@@ -516,3 +516,8 @@
 /druid/websession.html
 /system/druid/websession.html
 /webpage/system/druid/websession.html
+/readme.md
+/readme.txt
+/logo.ico
+/favicon.ico
+/error.png
