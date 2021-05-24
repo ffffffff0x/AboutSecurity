@@ -32,3 +32,4 @@ testuser
 测试账号1
 superadmin
 riseadmin
+qwer

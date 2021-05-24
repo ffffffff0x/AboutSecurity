@@ -10,3 +10,7 @@ X-Client-IP
 X-Real-IP
 Referer
 X-Powered-By
+X-True-IP
+X-Forwarded-By
+Forwarded
+X-Host
