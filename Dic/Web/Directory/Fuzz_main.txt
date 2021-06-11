@@ -25,6 +25,7 @@
 /monitoring
 /2/
 /ProjectManagement
+/userJson
 /BasicConfig_WeiXin
 /Inspection_WeiXin
 /BasicConfig

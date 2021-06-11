@@ -33,11 +33,13 @@ baseball
 whatever
 princess
 abcd1234
+config
 123321
 starwars
 121212
 thomas
 zxcvbnm
+install
 trustno1
 killer
 welcome

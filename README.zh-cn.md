@@ -44,7 +44,7 @@
     * SSI
     * XSS
     * XXE
-* **VPS**
+* **VPS(不在维护这一部分，请使用 [f8x](https://github.com/ffffffff0x/f8x) 工具)**
     * [Debian~](./VPS/Debian~.md) - Debian 系基础设施配置。
     * [Kali](./VPS/Kali.md) - Kali 系统基础设施配置。
     * [RedHat~](./VPS/RedHat~.md) - RedHat 系基础设施配置。

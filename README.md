@@ -44,7 +44,7 @@ English | [简体中文](README.zh-cn.md)
     * SSI
     * XSS
     * XXE
-* **VPS**
+* **VPS(Not maintaining this section, please use the [f8x](https://github.com/ffffffff0x/f8x) tool)**
     * [Debian~](./VPS/Debian~.md) - Debian system infrastructure configuration.
     * [Kali](./VPS/Kali.md) - Kali system infrastructure configuration.
     * [RedHat~](./VPS/RedHat~.md) - RedHat system infrastructure configuration.
