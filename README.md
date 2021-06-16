@@ -48,7 +48,7 @@ English | [简体中文](README.zh-cn.md)
     * [Debian~](./VPS/Debian~.md) - Debian system infrastructure configuration.
     * [Kali](./VPS/Kali.md) - Kali system infrastructure configuration.
     * [RedHat~](./VPS/RedHat~.md) - RedHat system infrastructure configuration.
-* **[CheatSheet](./CheatSheet.md)** : Directly copy a pair during penetration testing for reference, information logging, teamwork, reporting, etc.
+* **[Cheatsheet](./Cheatsheet.md)** : Directly copy a pair during penetration testing for reference, information logging, teamwork, reporting, etc.
 
 ---
 
