@@ -39,3 +39,29 @@ User-Agent: Webinspect
 User-Agent: WebVulnscan
 User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
 User-Agent: antSword/v2.1
+Acunetix-Aspect-Password:
+Cookie: acunetixCookie
+Location: acunetix_wvs_security_test
+X-Forwarded-Host: acunetix_wvs_security_test
+X-Forwarded-For: acunetix_wvs_security_test
+Host: acunetix_wvs_security_test
+Cookie: acunetix_wvs_security_test
+Cookie: acunetix
+Origin: acunetix_wvs_security_test
+Referer: acunetix_wvs_security_test
+Via: acunetix_wvs_security_test
+Accept-Language: acunetix_wvs_security_test
+Client-IP: acunetix_wvs_security_test
+HTTP_AUTH_PASSWD: acunetix
+User-Agent: acunetix_wvs_security_test
+Acunetix-Aspect-Queries:
+Acunetix-Aspect:
+x_forwarded_for: nessus
+referer: nessus
+host: nessus
+Content-Type: Appscan
+Content-Type: AppScanHeader
+Accept: Appscan
+User-Agent: Appscan
+User-Agent: Rsas
+User-Agent: sqlmap
