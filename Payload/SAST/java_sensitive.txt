@@ -1,0 +1,54 @@
+XXE:
+   "SAXReader",
+   "DocumentBuilder",
+   "XMLStreamReader",
+   "SAXBuilder",
+   "SAXParser",
+   "XMLReader",
+   "SAXSource",
+   "TransformerFactory",
+   "SAXTransformerFactory",
+   "SchemaFactory",
+   "Unmarshaller",
+   "XPathExpression"
+
+JavaObjectDeserialization:
+   "readObject",
+   "readUnshared",
+   "Yaml.load",
+   "fromXML",
+   "ObjectMapper.readValue",
+   "JSON.parseObject"
+
+SSRF:
+   "HttpClient",
+   "Socket",
+   "URL",
+   "ImageIO",
+   "HttpURLConnection",
+   "OkHttpClient"
+   "SimpleDriverDataSource.getConnection"
+   "DriverManager.getConnection"
+
+FILE:
+   "MultipartFile",
+   "createNewFile",
+   "FileInputStream"
+
+SPelInjection:
+   "SpelExpressionParser",
+   "getValue"
+
+Autobinding:
+   "@SessionAttributes",
+   "@ModelAttribute"
+
+URL-Redirect:
+   "sendRedirect",
+   "forward",
+   "setHeader"
+
+EXEC:
+   "getRuntime.exec",
+   "ProcessBuilder.start",
+   "GroovyShell.evaluate"
