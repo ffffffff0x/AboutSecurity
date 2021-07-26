@@ -52,12 +52,6 @@ English | [简体中文](README.zh-cn.md)
 
 ---
 
-## CONTRIBUTORS&Thanks
-
-- [CONTRIBUTORS](./assets/CONTRIBUTORS.md)
-
----
-
 ## Disclaimer&License
 
 - <sup>This work is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).</sup>

@@ -55,12 +55,6 @@
 
 ---
 
-## 协作者&致谢
-
-- [CONTRIBUTORS](./assets/CONTRIBUTORS.md)
-
----
-
 ## 免责声明&版权协议
 
 - <sup>本项目采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 协议.</sup>

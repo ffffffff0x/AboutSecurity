@@ -663,7 +663,6 @@ $Qwerty8
 19861125
 198612
 19861210
-
 19861216
 19861218
 19861220
@@ -10613,7 +10612,6 @@ iloveu!
 ILOVEU
 iloveu1
 iloveu2
-i love you
 iloveyou
 iloveyou!
 iloveyou.
@@ -17132,7 +17130,7 @@ rocky
 rocky1
 rocky123
 rocky2
-rock you
+rockyou
 RockYou
 RockYou!
 ROCKYOU
@@ -19253,7 +19251,6 @@ teaching
 teadoro
 team
 teamare
-te amo
 teamo
 TEAMO
 teamo1
@@ -20995,7 +20992,6 @@ zhangyu
 zhangznw
 zhendeaini
 zhengui
-
 zhihuba888
 ZHONGGUO$#@!999@
 ZHUZHU
