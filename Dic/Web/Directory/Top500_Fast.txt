@@ -89,10 +89,7 @@
 /batch.common.php
 /bbs
 /bbs/topic
-/swagger/v1/swagger.json
-/swagger/v2/swagger.json
 /Body.asp
-//bos/desktop/RequestOrResponse.aspx
 /Broadcast/Broadcast.aspx
 /Broadcast/displayNewsPic.aspx
 /BsGuide.aspx
@@ -209,7 +206,6 @@
 /index.aspx
 /Index.aspx
 /index.jsp
-//index.php
 /index.php
 /info.asp
 /info.aspx
@@ -248,7 +244,6 @@
 /list.aspx
 /list.jsp
 /list.php
-//liuyan.asp
 /live800/downlog.jsp
 /login
 /login.asp
@@ -356,12 +351,9 @@
 /pic.asp
 /pics_list.php
 /plugin.php
-//plus
 /plus
 /plus/mytag_js.php
-//plus/recommend.php
 /plus/recommend.php
-//plus/search.php
 /plus/search.php
 /portal
 /postAjax.jsp
@@ -433,11 +425,8 @@
 /space.php
 /src/system
 /src/system/login.php
-//SubCategory.aspx
 /SubCategory.aspx
 /Supplylist.aspx
-/.svn
-/swagger-ui.html
 /syfile/swfUpload.jsp
 /sys
 /sysadmin/Login.aspx
@@ -501,14 +490,10 @@
 /Web_Site/Search.aspx
 /wescms/index.php
 /wooyun.jsp
-/wp-login.php
 /wscgs
 /www
 /www/index.php
 /xxgk/services
-/yyoa
-/yyoa/index.jsp
-/yyoa/indexPass.jsp
 /zecmd
 /zecmd/zecmd.jsp
 /zfmllist.aspx

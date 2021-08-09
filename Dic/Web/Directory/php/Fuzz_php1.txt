@@ -617,6 +617,7 @@
 /admin/editor/include/md5.php
 /admin/editor.php
 /admin/editor/upload.php
+/admin/edit.php
 /adminedit.php
 /admin/edit/upload.php
 /admin/enda.php
@@ -6318,6 +6319,7 @@
 /dull.php
 /dumaurier.php
 /dumb.php
+/dumper.php
 /dump.php
 /dunbar.php
 /duncan.php
@@ -14447,6 +14449,7 @@
 /shop/affiche.php
 /shop/api/checkorder.php
 /shop/dome/index.php
+/shop/edit.php
 /shopex/shopadmin/index.php
 /shop/flow.php
 /shop/goods.php
@@ -14470,8 +14473,6 @@
 /shortly.php
 /short.php
 /shot.php
-/shouji_tongxing/index.php
-/shouji_tongxing/Wap_Wangzhi.php
 /shouldaux.php
 /shoulder.php
 /should.php
@@ -14912,7 +14913,6 @@
 /springer.php
 /spring.php
 /sprinkle.php
-/SPSamp/AdvWorks/equipment/catalog_type.php
 /spurn.php
 /spur.php
 /spwuupFile.php
@@ -15277,8 +15277,6 @@
 /suspicion.php
 /suspicious.php
 /sustain.php
-/suzanne.php
-/suzhijy/htdocs/db/fileupimg2.php
 /suzie.php
 /sv.php
 /swallow.php
@@ -15363,7 +15361,6 @@
 /system/default.php
 /system/eWebEditor/asp/config.php
 /system/eWebEditor/asp/upload.php
-/system/FCKeditor/editor/filemanager/upload/test.php
 /systemfive.php
 /System/Function/UploadProductPic.php
 /system/index.php
@@ -15377,17 +15374,6 @@
 /systems.php
 /System/Up1.php
 /System/Up2.php
-/system/uploadfileBanner.php
-/system/uploadfileCases.php
-/system/uploadfileCasesType.php
-/system/uploadfileDown.php
-/system/uploadfileLink.php
-/system/uploadfileNews.php
-/system/uploadfileNewsPic.php
-/system/uploadfilePartners.php
-/system/uploadfileServices.php
-/system/uploadfileServicesType.php
-/system/uploadfiletemp_pic.php
 /system/upload.php
 /System/Up.php
 /systemv.php
@@ -15406,7 +15392,6 @@
 /tack.php
 /tactics.php
 /tact.php
-/tadtshop/api/checkorder.php
 /tafford.php
 /taffordshire.php
 /tago.php
@@ -15746,7 +15731,6 @@
 /tmesecshop/myship.php
 /tmp/admin/index.php
 /tm.php
-/tmymnews/ewebeditor/admin/login.php
 /tna.php
 /tn.php
 /tntimysql/index.php
@@ -15943,7 +15927,6 @@
 /troublesome.php
 /trousers.php
 /tr.php
-/trrfuser/ewebeditor/admin/login.php
 /truck.php
 /truefriend.php
 /truelove.php
@@ -16019,7 +16002,6 @@
 /tw.php
 /tx.php
 /txt.php
-/tyopfckeditor/editor/filemanager/upload/php/upload.php
 /type.php
 /typewriter.php
 /ty.php
@@ -16060,7 +16042,6 @@
 /uba.php
 /ubeck.php
 /ubei.php
-/ubgzbbs/phpmyadmin/index.php
 /ubicon.php
 /ublin.php
 /uboea.php
