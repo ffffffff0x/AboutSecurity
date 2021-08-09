@@ -487,7 +487,6 @@
 /akeeba.backend.log
 /all/
 //all.action
-/all/modules/ogdi_field/plugins/dataTables/extras/TableTools/media/swf/ZeroClipboard.swf
 /amad.php
 /amministratore.php
 /analog.html
