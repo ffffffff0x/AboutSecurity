@@ -32,12 +32,10 @@
 /Index.aspx
 /about.aspx
 /gmis/leftmenu.aspx
-/Permission/ApplicationQueryList.aspx
 /test.aspx
 /site/ajax/WebSiteAjax.aspx
 /select_e.aspx
 /ExhibitionCenter.aspx
-/system/stuuserregist.aspx
 /News.aspx
 /workplate/xzsp/gxxt/tjfx/spsl.aspx
 /manager/member/admin_add.aspx
@@ -50,13 +48,9 @@
 /Web/Login.aspx
 /articleview.aspx
 /model/TwoGradePage/equipmentlist.aspx
-/jsondb/otherreport.aspx
-/jsondb/flightreturn.aspx
 //bos/desktop/RequestOrResponse.aspx
 /Broadcast/Broadcast.aspx
-/jsondb/meblist.aspx
 /searchbargain.aspx
-/jsondb/aircompany.aspx
 /RiskInfo.aspx
 /owa/auth/logon.aspx
 /WebDefault3.aspx

@@ -86,6 +86,12 @@
 /2020.tar.gz
 /2020.tgz
 /2020.zip
+/2021.sql
+/2021.tar
+/2021.tar.bz2
+/2021.tar.gz
+/2021.tgz
+/2021.zip
 /%2e%2e//google.com
 /%2e%2e;/test
 /2.php
@@ -97,12 +103,9 @@
 /4.php
 /5.php
 /6.php
-/7788.php
 /7.php
 /.7z
-/8899.php
 /8.php
-/9678.php
 /9.php
 /a%5c.aspx
 /aadmin
@@ -633,7 +636,6 @@
 /autodiscover
 /autologin
 /autologin.php
-/autom4te.cache
 /autoscan.log
 /AutoTest.Net
 /autoupdate
@@ -873,7 +875,6 @@
 /ccbill.log
 /cc-errors.txt
 /cc-log.txt
-/ccp14admin
 /celerybeat-schedule
 /cell.xml
 /centreon
@@ -946,8 +947,6 @@
 /chefignore
 /chkadmin
 /chklogin
-/chubb.xml
-/c-h.v2.php
 /ci
 /cidr.txt
 /.circleci/config.yml
@@ -990,7 +989,6 @@
 /CMakeLists.txt
 /CMakeLists.txt.user
 /CMakeScripts
-/cmd-asp-5.1.asp
 /cmdasp.asp
 /cmdasp.aspx
 /cmdjsp.jsp
@@ -1052,7 +1050,6 @@
 /config.bak
 /config/banned_words.txt
 /config.codekit
-/config.codekit3
 /config/config.inc
 /config/config.ini
 /config.core
@@ -1068,7 +1065,6 @@
 /.config/filezilla/sitemanager.xml.xml
 /config.guess
 /config.hash
-/config.h.in
 /_config.inc
 /config.inc
 /config.inc~
@@ -1111,7 +1107,6 @@
 /config.php.zip
 /config/producao.ini
 /configprops
-/.config/psi+/profiles/default/accounts.xml
 /config.rb
 /config/routes.yml
 /config.ru
@@ -1522,7 +1517,6 @@
 /.empty-folder
 /encode_explorer
 /encode_explorer-3.2
-/encode_explorer_32
 /encode_explorer-3.3
 /encode_explorer-3.4
 /encode_explorer-4.0
@@ -1599,7 +1593,6 @@
 /.eslintcache
 /.eslintignore
 /.eslintrc
-/.espressostorage
 /etc
 /etc/config.ini
 /etcd-apiserver-client.key
@@ -1671,15 +1664,10 @@
 /FCKeditor
 /FCKeditor2
 /FCKeditor2.0
-/FCKeditor20
 /FCKeditor2.1
-/FCKeditor21
 /FCKeditor2.2
-/FCKeditor22
 /FCKeditor2.3
-/FCKeditor23
 /FCKeditor2.4
-/FCKeditor24
 /fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
 /fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
 /fckeditor/editor/filemanager/browser/default/connectors/php/connector.php
@@ -1806,7 +1794,6 @@
 /github
 /github-cache
 /github-recovery-codes.txt
-/!.gitignore
 /.gitignore
 /.gitignore~
 /.gitignore_global
@@ -1934,7 +1921,6 @@
 /.hsenv
 /hs_err_pid.log
 /.hta
-/!.htaccess
 /.htaccess
 /.htaccess~
 /htaccess.backup
@@ -1972,7 +1958,6 @@
 /html.tar.bz2
 /html.tar.gz
 /html.zip
-/!.htpasswd
 /.htpasswd
 /_.htpasswd
 /htpasswd
@@ -3037,7 +3022,6 @@
 /phpldapadmin
 /phpLiteAdmin
 /phpLiteAdmin_
-/phpliteadmin%202.php
 /phpliteadmin.php
 /php.lnk
 /php.log
@@ -3611,9 +3595,7 @@
 /servlet
 /servlet/%C0%AE%C0%AE%C0%AF
 /servlet/oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
-/servlet/Oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 /servlet/oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
-/servlet/Oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 /servlet/SnoopServlet
 /serv-u.ini
 /session
@@ -3930,8 +3912,6 @@
 /.SyncIgnore
 /syncNode.log
 /.synthquota
-/SypexDumper_2011
-/sypexdumper.php
 /sypex.php
 /sysadm
 /sys-admin
@@ -4026,7 +4006,6 @@
 /test_ip.php
 //test.jsp
 /test.jsp
-/test.jSp
 /test.mdb
 /test-output
 /__test.php
@@ -4316,8 +4295,6 @@
 /vmailadmin
 /vorod
 /vorod.php
-/vorud
-/vorud.php
 /vpn
 /vqmod/checked.cache
 /vqmod/logs
@@ -4533,7 +4510,6 @@
 /xampp/phpmyadmin/scripts/setup.php
 /xcuserdata
 /xd.php
-/xferlog
 /xiaoma.php
 /xlogin
 /xls
