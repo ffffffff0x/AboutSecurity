@@ -1,7 +1,7 @@
 ?cmd=
 ?exec=
 ?command=
-?execut=
+?execute=
 ?ping=
 ?query=
 ?jump=
