@@ -339,7 +339,6 @@
 /papers
 /persondh/urgent.aspx
 /person/mailbox.asp
-/*.php
 /phpinfo.php
 /phpmyadmin
 /phpmyadmin/index.php
