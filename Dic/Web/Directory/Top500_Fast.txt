@@ -1,12 +1,9 @@
 /.bzr/
-/1999
 /1.asp
 /1.jsp
 /1.php
 /1/sjleader/login.jsp
 /1/sx/login.jsp
-.well-known/security.txt
-/2001
 /2014
 /2015
 /2016
@@ -340,10 +337,8 @@
 /page.php
 /pages/manager/managerAddNManager.jsp
 /papers
-/Permission/ApplicationQueryList.aspx
 /persondh/urgent.aspx
 /person/mailbox.asp
-/*.php
 /phpinfo.php
 /phpmyadmin
 /phpmyadmin/index.php
@@ -445,7 +440,6 @@
 /topic.php
 /TSPB/web/xzzx/xzzx.jsp
 /tt/inc/login.asp
-/tushu
 /type.asp
 /uc_server
 /uc_server/admin.php

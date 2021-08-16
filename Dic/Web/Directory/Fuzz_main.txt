@@ -15,7 +15,6 @@
 /163
 /1974
 /1980
-/19812
 /1992
 /1mobil
 /1ndex
@@ -38,20 +37,7 @@
 /5000
 /5555
 /5555544444
-/5578
-/56165
-/56789
-/56k
-/5747
-/5757
-/579300
-/5877937
-/5980
-/59843033
-/5daxb
-/5f68t9
 /6
-/6072668
 /6666
 /666666
 /7
@@ -80,20 +66,11 @@
 /aabe
 /aadmin
 /ab
-/abagael
-/abagail
-/abandone
 /abba
 /abbe
 /abbey
-/abbf
-/abbg
-/abbi
-/abbie
 /abbot
 /abbott
-/abby
-/abbye
 /abc
 /abcd
 /abcd1234
@@ -103,23 +80,12 @@
 /abcupload
 /abdel
 /abdual
-/abdul
 /abe
 /abel
 /abelard
-/abeu
 /abey
 /Ab_head
-/abie
-/abigael
-/abigail
-/abigale
-/abkj
 /able
-/ablock
-/abloom
-/abmtk
-/abner
 /Ab_news
 /Ab_NewsShow
 /abo
@@ -136,7 +102,6 @@
 /aboutpla
 /aboutpla1
 /abouts
-/aboutuppic
 /AboutUs
 /AboutusAbout
 /AboutusContact
@@ -148,13 +113,8 @@
 /Ab_Page
 /Ab_PageShow
 /abra
-/abraham
-/abrahan
-/abram
-/abramo
 /abran
 /abroad
-/Abtus
 /abyss
 /acacaca
 /accent
@@ -165,7 +125,6 @@
 /access7/passwords
 /access_db
 /AccessDB
-/access/htusers
 /access-log
 /access_log
 /access/passwords
@@ -179,17 +138,12 @@
 /ace2000
 /aceace
 /aceeca
-/acefrehley
 /achat
 /achatproc
-/achatrefresha
-/achatrefreshb
 /achey
-/achg
 /achilles
 /acid
 /acidburn
-/aconnwish
 /Action
 /Actions
 /ActionVipCard
@@ -215,15 +169,11 @@
 /adad
 /adada
 /adadmin
-/adagher
-/adah
-/adair
 /adaline
 /adam
 /adamo
 /adams
 /adamsbryan
-/adan
 /adara
 /AdBanner
 /adcompany
@@ -256,7 +206,6 @@
 /addAdminok
 /addads
 /addadw
-/AddAnun
 /addarticle
 /AddAward
 /addbanner
@@ -279,7 +228,6 @@
 /Addccnews
 /Addccnews_submit
 /addcenter
-/addchangjob
 /addcheckinf
 /ADDCHK
 /addclass
@@ -293,8 +241,6 @@
 /addData
 /adddoc
 /adddq
-/adddqdel
-/adddqmod
 /AddEditDebate
 /AddEditNews
 /addequipment
@@ -318,18 +264,12 @@
 /addgetuser
 /addgg
 /addggok
-/addgj
-/addgjok
 /addgonggao
 /addgonggaochk
-/addgrp
 /addguanggao
 /addguest
-/addguuang
 /addhelp
 /addhw
-/ADDHYK
-/ADDHYKOK
 /addhyxx
 /addi
 /addia
@@ -352,10 +292,6 @@
 /addkiller
 /addkillerok
 /addkm
-/addkmdel
-/addkmmod
-/ADDkmnew
-/addkmnewchk
 /addlb
 /addlink
 /addlinks
@@ -413,7 +349,6 @@
 /address
 /addressinfpopedom
 /AddReview
-/addrewpuninf
 /addroom
 /addroomok
 /ADDRULE
@@ -472,7 +407,6 @@
 /addxueyuan
 /addy
 /addyes
-/addyqlj
 /addyuming
 /addzp
 /addzu
@@ -524,7 +458,6 @@
 /Adm
 /adm1n
 /admain_guanli
-/admanage
 /admcheck
 /admcomm
 /admdel
@@ -587,7 +520,6 @@
 /admin/editor/include
 /admin/editor/UploadFile
 /admin/editpage
-/Adminemaildaochu
 /admin/ewebeditor
 /admin/eWebEditor
 /admin/ewebeditor/db
@@ -719,7 +651,6 @@
 /AdsClick
 /Ads_Count
 /AdService
-/ADSFGLKN32KFB
 /adshj
 /AdsJs
 /adsl
@@ -789,7 +720,6 @@
 /Aero
 /aeroplane
 /a/ewebeditor
-/af318508
 /afag
 /Affiche
 /Afresh
@@ -829,13 +759,7 @@
 /agnes
 /agnese
 /agnesse
-/agneta
-/agnola
-/agosto
-/agretha
-/agryrie
 /aguie
-/aguistin
 /aguste
 /agustin
 /ahab
@@ -852,7 +776,6 @@
 /aid_mang
 /Aids
 /aienupload
-/aigneis
 /aihaixia
 /aikidou
 /aikman88
@@ -965,7 +888,6 @@
 /aldridge
 /aldus
 /aldwin
-/ale5xan7
 /alec
 /alecia
 /aleda
@@ -984,7 +906,6 @@
 /aleta
 /alethea
 /alex
-/alex1974
 /alexa
 /alexander
 /alexandr
@@ -994,7 +915,6 @@
 /alexandrina
 /alexandro
 /alexandros
-/alexei
 /alexi
 /alexia
 /alexina
@@ -1063,7 +983,6 @@
 /all
 /alla
 /allan
-/allanshao
 /allard
 /allayne
 /allCategorys
@@ -1162,7 +1081,6 @@
 /alverta
 /alvie
 /alvin
-/alvin2000
 /alvina
 /alvinia
 /alvira
@@ -1238,11 +1156,9 @@
 /amir
 /amitie
 /amity
-/ammamaria
 /amory
 /amos
 /ampere
-/amphatamines
 /ams
 /amstrad
 /Amusement
@@ -1272,7 +1188,6 @@
 /anchor
 /anclass
 /and
-/andaljfsd
 /andantes
 /andbull
 /anddy
@@ -1308,13 +1223,10 @@
 /andros
 /andrus
 /andy
-/Andy1955
-/andy3434
 /andybob
 /andyli
 /andyzzz
 /aneliese1
-/aneliese2000
 /anelieseeseilena
 /anent_txt
 /anestassia
@@ -1460,7 +1372,6 @@
 /anycall
 /AnyForm2
 /aoli
-/aoth59
 /aoxun
 /aoyun
 /Apache
@@ -1482,7 +1393,6 @@
 /Appearance
 /appendinfo
 /apple
-/apple1989
 /apples
 /application
 /apply
@@ -1502,12 +1412,10 @@
 /apushpage
 /aq
 /aq123
-/aq8323
 /Aqjx
 /aq_swf
 /aqua
 /aquarius
-/aqy392
 /ar
 /ara
 /arabel
@@ -1785,9 +1693,7 @@
 /asendpage
 /asgard
 /ash
-/ash7608
 /ashanti
-/ashanti63
 /ashbey
 /ashby
 /ashely
@@ -1935,7 +1841,6 @@
 /augusto
 /augustus
 /augy
-/auhzoahzzhaozhua
 /auisgold
 /aundrea
 /aura
@@ -2004,12 +1909,10 @@
 /avivah
 /avocat
 /avon
-/avr7000
 /avram
 /avril
 /avrit
 /avrom
-/aw55tq8n
 /awacs
 /award
 /awardAction
@@ -2035,9 +1938,7 @@
 /azrael
 /aztx
 /b
-/b0925
 /b1234560
-/b28745
 /b5ttyou
 /b80
 /baa
@@ -2075,9 +1976,6 @@
 /BackOffice
 /backup
 /backup123
-/backup_4TajJI
-/backup_d01c8c
-/backup_gb7J3B
 /BackUpLable
 /backup_name
 /backups
@@ -2100,7 +1998,6 @@
 /baiduMap
 /baidusitemap
 /bai/fckeditor
-/baihe0604
 /baike
 /baike/editor
 /baike/fck
@@ -2156,7 +2053,6 @@
 /bang
 /bangbang
 /bangmeite
-/Bangong_Wenjiao
 /bangs69
 /bangui
 /bank
@@ -2166,7 +2062,6 @@
 /banky
 /banmudi
 /banner
-/banner0930
 /banner1
 /banner2
 /banneradd
@@ -2192,8 +2087,6 @@
 /baomin
 /baoming
 /baotou
-/baoyuecz
-/baoyuecz1
 /baozhuang
 /Baozhuang_Zhipin
 /bapi
@@ -2306,29 +2199,20 @@
 /baylor
 /bazi
 /bb
-/bb0886
 /bb0s
-/bb2000
 /bb60
 /bbadmin
 /bbb
 /bbb000
 /bbb0002
 /bbb0003
-/bbb00032
 /bbbb
 /bbbb1100
 /bbbb33
 /bbbb55
 /bbbbb
-/bbbbb2000
 /bbbbbb
-/bbbbbb2000
-/bbbbbb99
-/bbbbbbb2000
-/bbbbbbbbbbbb
 /bbbbbsssss
-/bbC17594
 /bbcode
 /bbgx
 /bbny
@@ -2387,7 +2271,6 @@
 /bdjr
 /bdkx
 /bdxx
-/be322b11c3
 /bea
 /beach
 /beach123
@@ -2565,7 +2448,6 @@
 /bessie
 /bessy
 /best
-/best_74120299
 /bestcollegepicks
 /bestcollegepicks/login
 /BestCompany
@@ -2649,7 +2531,6 @@
 /Bgyp_UnSendOut
 /Bgyp_WriteDraw
 /bgzx
-/Bh99223
 /bhan
 /bianca
 /bianka
@@ -2707,7 +2588,6 @@
 /bilge1
 /bili
 /biliamee1
-/biliamee99
 /biliameeeemailib
 /bill
 /billbow
@@ -2764,7 +2644,6 @@
 /bird
 /birdie
 /birdman
-/birdman2000
 /birdmanbirdman
 /birdonly
 /birgit
@@ -2792,7 +2671,6 @@
 /BizSearch
 /biz_show
 /bj
-/bj731030
 /bjhead
 /bjhj
 /bjhyl
@@ -2815,15 +2693,12 @@
 /bjzl
 /bjzmsh
 /bk
-/bk1975
 /bk_config
 /bkss
 /bl
 /black
 /blackadd
 /blackford
-/blackhawks1
-/blackhawksskwahkcalb
 /blackjac
 /blackjack
 /blackman
@@ -2926,10 +2801,8 @@
 /bmh
 /bmsave
 /BM_Update
-/bmw528
 /bmwboomer
 /bnbform
-/bni7kg
 /bo
 /Board
 /Board2
@@ -3010,7 +2883,7 @@
 /BokeSearch
 /BokeUpload
 /BokeViewFile
-/boke_wangzhai
+/boke_wangzhan
 /BolgList
 /bolingleatheraa
 /bollocks
@@ -3023,7 +2896,6 @@
 /bondon
 /bondy
 /bone
-/bone6361
 /bones
 /bonghit
 /boniface
@@ -3045,7 +2917,6 @@
 /book
 /book0
 /book1
-/book1009
 /book1/login
 /book2
 /bookaction
@@ -3293,7 +3164,6 @@
 /bronnie
 /bronny
 /bronson
-/bronzegoat597
 /brook
 /brooke
 /brooking
@@ -3337,9 +3207,7 @@
 /bscxlist
 /bscxshow
 /bsgl
-/bsgod72
 /bst
-/bsth6629999
 /bsting
 /bszn
 /bt
@@ -3564,31 +3432,9 @@
 /bzfw
 /bzjs
 /c
-/c1123
-/c16t47
-/c16t49
-/c16t52
-/c16t53
-/c17t38
-/c18t70
-/c18t71
-/c18t72
-/c18t73
-/c18t74
-/c18t75
-/c18t76
-/c18t77
-/c18t78
-/c18t79
-/c19t45
-/c1b62d5
-/c2t14
 /c34/isino/epwd/passjoy21
 /c3p0
 /c3po
-/c48e
-/c4t12
-/c68hxy
 /c7t7
 /c99
 /c9web
@@ -3784,7 +3630,6 @@
 /CapFlower
 /Cap_html
 /Cap_index
-/capp190166
 /Cap_Page
 /caprice
 /CaptchaPreview
@@ -4026,11 +3871,8 @@
 /cazzie
 /cbanch
 /cbjhy
-/cbl760208
 /cbmjs
 /cbmsmxc
-/cbr900
-/cbruck1101
 /CBSetting
 /cbxx
 /cc
@@ -4050,16 +3892,12 @@
 /ccbill/secure/private_key
 /ccbill/secure/purge
 /cccc
-/cccc33
 /ccccc
 /cccccc
 /cccccc1
-/cccccc2000
-/cccccc99
 /cccccccccccc
 /cccx2
 /cchaddie
-/cck3cc8d
 /cclist
 /ccloginImg
 /cclogupImg
@@ -4074,8 +3912,6 @@
 /ccwlykq
 /cd
 /cdavis
-/cdavis2000
-/cdavis99
 /cdkey
 /cdma1gsm
 /CdontsMail
@@ -4149,12 +3985,10 @@
 /cfgl
 /cfide
 /cfjz
-/cfs1035
 /cg
 /cgal
 /cg-bin
 /cg-bini
-/cgf731
 /cgi
 /cgi-bin
 /cgibin
@@ -4164,7 +3998,6 @@
 /cg_senddocindb_mo
 /cgsw
 /ch
-/ch2158
 /cha
 /chack
 /chad
@@ -4253,7 +4086,6 @@
 /chaoji
 /chaos
 /char
-/char99
 /Character
 /characters
 /Char_board
@@ -4307,7 +4139,6 @@
 /chaunce
 /chauncey
 /chaxun
-/chb0813
 /che
 /check
 /Check
@@ -4406,9 +4237,6 @@
 /chelsy
 /chemist1
 /chen
-/chen1119
-/chen8982902
-/chen9417
 /chenabc
 /cheng
 /CHENGBAO
@@ -4469,7 +4297,6 @@
 /chic
 /chic114
 /chicago
-/chicagoblackhawks
 /chice
 /chick
 /chicken8
@@ -4663,20 +4490,17 @@
 /citypic
 /CityScene
 /cj
-/cj1394
 /cj2
 /cj985
 /cjcx
 /cjcx/login
 /cjkx
-/cjs962129
 /cjsxd
 /cjxd
 /cjxw
 /cjyw
 /ck
 /ckeditor/editor
-/CKlein6602
 /cklogin
 /ckpdh
 /ckys
@@ -4901,7 +4725,6 @@
 /clist
 /clitoris
 /clive
-/clj725
 /cljh
 /clo
 /Clock
@@ -5044,7 +4867,6 @@
 /clyve
 /clywd
 /cm
-/cm8430
 /cmartin
 /cmbb
 /cmd
@@ -5066,7 +4888,6 @@
 /cms/typo3
 /cms/typo3/install
 /cn
-/CNBOSS9
 /cncc
 /cnc_flashinfo
 /cnchampion
@@ -5782,7 +5603,6 @@
 /cpzs
 /cpzs2
 /cq
-/cq2sbbs001
 /cqisp
 /cqlanye
 /cqtgm
@@ -5860,7 +5680,6 @@
 /crow
 /crowbars
 /crows
-/crows2000
 /cruisetwo
 /cruzer
 /crxh
@@ -5977,7 +5796,6 @@
 /cx_model_save
 /cxpl
 /cxsort
-/cxw125
 /cxz
 /cy
 /cyb
@@ -6049,10 +5867,6 @@
 /czyd
 /czzb
 /d
-/d3001
-/d8031j
-/D8921
-/d99
 /da
 /DABIAN
 /dacaoyu
@@ -6078,7 +5892,6 @@
 /dagoreau
 /daguai
 /daguaiok
-/dahai25010
 /dahan
 /dahlia
 /dahua
@@ -6114,8 +5927,6 @@
 /dalis
 /dalit
 /dalit1
-/dalit2000
-/dalit99
 /dall
 /dallas
 /dalli
@@ -6371,7 +6182,6 @@
 /db2www
 /db51zhaopin
 /db/6k
-/db811103
 /DBAccess
 /db/active_users
 /dbase
@@ -6473,7 +6283,6 @@
 /debra
 /debug
 /Dec-32
-/dec9832
 /decca
 /december
 /deck
@@ -6504,7 +6313,6 @@
 /Deep_blue
 /deepspace
 /deer
-/deer99
 /deerdre
 /deeyn
 /def456
@@ -6526,7 +6334,6 @@
 /default3
 /default4
 /default5
-/Default5526
 /Defaultbackup
 /DEFAULT_backup
 /defaultcenter
@@ -6875,7 +6682,6 @@
 /devildog
 /deville
 /devils
-/devils2000
 /devilsnewjersey
 /devin
 /devina
@@ -6891,7 +6697,6 @@
 /devora
 /devy
 /dew
-/dew2077
 /dewain
 /dewey
 /dewie
@@ -6901,14 +6706,10 @@
 /dexinglong
 /dexter
 /deyu
-/dfde5345
-/dffe325
 /dfgdghg
-/dfghyfrt
 /dfmz
 /dfn4b
 /dfpenry
-/dfsfse276
 /dftm
 /dg
 /DG1
@@ -6917,10 +6718,8 @@
 /dg4
 /DG5
 /DG6
-/dgfdts22
 /dggsp
 /dghd1
-/dghd99
 /dghdyd
 /dghllr
 /dgjj
@@ -7075,7 +6874,6 @@
 /dipshit
 /dipta
 /dipta1
-/dipta99
 /DIQU
 /DiQu1
 /DIQU_CHK
@@ -7196,7 +6994,6 @@
 /dlad
 /DLBOY
 /dlcw
-/dleiffehssheffield
 /dlh001
 /dlion
 /dll
@@ -7359,7 +7156,6 @@
 /donelle
 /donetta
 /dong
-/dong271540911
 /dongbao8
 /dongcheng
 /dongdong
@@ -7579,9 +7375,7 @@
 /driver
 /drivers
 /drizzt
-/drmfslcd
 /drmike
-/drn2
 /drona
 /drop-shadow
 /drosen
@@ -7609,7 +7403,6 @@
 /dshell
 /dslm
 /dslr
-/dsmith7051
 /dsmw
 /dsn
 /dsnroot
@@ -7650,7 +7443,6 @@
 /duilianr
 /duilians
 /duke
-/duke99
 /dukey
 /dukie
 /duky
@@ -7746,7 +7538,6 @@
 /dxxobbs
 /dxxobbs/upload
 /dxy
-/dxycgs693
 /dy
 /dy1
 /dy2
@@ -7805,7 +7596,6 @@
 /dzyhq
 /dzzw
 /e
-/e789456
 /eachelle
 /eada
 /eadie
@@ -7857,7 +7647,6 @@
 /eb
 /eb21
 /eba
-/ebai8tvAdmin
 /ebank
 /ebankdata
 /ebba
@@ -8170,12 +7959,9 @@
 /edythe
 /ee
 /eeee
-/eeee2000
 /eeeedddd
 /eeeeee
-/eeeeee2000
 /eeeeeee
-/eeeeeeeeeeeeee
 /Eexe_function
 /efangauto
 /effects
@@ -8214,7 +8000,6 @@
 /elberta
 /elbertina
 /elbertine
-/elbows96
 /elden
 /eldin
 /eldon
@@ -8283,7 +8068,6 @@
 /ellery
 /ellette
 /elli
-/ellicullucille
 /ellie
 /elliot
 /elliott
@@ -8337,7 +8121,6 @@
 /elvis
 /elvyn
 /elway
-/elway99
 /elwayelway
 /elwayjohn
 /elwayyawle
@@ -8496,7 +8279,6 @@
 /en-us
 /en_US
 /eo
-/eod1802
 /EOF
 /eoff
 /Eofs
@@ -8591,7 +8373,6 @@
 /ernie
 /ernst
 /erny
-/erocdrahhardcore
 /eros
 /err
 /errick
@@ -8716,7 +8497,6 @@
 /evelyn
 /even
 /event
-/event42
 /ever
 /everard
 /evered
@@ -8832,7 +8612,6 @@
 /eyes
 /eyhc
 /eyhcdata
-/eyo14364
 /ezechiel
 /ezekiel
 /ezequiel
@@ -8938,7 +8717,6 @@
 /farand
 /FArea
 /fargifiction
-/fargiigraf
 /farica
 /farlay
 /farlee
@@ -8957,7 +8735,6 @@
 /farty
 /Fascinating
 /Fashion
-/fasolla
 /fast
 /fastadd
 /fastadd1
@@ -9120,8 +8897,6 @@
 /fdkj32
 /fdnews
 /fdsa
-/fdsa99
-/fdsf423
 /fdtj
 /fd_upload
 /fdvod
@@ -9235,7 +9010,6 @@
 /ferrel
 /ferrell
 /ferris
-/fes5234
 /fester
 /fetish
 /fewer
@@ -9250,9 +9024,6 @@
 /ffum
 /fg
 /fger
-/fgfdghf
-/fghytjyjjj
-/fgklb
 /fh
 /f_han
 /fhcp
@@ -9263,9 +9034,7 @@
 /fhcp_kz02
 /fhcp_ldg
 /fhcp_zjq
-/fhh3141
 /FHJ
-/fhjugjyy
 /fhsq
 /fhtz
 /fhtzinc
@@ -9275,7 +9044,6 @@
 /fianna
 /fiatuno
 /fiction
-/fiction2000
 /fictionfargi
 /fictionfiction
 /fidel
@@ -9478,7 +9246,6 @@
 /flinn
 /flint
 /flip
-/flip2000
 /FLIQHT
 /flkt
 /fll
@@ -9781,8 +9548,6 @@
 /freetextbox
 /FReferer
 /frehley
-/frehley2000
-/frehley99
 /frehleyace
 /freida
 /F_remen
@@ -9831,7 +9596,6 @@
 /froggy
 /frogs
 /from
-/from2000
 /fromurl
 /front
 /FroShell
@@ -9891,7 +9655,6 @@
 /ft_online
 /ftp
 /ftp_config
-/ftpdataMX5k17Hnh
 /ftpold
 /ftpurl
 /ftp_xajob
@@ -9901,9 +9664,6 @@
 /ft_upfile_class
 /ft_upload
 /fu
-/fu477776ck
-/fu5ck
-/fu656ck
 /Fuck
 /fuckdel
 /fucker
@@ -10051,11 +9811,7 @@
 /fzyjhcard
 /fzzl
 /g
-/g0502
 /g1
-/g16t53
-/G56ccW
-/g8220441
 /gab
 /gabbana
 /gabbey
@@ -10237,7 +9993,6 @@
 /gbook/login
 /Gbook_Show
 /gb/register
-/gbx529100
 /gc
 /gcAdmin
 /gcdfz
@@ -10246,7 +10001,6 @@
 /gczx
 /gd
 /gd1
-/gd108
 /gd2
 /gd3
 /gd4
@@ -10255,8 +10009,6 @@
 /gdwz
 /gdxw
 /gdzc
-/ge51869
-/gea598
 /gearalt
 /gearard
 /geci
@@ -10443,7 +10195,6 @@
 /gfjsq
 /GFORM
 /gfpd
-/gfrdg423
 /gfteiskkkk
 /gfwl
 /gfwow
@@ -10456,7 +10207,6 @@
 /ggfw
 /ggg
 /gggg
-/gggg99
 /gggggg
 /gg_index
 /ggivler
@@ -10474,9 +10224,6 @@
 /ggupdate
 /ggwgij
 /GGYY
-/gh345dfg
-/GH3881
-/gh9581
 /gherardo
 /ghertz
 /ghmb
@@ -10509,7 +10256,6 @@
 /giffy
 /gift
 /giftsend
-/gigacrap1
 /gigi
 /gijs
 /gil
@@ -10585,7 +10331,6 @@
 /gj3
 /gj4
 /gj5
-/gj790701
 /gj8
 /gjdm
 /gjgj
@@ -10602,7 +10347,6 @@
 /gkln
 /gktc
 /gl
-/gl0235
 /gl1
 /gl2
 /gl3
@@ -10716,7 +10460,6 @@
 /golfgolf
 /gomer
 /gong
-/gong951388
 /gongao
 /gongcheng
 /gonggao
@@ -10782,7 +10525,6 @@
 /govodurl
 /Gp_js
 /gp_right
-/gps351
 /gpxw
 /gq
 /gqgjhkzf
@@ -10910,13 +10652,11 @@
 /Grow
 /Growth
 /grphoto
-/grtx518
 /grview
 /gry
 /gryhound
 /gryok
 /gs
-/gs126116
 /Gsbbs
 /Gsbbs/countpic
 /Gsbbs/css
@@ -10947,7 +10687,6 @@
 /gs_news
 /gsok
 /gsry
-/gst5927g
 /gstupian
 /Gstyle
 /gstyy
@@ -11125,8 +10864,6 @@
 /guthry
 /gutou
 /guy
-/Guy0503001
-/guy339
 /gw
 /gwbking
 /gwdacomm
@@ -11183,10 +10920,6 @@
 /gzzs
 /h
 /h123456
-/h23087
-/h3slf
-/H4seQdsY
-/H5162
 /ha
 /haahoo
 /hab
@@ -11276,7 +11009,6 @@
 /handkq
 /handle
 /handler
-/handler99
 /handlerreldnah
 /handleyn
 /Hands
@@ -11417,12 +11149,9 @@
 /hbzk
 /hbzmtj
 /HC
-/hc0851
-/hcaeb
 /hcdl
 /hcjs
 /hcz
-/hcz100600
 /hd
 /hdsz
 /hdw
@@ -11683,7 +11412,6 @@
 /hfyzy
 /hg
 /hgf123
-/hgfjhfiyiuyo
 /hgwind
 /hgxxlf
 /hgy
@@ -11696,7 +11424,6 @@
 /hhhh00
 /hhhh0011
 /hhhh1
-/hhhh2000
 /hhhhgggg
 /hhhhh
 /hhhhhaaaaa
@@ -11769,16 +11496,9 @@
 /hj
 /hjilymiao
 /hjkl
-/hjkl00
-/hjkl2000
-/hjkl99
-/hjp123p
 /hk
-/hk1083
-/hkij99
 /hksxs
 /hl
-/hl0109
 /HL_Admin
 /hlfc
 /hlhxl
@@ -11790,7 +11510,6 @@
 /hmd
 /hmdss
 /hmhtml
-/hmilove989
 /hn
 /hnph
 /hnys
@@ -11825,7 +11544,6 @@
 /holygrail
 /home
 /home1
-/home248
 /homeapply
 /HomeDecoration
 /home_head
@@ -11991,7 +11709,6 @@
 /ht1212
 /ht9
 /ht92
-/ht984218
 /Htaccess
 /htbin
 /htcx
@@ -12045,15 +11762,11 @@
 /https-admserv/config/admpw
 /htusers
 /hu
-/hu690327
 /hua
-/hua423
-/hua788
 /huagong
 /Huagong_Nengyuan
 /huaiyong
 /huakuan
-/huan513333010
 /huanbamanage
 /huanbao
 /Huanbao_Lvhua
@@ -12118,7 +11831,6 @@
 /hunshimowang
 /hunt
 /hunter
-/hunter2000
 /hunterAdmin
 /hunterdeer
 /hunterhunter
@@ -12156,7 +11868,6 @@
 /hxyl
 /hy
 /hy1
-/hy731006
 /hyacinth
 /hyacintha
 /hyacinthe
@@ -12191,7 +11902,6 @@
 /HYK
 /HYKSET
 /HYKSETOK
-/hyl4686781
 /hy_left
 /hylist
 /hylist2
@@ -12227,7 +11937,6 @@
 /HYZH
 /hyzx
 /hz
-/hz52109
 /hzdw
 /hzdz
 /hzfeng87
@@ -12236,11 +11945,9 @@
 /hzgy
 /hzkd
 /hzt
-/hzxqq751231
 /hzysz
 /i
 /i00k
-/i5n1y2
 /iago
 /iain
 /ialone
@@ -12272,7 +11979,6 @@
 /ibill/secure
 /ibiza
 /ibrahim
-/ic289720
 /icast
 /ice
 /ICEJL
@@ -12312,8 +12018,6 @@
 /idiot
 /idrink
 /ids
-/idt58myd
-/idt6548
 /IE7
 /ieemu
 /iefidri
@@ -12347,7 +12051,6 @@
 /ignazio
 /igor
 /iiiii
-/iiiii2000
 /iiiiibbbbb
 /iiiiiiiiii
 /iiiiiqqqqq
@@ -12661,14 +12364,8 @@
 /index
 /Index_
 /index0
-/index0601
 /index1
-/index11
-/index1111111
-/Index16
 /index2
-/index20
-/Index22
 /index3
 /Index4
 /index5
@@ -13184,7 +12881,6 @@
 /ivory
 /ivu520
 /ivy
-/ivy0802
 /iwantup
 /iwatch
 /iweihai
@@ -13259,7 +12955,6 @@
 /jaimie
 /jaine
 /jake
-/jake4440
 /jakie
 /jakob
 /jam
@@ -13324,10 +13019,7 @@
 /jannelle
 /janos
 /janot
-/janssen42166
 /januari
-/januari2000
-/januari99
 /january
 /jany
 /japan
@@ -13357,7 +13049,6 @@
 /jasmina
 /jasmine
 /jason
-/jason2000
 /jasonjason
 /jasonlee
 /jasper
@@ -13372,7 +13063,6 @@
 /jaxhere
 /jay
 /Jay18birdman
-/Jay929
 /jayde
 /jayden
 /jaye
@@ -13392,8 +13082,6 @@
 /jbys
 /jc1234567cc
 /JChar
-/jcjlsd
-/jclfw190
 /jcscbannerPicture
 /jcscbannersavePicture
 /jcscnewspicPicture
@@ -13412,7 +13100,6 @@
 /jdeloss
 /jdgl
 /JDj
-/Jdm312
 /jdmuffin
 /jdpass
 /jdpic
@@ -13490,8 +13177,6 @@
 /jeno
 /jens
 /JeopardizeBRK
-/jephthah
-/jer3665
 /jerad
 /jerald
 /jeralee
@@ -13553,6 +13238,7 @@
 /jfgl
 /jfhjxx
 /jfjj01
+/jfjj02
 /jfjj03
 /jfjj04
 /jfjj05
@@ -13577,7 +13263,6 @@
 /jgqh
 /jgzn
 /jh
-/jh65371688
 /jha
 /jhat
 /JHF
@@ -13707,11 +13392,9 @@
 /jin
 /jinfengweiyu
 /jing
-/jinggong1023
 /jingjing
 /jingli
 /jinglong
-/jinglv2179226
 /jingpin
 /jingpin100
 /jingpin2
@@ -13733,9 +13416,11 @@
 /jinxed
 /JinYin
 /JINZRMB
+/JINZRMB1
 /JINZRMB2
 /JINZRMB3
 /JINZRMB4
+/JINZRMB5
 /JINZRMB6
 /jiqiao
 /jiromi
@@ -13771,7 +13456,6 @@
 /jjggeditchk
 /jjj77
 /jjjc
-/jjjjj2000
 /jjjjjj
 /jjjjjjj
 /jjjjjjjj
@@ -13827,11 +13511,6 @@
 /jkzt
 /jl
 /JL1
-/JL10
-/JL11
-/jl12
-/JL13
-/jl16
 /JL2
 /JL3
 /JL4
@@ -13840,7 +13519,6 @@
 /JL7
 /JL8
 /JL9
-/jll751112
 /JLMAIN
 /jlog
 /jlpf
@@ -13945,7 +13623,6 @@
 /jody
 /Jodyjo
 /joe
-/joe61376
 /joeann
 /JOEJET
 /joekoe_data
@@ -13978,9 +13655,6 @@
 /johannes
 /john
 /john1
-/john34
-/john610
-/john99
 /johna
 /johnath
 /johnathan
@@ -13994,7 +13668,6 @@
 /johnnhoj
 /johnnie
 /johnny
-/johnny99
 /johnnys
 /johnpe
 /johnwz
@@ -14119,7 +13792,6 @@
 /jquery
 /jqypqh
 /jr163
-/jr2000
 /JR_ban
 /jrbrown
 /jrkyzy
@@ -14129,8 +13801,6 @@
 /js01
 /JS1
 /JS2
-/js3871
-/js4628
 /jsad
 /JsAdd
 /js_Admin
@@ -14220,7 +13890,6 @@
 /jtinfo_add
 /jtnilo
 /juan
-/juan731205
 /juana
 /juanita
 /juanshou
@@ -14245,7 +13914,6 @@
 /juice
 /juices
 /juieta
-/jul2086
 /Jul-86
 /jule
 /julee
@@ -14275,7 +13943,6 @@
 /julyphil
 /jump
 /jumpad
-/jun7828763
 /june
 /junette
 /jungle
@@ -14357,9 +14024,6 @@
 /jzzjj
 /jzzjw
 /k
-/k3wl3st
-/k4hvdq
-/k8mrc2
 /ka
 /kacey
 /kacie
@@ -14407,7 +14071,6 @@
 /kamila
 /kamilah
 /kamillah
-/kanalone0214
 /kandace
 /kandy
 /kane
@@ -14634,7 +14297,6 @@
 /kenobi
 /kenon
 /kent
-/kent2440
 /kentaro
 /kenton
 /kenyon
@@ -14700,7 +14362,6 @@
 /kfuser
 /KfUserDel
 /kfxx
-/kgh8001
 /kh
 /khalil
 /khbook
@@ -14816,7 +14477,6 @@
 /kjkjkjkjk
 /kjlm
 /kjnmtl
-/kjs2583
 /kjsm
 /kjxs
 /kjzf
@@ -14826,8 +14486,6 @@
 /kkkk
 /kkkk1100
 /kkkkkk
-/kkkkkk2000
-/kkkkkk99
 /kkkkkkkk
 /kkkkkkkwwwwwww
 /kkkkkkkzzzzzzz
@@ -15015,10 +14673,6 @@
 /kz
 /l
 /l0ser
-/l1a2d3
-/l3188250
-/l4748
-/l53r
 /l888
 /la
 /Label
@@ -15093,7 +14747,6 @@
 /lainey
 /lainie
 /laird
-/laiwei790824
 /laji
 /laji_fabu
 /laker80
@@ -15383,7 +15036,6 @@
 /lela
 /lelah
 /leland
-/leland99
 /lelandleland
 /lelia
 /lelim
@@ -15522,7 +15174,6 @@
 /lfw-168
 /lg
 /LGLG
-/lgwin329
 /lgys
 /lh
 /lh127
@@ -15588,13 +15239,11 @@
 /ligu99
 /lihun
 /lihunok
-/lijun851025
 /likai
 /like
 /likeme
 /lil
 /lila
-/lilac328
 /lilah
 /lilas
 /lili
@@ -15610,7 +15259,6 @@
 /lilllie
 /lilly
 /lily
-/lily0223
 /lilyan
 /lilyfire
 /lilylee
@@ -15619,8 +15267,6 @@
 /limitword
 /limo
 /lin
-/lin1296
-/lin5512
 /lina
 /linc
 /lince2000
@@ -15819,8 +15465,6 @@
 /lita
 /littlewolf
 /liu
-/liu5920
-/liu99999
 /liubin1000
 /liucheng
 /liudehua
@@ -15842,7 +15486,6 @@
 /liuyan2
 /liuyan3
 /liuyan4
-/LIUYAN702592
 /liuyan_add
 /liuyanAndClick
 /liuyan_body
@@ -15889,9 +15532,7 @@
 /lizzie
 /lizzy
 /lj
-/lj1973
 /lj2
-/lj7200
 /ljj
 /ljjzw
 /LJMJ
@@ -15901,10 +15542,8 @@
 /lkjhgf
 /lkjhhjkl
 /lkjoiu
-/lkklK980
 /lkl
 /lks
-/ll0715
 /llbbs
 /llehcimmichell
 /llewellyn
@@ -15913,11 +15552,9 @@
 /llist
 /llksp
 /llkss
-/lll2877773
 /llll
 /lllll
 /llllll
-/llllll2000
 /llllllll
 /llllllssssss
 /lloyd
@@ -15925,12 +15562,10 @@
 /Llyj
 /llywellyn
 /lm
-/lm660922
 /lmbbs
 /lmcode
 /lmd1211
 /lmenu
-/lmiller560
 /lmlw
 /lmq
 /lngrid
@@ -16072,13 +15707,11 @@
 /lolita
 /lolitas2
 /loll
-/loll2000
 /lollhunter
 /lollllol
 /lolly
 /lolo
 /lolol
-/lolol99
 /lololroger
 /lombard
 /lon
@@ -16208,10 +15841,7 @@
 /LouPan
 /loutitia
 /love
-/love0708
 /love1
-/love1hzx
-/love2000
 /LOVEBAOWOGUAI
 /lovegj
 /love/images
@@ -16250,8 +15880,6 @@
 /loy
 /loydie
 /lpt
-/lq611
-/lq811826
 /lqblog
 /LQLQ
 /lqpp
@@ -16260,13 +15888,11 @@
 /lrsd
 /LS
 /ls72
-/lsj7993
 /lsjj
 /lssws
 /lstomel
 /lsxnfcdl
 /lt
-/lt991107
 /ltby
 /ltc123
 /LtdImg
@@ -16274,8 +15900,6 @@
 /ltop
 /ltuser
 /lu
-/lu0725
-/lu78hg4
 /luca
 /lucais
 /lucas
@@ -16294,8 +15918,6 @@
 /lucila
 /lucilia
 /lucille
-/lucille2000
-/lucille99
 /lucillelucille
 /lucina
 /lucinda
@@ -16304,8 +15926,6 @@
 /lucita
 /lucius
 /luck
-/luck1144
-/luck29
 /LuckVip
 /lucky
 /lucky7
@@ -16344,7 +15964,6 @@
 /Luntan_Shequ
 /luo
 /luo76
-/luojian3994329
 /lura
 /lurette
 /lurleen
@@ -16364,7 +15983,6 @@
 /LvGu
 /Lvhua_Huanbao
 /lv_image
-/lvquan7468
 /lvstar
 /lvyou
 /lvyouchuxing
@@ -16378,7 +15996,6 @@
 /lwj4
 /lwj5
 /lwj6
-/lwj812
 /Lw_reg
 /lws
 /lw_topic
@@ -16394,10 +16011,8 @@
 /lxshjia
 /lxwm
 /lxwomen
-/LXY39670127
 /lxyz
 /lxyzh
-/lxz6570
 /ly
 /lya66
 /lyb
@@ -16447,7 +16062,6 @@
 /lynnette
 /lynsey
 /lyon
-/lyq63513162
 /lyrics
 /lyshow
 /lyssa
@@ -16468,12 +16082,8 @@
 /lzz
 /m
 /m01
-/m079880j
 /m1
-/m137103441
 /m2
-/M32951
-/M5p31b
 /ma
 /maa
 /mab
@@ -16647,7 +16257,6 @@
 /maje
 /majiang
 /major
-/majun645
 /make
 /make_all
 /makeall
@@ -17120,7 +16729,6 @@
 /masker90
 /mason
 /massage
-/massimiliano
 /massimo
 /massSend
 /master
@@ -17500,7 +17108,6 @@
 /member_view_house
 /memblock
 /memcp
-/memfavMX5k17Hnh
 /memfile
 /memfriend
 /memgl
@@ -17633,7 +17240,6 @@
 /metoo
 /metropolitan
 /meyer
-/mf4531
 /mfdgjmy
 /MF_Function
 /mfimg
@@ -17668,7 +17274,6 @@
 /micaela
 /micah
 /michael
-/michael1969
 /michaela
 /michaelc
 /michaelina
@@ -17678,7 +17283,6 @@
 /michal
 /michale
 /micheal
-/micheal2000
 /michealmicheal
 /micheil
 /michel
@@ -17718,8 +17322,6 @@
 /mikael
 /mikaela
 /mike
-/mike53
-/Mikeb265
 /mikekowa
 /mikel
 /mikey
@@ -17843,8 +17445,6 @@
 /miyata
 /mj
 /mj2dyh
-/MJay4386
-/mjb1969
 /mjfreek
 /mjsxb
 /mjsxs
@@ -18033,11 +17633,8 @@
 /MONEY3
 /MONEY4
 /MONEY5
-/MONEY51
 /money6
-/MONEY61
 /MONEY7
-/MONEY71
 /MONEY8
 /MONEY9
 /money_install
@@ -18183,7 +17780,6 @@
 /mozes
 /mp
 /mp1
-/MP118
 /mp2
 /mp3
 /mp4
@@ -18204,9 +17800,7 @@
 /mpopen1ok
 /mprint
 /mq
-/mqb8881530
 /mqhx
-/mr08171
 /mrbill
 /mrcai
 /mrenyche
@@ -18221,7 +17815,6 @@
 /mrtg
 /mrywebCount
 /ms
-/ms6163
 /Ms-admin
 /msaorao
 /msclass
@@ -18432,7 +18025,6 @@
 /myemail
 /myer
 /myexpo
-/myf7501
 /MYFACE
 /MyFav
 /MyFavorite
@@ -18612,10 +18204,6 @@
 /mzwc
 /mzxiaozi
 /n
-/n1va1h
-/N2z95f
-/n3xnutue
-/n54jr7
 /na1234
 /nabert
 /nabl
@@ -18672,7 +18260,6 @@
 /nappie
 /nappy
 /nara
-/narf123h
 /nari
 /nariko
 /nascar
@@ -18687,7 +18274,6 @@
 /natale
 /natalee
 /natalia
-/natalia2000
 /natalie
 /natalina
 /nataline
@@ -18722,7 +18308,6 @@
 /nbnbnb
 /nbvcx
 /nbvcxw
-/ncc1701e
 /Nclass
 /ncloveyl
 /ncslarry
@@ -18735,7 +18320,6 @@
 /nealon
 /nealson
 /nealy
-/neck0497
 /necklace
 /necnec
 /ned
@@ -19137,11 +18721,9 @@
 /nggl
 /nggl2
 /ng_mo
-/nh431869
 /nhhhhh
 /nhoj
 /nhvh
-/ni853967
 /nial
 /niall
 /niancianrun
@@ -19153,7 +18735,6 @@
 /nicholle
 /nichols
 /nick
-/nickb829
 /nickey
 /nicki
 /nickie
@@ -19184,7 +18765,6 @@
 /nigger
 /night
 /NightLife
-/nijia3202
 /nikaniki
 /nike
 /niki
@@ -19210,7 +18790,6 @@
 /nimh
 /nimitz
 /nina
-/nina94
 /ninetta
 /ninette
 /ningbo
@@ -19234,7 +18813,6 @@
 /nixie
 /nj
 /nj8888
-/njb34
 /NJ_BroadCast
 /NJ_Category
 /njea
@@ -19252,10 +18830,8 @@
 /nmq
 /nnam
 /nnnnnn
-/nnnnnn99
 /nnnnnnnmmmmmmm
 /nnnnnnnnnnnn
-/nnnnnnnnnnnnnn
 /nnoc
 /nnt008
 /no
@@ -19285,7 +18861,6 @@
 /noellyn
 /noelyn
 /noemi
-/nogo487
 /nogueira
 /nokia
 /nola
@@ -19452,7 +19027,6 @@
 /nyys
 /nzj
 /o
-/o02tenc
 /oa
 /OAB
 /oa/fckeditor
@@ -19474,20 +19048,14 @@
 /objectSwap
 /oblog
 /oblog002
-/oblog0029
-/oblog0031
-/oblog0038
-/oblog0039
 /oblog005
 /oblog006
 /oblog008
-/oblog31
 /oblog4
 /oblogResponse
 /oBlogStyle
 /OblogStyleAdminImages
 /Oblue_by_BeOK_net
-/obmijjimbo
 /obnoxiou
 /obnoxious
 /oboy
@@ -19537,7 +19105,6 @@
 /offerlist
 /office
 /Office
-/office2000
 /Office3D
 /OfficeDoc
 /OfficeFile
@@ -19676,11 +19243,8 @@
 /oodood
 /oona
 /oooo
-/ooooo2000
 /oooooo
 /oooooo1
-/oooooo2000
-/oooooo99
 /oooooooo
 /ooooooooo
 /oooooooooo
@@ -19859,7 +19423,6 @@
 /other
 /Other
 /other_image
-/OtherJobOfCompany
 /other_manage
 /other_pay
 /Other_Public
@@ -19870,8 +19433,6 @@
 /otho
 /otis
 /otiscat
-/ottawaawatto
-/ottawaottawa
 /ottilie
 /otto
 /Otype
@@ -19920,7 +19481,6 @@
 /ozzy
 /p
 /p0
-/p0o9i8
 /p1
 /p2
 /p2p
@@ -19929,15 +19489,12 @@
 /P2P_4
 /P2P_5
 /P2P_8
-/p8p2j5j
 /pa
 /pablo
-/paboajuma
 /pace
 /pacers
 /pack
 /packard
-/packard2000
 /packman
 /packston
 /paco
@@ -19978,7 +19535,6 @@
 /Pages_DoPages
 /Page_SetHL
 /Page_Start
-/Pages_ZhiDuanShowModify
 /Page_top
 /PageTop
 /Page_UrlEdit
@@ -20080,9 +19636,7 @@
 /pasquale
 /pass
 /pass1
-/pass1821
 /pass2
-/pass580
 /passAdmin
 /passcfg
 /PASSCHK
@@ -20171,7 +19725,6 @@
 /pay2
 /pay_3
 /pay_4
-/pay99bill
 /pay_alipay
 /pay_bank
 /pay_boardlimited
@@ -20195,9 +19748,6 @@
 /payreceive
 /PayResult
 /PayResult1
-/PayResult11
-/PayResult12
-/PayResult13
 /PayResult2
 /PayResult3
 /PayResult4
@@ -20206,6 +19756,7 @@
 /PayResult7
 /PayResult8
 /PayResult9
+/PayResult0
 /PayResultAutoRecive
 /pay_return_emoney
 /pay_return_shop
@@ -20225,7 +19776,6 @@
 /PBLog2
 /PBLog3
 /pbserver
-/pbx40
 /pccsmysqladm
 /pcimages
 /pclass
@@ -20265,7 +19815,6 @@
 /pedit
 /pedit1
 /pedro
-/pedro2000
 /pedropedro
 /peek
 /peekaboo
@@ -20431,11 +19980,9 @@
 /person_notebook
 /Person_OutSendResume
 /PersonPhotoList
-/PersonPhotoListqqqqqqqqqq
 /person_reg
 /PersonReg
 /person_register
-/person_register3
 /persons
 /persons1
 /Person_Searcher
@@ -20594,6 +20141,7 @@
 /php_Admin
 /php/admin/login
 /PHPBB
+/PHPBB1
 /PHPBB2
 /PHPBB3
 /php-bin
@@ -20720,7 +20268,6 @@
 /pink
 /pinkies
 /pinks
-/pinks2000
 /pinky
 /pinlun
 /pinned
@@ -20779,9 +20326,7 @@
 /play
 /play0
 /play1
-/play10
-/PLAY2
-/play22
+/play2
 /play3
 /Play360Show
 /play4
@@ -20841,7 +20386,6 @@
 /Plus
 /plus_add
 /PlusAdd
-/plus_ads265
 /plus_adsali
 /plus_ccvideo
 /plus_check
@@ -20888,9 +20432,6 @@
 /poison
 /poiuy
 /poiuytrewq
-/poiuytrewq2000
-/poiuytrewqpoiuytrewq
-/poiuytrewqqwertyuiop
 /pojken
 /pokey
 /pokgfv
@@ -20916,7 +20457,6 @@
 /polo
 /polopolo
 /pond123
-/ponkylai790824
 /pooh
 /pookie
 /poop
@@ -21043,11 +20583,9 @@
 /ppmate
 /ppp
 /pppp
-/pppp99
 /ppppp
 /ppppp1
 /pppppp
-/pppppp99
 /ppppppp1
 /pppppppppp
 /PPS
@@ -21069,7 +20607,6 @@
 /pradeep
 /Prairie
 /pratt
-/pratt2000
 /prattpratt
 /prd
 /prdifram
@@ -21421,20 +20958,16 @@
 /pyzj
 /PZ
 /pzhen
-/pzx0918
 /q
-/q01258
 /q1
 /q1q1
 /q1w2e3
 /q1w2e3r4
 /q2
-/q408920
 /qapmoc
 /qaz123
 /qazqaz
 /qazwsx
-/qbj6723
 /qbsamd
 /QC
 /qcfile
@@ -21464,9 +20997,7 @@
 /QGZH
 /QHJ
 /qi
-/qi1056ng
 /qian
-/qian31089
 /qian76
 /qianzhenhua
 /qiao
@@ -21482,7 +21013,6 @@
 /Qigong
 /qihongkk
 /qihoo
-/qin7633
 /qinchuan1
 /qing
 /qingchen
@@ -21533,7 +21063,6 @@
 /qpxxDef
 /qq
 /qq530
-/qq848456042/qq848456042/mdb
 /QQ_Act
 /qqadd
 /qqadd1
@@ -21553,7 +21082,6 @@
 /qqOline
 /QQonline
 /qqqq
-/qqqq2000
 /qq/qq/mdb
 /qqqqq
 /qqqsky
@@ -21603,7 +21131,6 @@
 /questionmod
 /quick
 /quick1
-/quick99
 /QuickPublishJobs
 /QuickPublishJobschk
 /QuickWrite
@@ -21625,15 +21152,11 @@
 /quixote
 /quyu
 /Qvod
-/qw7737
 /qwe
 /qwe123
-/qwe12300
-/qwe3581295
 /qwer
 /qwer321
 /qwert
-/qwert5233
 /qwerty
 /qwp
 /qwpad
@@ -21651,7 +21174,6 @@
 /Qybz
 /qydiqu
 /qyfc
-/qyj1744200
 /qyjj
 /qyjmtx
 /qyjs
@@ -21659,7 +21181,6 @@
 /qyright
 /qyxw
 /qyz12345
-/qyz1975
 /qyzz
 /qz
 /qzgrs
@@ -21668,11 +21189,9 @@
 /qz_view
 /qzxdc
 /r
-/r30087008
 /R3v59p
 /r4e3w2q1
 /r4e3w2q11q2w3e4r
-/r4e3w2q12000
 /rab
 /rabbi
 /rabbit
@@ -21763,7 +21282,6 @@
 /randy
 /ranee
 /ranger
-/rangers2000
 /rangwei
 /rangweiok
 /rani
@@ -21813,7 +21331,6 @@
 /raynor
 /RayPost
 /rayshell
-/rb6903sh
 /rbmx
 /rc
 /rcdel
@@ -21866,7 +21383,6 @@
 /READVIEW
 /readvote
 /reagan
-/reagan2000
 /reagannagaer
 /reaganreagan
 /reagen
@@ -21917,7 +21433,6 @@
 /record
 /records
 /RecordSearch
-/recordTOgbCK7Qf
 /RecoverPassword
 /recruit
 /recruitInfo
@@ -22301,7 +21816,6 @@
 /richart
 /richgirl
 /richie
-/richie2000
 /richimg
 /richinfl
 /richmond
@@ -22311,7 +21825,6 @@
 /rick
 /rick007
 /rick1
-/rick8777
 /rickard
 /rickert
 /rickey
@@ -22343,7 +21856,6 @@
 /rina
 /rinaldo
 /ring
-/ring2000
 /ringilul
 /ringo
 /ringring
@@ -22373,7 +21885,6 @@
 /RJ_DiaryList
 /RJ_DiaryShow
 /RJ_DiaryUpdate
-/rjioe339
 /rjjw
 /RJ_Update
 /rjwl
@@ -22381,7 +21892,6 @@
 /rks
 /rksq
 /rl
-/rl740812
 /rlogo
 /rlzy
 /rm
@@ -22443,7 +21953,6 @@
 /rochester
 /rochette
 /rock
-/rock99
 /rocker
 /rocket
 /rockets
@@ -22478,7 +21987,6 @@
 /rodrique
 /rodsg
 /rog
-/roge0866
 /roger
 /rogerio
 /rogerregor
@@ -22595,8 +22103,6 @@
 /rosemaria
 /rosemarie
 /rosemary
-/rosemary2000
-/rosemary99
 /rosemonde
 /rosene
 /rosetta
@@ -22671,7 +22177,6 @@
 /rryy
 /rs
 /rsd
-/rse2540
 /rsfe
 /rsh
 /rsho
@@ -22758,7 +22263,6 @@
 /rutabega
 /rutger
 /ruth
-/Ruth6199
 /ruthann
 /ruthanne
 /ruthe
@@ -22806,13 +22310,9 @@
 /rzwc
 /rzzmy
 /s
-/s03510351
 /s0ice
-/s1230456
-/s124519532
 /s13wolf
 /s250
-/S62i93
 /s90
 /sa
 /saba
@@ -22909,8 +22409,6 @@
 /samerot
 /Samesex
 /sami
-/sami529
-/samj
 /sammie
 /sammy
 /sammy1
@@ -23391,7 +22889,6 @@
 /searchinfo
 /searchinfo1
 /searchinfo2
-/searchinfo_99
 /SearchJob
 /SearchJobkey
 /Search_Jobs
@@ -23756,7 +23253,6 @@
 /sex112
 /sex2
 /sex4show
-/sex53192
 /sex99
 /SexandHy
 /SexBd
@@ -23780,18 +23276,14 @@
 /sfoster
 /SF_Sql
 /sfx12
-/sg22859
 /sgadrian
-/sgi4501
 /sgi_binsystems
 /sgi_bin/systems/login
 /sgls
 /sgmtj
 /SGOU
 /sgsn
-/sgt96870
 /sh
-/sh12149
 /sha1
 /shade
 /shader
@@ -23866,7 +23358,6 @@
 /shanxijy
 /shanxilongxin
 /shao
-/shao0407
 /Shaolian_Ertong
 /shaonian_ertong
 /shaonuff
@@ -24025,7 +23516,6 @@
 /shhutupian
 /shhuxx
 /shi
-/shi127757
 /shiaiq
 /shichan
 /shichangdom
@@ -24089,7 +23579,6 @@
 /shooting
 /shop
 /shop1
-/shop99
 /shopa
 /shop_addpro
 /shopadmin
@@ -24349,7 +23838,6 @@
 /showweb
 /showwish
 /ShowXml
-/show_xydjw
 /showzj
 /show_zxzx
 /sh_print
@@ -24385,7 +23873,6 @@
 /SHUSHEN
 /shusheng
 /shuxiang
-/shuyu667
 /shuziren
 /shxitw
 /shxshrhw
@@ -24566,7 +24053,6 @@
 /sjyh
 /sjz
 /sk
-/sk1207
 /skantz
 /Sk_CleanCache
 /Sk_Collection
@@ -24718,7 +24204,6 @@
 /Sk_ItemFilters
 /Sk_ItemHistroly
 /skl
-/skly41380
 /sknahtthanks
 /sknippinks
 /skrunt
@@ -24737,14 +24222,12 @@
 /slam
 /slamdunk
 /slap
-/slap2000
 /slappy
 /slapshot
 /slasher
 /slave
 /slavescu
 /slayer
-/slb007
 /slbj
 /sld
 /sldm
@@ -24761,15 +24244,12 @@
 /slocombe
 /s_login
 /slowly
-/slp3996
 /slsps
 /slut
-/slut543
 /sluts
 /sly
 /slys
 /sm
-/sm1011
 /smada
 /small
 /smallbar
@@ -24806,11 +24286,9 @@
 /smith
 /smiths
 /smitty
-/smj0803
 /s_mod
 /smokey
 /smooth
-/smooth99
 /smoothsmooth
 /sms
 /smshelp
@@ -24833,12 +24311,11 @@
 /snep
 /sngx
 /snide
-/sniper773
+/sniper
 /snld
 /snmp
 /snoopy
 /snow
-/snow0617
 /snowdream
 /snowing
 /snowy
@@ -24911,7 +24388,6 @@
 /sondra
 /so_news
 /song
-/song1976
 /song_add
 /songci
 /song_edit
@@ -24975,7 +24451,6 @@
 /sox
 /soya
 /sp
-/sp02182
 /Space
 /spaceAdmin
 /spaceapply
@@ -25088,7 +24563,6 @@
 /spenser
 /spflash
 /spice
-/spicey2000
 /spiceyyecips
 /spicy
 /spider
@@ -25197,8 +24671,6 @@
 /ssss
 /sssss
 /ssssss
-/ssssss2000
-/ssssss99
 /ssssssllllll
 /sssssss
 /ssssssss
@@ -25208,7 +24680,6 @@
 /ssxf
 /sszy
 /st8comcnpay
-/sta327
 /stace
 /stacee
 /stacey
@@ -25514,7 +24985,6 @@
 /sucks
 /sucksmilk
 /suckthem
-/sucky2000
 /sucram
 /sudden
 /sue
@@ -25539,14 +25009,12 @@
 /sun
 /sun0
 /sun113
-/sun212806
 /sunday
 /sunfish_world
 /sungod26
 /sunhonglei
 /sunmail
 /sunny
-/sunny511
 /sunray
 /sunrise
 /sunshine
@@ -25557,7 +25025,6 @@
 /sunyi1
 /super
 /super1
-/super836
 /superadmin
 /Super-Admin
 /superdel
@@ -25619,7 +25086,6 @@
 /sven
 /svend
 /sw
-/sw350296
 /swbltm
 /swcl
 /swcl2
@@ -25684,14 +25150,12 @@
 /sxzltl
 /sxzzfdc
 /sy
-/sy4412
 /sybil
 /sybila
 /sybilla
 /sybille
 /sybyl
 /syd
-/syd567
 /sydel
 /sydelle
 /sydemon
@@ -25757,7 +25221,6 @@
 /sys_cfg
 /SysCheckVer
 /syscode
-/syscode1
 /syscode_Article
 /Syscode_Book
 /Syscode_Corpus
@@ -25915,7 +25378,6 @@
 /sz
 /szbi
 /szdlsoft
-/szp7914
 /szta
 /sztx168
 /szwc
@@ -25925,13 +25387,10 @@
 /szy
 /t
 /T1
-/t19660428
-/t2518
 /T_39
 /T_40
 /T_41
 /T_42
-/T42n85
 /T_44
 /tab
 /tabatha
@@ -25968,8 +25427,6 @@
 /tades
 /tadio
 /tadlock
-/tadlock2000
-/tadlock99
 /t_Admin
 /taff
 /taffy
@@ -26024,7 +25481,6 @@
 /tamarah
 /tamarra
 /tamas
-/tamas99
 /tame
 /tamera
 /tami
@@ -26037,7 +25493,6 @@
 /tamqrah
 /tamra
 /tan
-/tan1088
 /tana
 /tandi
 /tandie
@@ -26068,9 +25523,6 @@
 /target
 /tarheels
 /tarot
-/tarot34
-/tarot5
-/tarot6
 /tarra
 /tarrah
 /tarrance
@@ -26216,10 +25668,6 @@
 /Templateupload
 /temple
 /temple1
-/temple10
-/temple11
-/temple12
-/temple13
 /temple2
 /temple3
 /temple4
@@ -26345,8 +25793,6 @@
 /tfot_tp
 /tg
 /tg20_cn_cj
-/tg300
-/tgrose3327
 /tgview
 /th
 /thacher
@@ -26362,7 +25808,6 @@
 /thanatos
 /thane
 /thanh
-/thanks2000
 /thatboddie
 /thatch
 /thatcher
@@ -26424,7 +25869,6 @@
 /thom
 /thoma
 /thomas
-/THOMAS52
 /thomasa
 /thomasin
 /thomasina
@@ -26458,8 +25902,6 @@
 /thurstan
 /thurston
 /thuy
-/thx1138
-/thymewise050113
 /ti
 /tian
 /tiandiyuan
@@ -26502,15 +25944,12 @@
 /tiffie
 /tiffy
 /tiger
-/tiger1053
-/tiger789
 /tigermain
 /tigerrun
 /tigers
 /tigerwin
 /tigger
 /tight
-/tight2000
 /tightass
 /tights
 /tighttight
@@ -26546,7 +25985,6 @@
 /timotheus
 /timothy
 /tina
-/tina270176
 /tIndex
 /tine
 /ting
@@ -26626,7 +26064,6 @@
 /tkila
 /Tkl_TemplateClass
 /TL
-/tl6012
 /tlc12
 /tless13high
 /tll
@@ -26641,7 +26078,6 @@
 /tmp/htusers
 /tmp_post
 /t_msg
-/tn7292
 /tneeson
 /tnsjr1
 /tntn
@@ -26660,7 +26096,6 @@
 /tobye
 /tod
 /today
-/today2000
 /todaynewinfo
 /todaynewinfo_bak
 /todd
@@ -26717,9 +26152,6 @@
 /toni_purple
 /tonnie
 /tony
-/tony12
-/tony4
-/tony45
 /tonya
 /tonye
 /too
@@ -26756,7 +26188,6 @@
 /top10
 /top11
 /top12
-/top123
 /TOP13
 /TOP14
 /TOP15
@@ -26769,16 +26200,10 @@
 /top1_wai
 /top-2
 /top2
-/TOP20
-/TOP21
-/TOP22
 /top2_zhaopin
 /TOP3
 /top3_renli
 /TOP4
-/TOP47
-/TOP48
-/TOP49
 /top5
 /TOP50
 /top6
@@ -26905,15 +26330,7 @@
 /toyota
 /toyota91
 /tp
-/tp03
 /tp1
-/tp10
-/tp11
-/tp12
-/tp13
-/tp14
-/tp15
-/tp16
 /tp2
 /tp3
 /tp4
@@ -26980,7 +26397,6 @@
 /trainshow
 /trang
 /trans
-/trans0
 /transData
 /transexual
 /TransferPhoto
@@ -27024,8 +26440,6 @@
 /treat
 /tree
 /treech
-/treech2000
-/treech99
 /treechbissjop
 /treedisplay
 /TreeGuide
@@ -27057,19 +26471,16 @@
 /trick
 /tricky
 /trickydick
-/trickydick69
 /trider1
 /triderredirt
 /trieu
 /triko
 /trina
-/trio989
 /trip
 /tripp
 /tris
 /trish
 /trisha
-/Trissy3624
 /trista
 /tristam
 /tristan
@@ -27126,9 +26537,7 @@
 /ttt
 /tttt
 /ttttt
-/ttttt99
 /tttttt
-/tttttt99
 /tttttttt
 /tttttttttttttttt
 /tttyy
@@ -27271,7 +26680,6 @@
 /type
 /type1
 /type2
-/Type21
 /typecontent
 /typeedit
 /typeid
@@ -27290,11 +26698,7 @@
 /tyrus
 /tyshhf19
 /tyson
-/tyson99
 /tysontyson
-/tyszb
-/tytggc
-/tyuio
 /tywj
 /tz
 /tzcy
@@ -27303,7 +26707,6 @@
 /tzjw
 /tzxm
 /u
-/u0131sa
 /u69
 /u69Control
 /u69_gg
@@ -27672,13 +27075,9 @@
 /user09
 /User1
 /user10
-/user11
-/user12
 /user2
 /user_3
 /user3
-/user888
-/user9051
 /useraccess
 /user_action
 /user_add
@@ -28059,8 +27458,6 @@
 /usravatars
 /usrcheck
 /usrs
-/usrTOgbCK7Qf
-/ustb4213
 /uta
 /Utg
 /Util
@@ -28077,8 +27474,6 @@
 /uyuyu
 /Uzzyzzy
 /v
-/v31img
-/v639
 /VaBrett
 /vachel
 /vaclav
@@ -28300,7 +27695,6 @@
 /View_Work
 /view_zjuser
 /viki
-/viki7783
 /viking
 /vikings
 /vikki
@@ -28344,7 +27738,6 @@
 /vipdyj
 /viper
 /viper1
-/viper199
 /vip_err
 /VipExplain
 /VipFee
@@ -28385,7 +27778,6 @@
 /visa
 /vision
 /Visit
-/visit2000
 /Visit_AreaStatistic
 /Visit_DaysStatistic
 /Visit_HoursStatistic
@@ -28496,7 +27888,6 @@
 /vr
 /VREG1
 /VREG3
-/vrf565
 /vr_url
 /VS_Class
 /V_Server
@@ -28511,7 +27902,6 @@
 /VT_F_S
 /VT_Page
 /vvvv
-/vvvvv2000
 /vvvvvppppp
 /vvvvvv
 /vvvvvvffffff
@@ -28539,7 +27929,6 @@
 /wait
 /waite
 /waiter
-/waiter42
 /waiting
 /wajx
 /wake
@@ -28652,7 +28041,6 @@
 /wdc_T
 /wdmmwdmm
 /wdmzszq
-/wdnnis78
 /wdq
 /wdqs1
 /wdxc
@@ -28924,8 +28312,6 @@
 /wheat
 /wheeler
 /whftkj
-/whh70306
-/whh7754
 /whhfl
 /whhhtx
 /whisky
@@ -29001,8 +28387,6 @@
 /willow
 /willxy
 /willy
-/willy57
-/willy59
 /willyt
 /wilma
 /wilmar
@@ -29087,7 +28471,6 @@
 /wjj
 /wjy
 /wl
-/wl30216
 /wlaq
 /wlDef
 /wlfw
@@ -29096,7 +28479,6 @@
 /wlkw
 /wlm
 /wls
-/wlt325
 /wlxj
 /wlxx
 /wlynz
@@ -29251,13 +28633,10 @@
 /wuwuwu
 /wuxia
 /wuxifanyi
-/wuyan1976
 /wuyue
-/wuyy9700
 /wuzzy
 /ww678j
 /wwjcc
-/wwp203
 /www
 /www1
 /www123
@@ -29370,7 +28749,6 @@
 /Xhjy
 /xhl
 /xh_login
-/xhn1104
 /xhny
 /xhome
 /xhou
@@ -29449,7 +28827,6 @@
 /xj
 /xjby
 /xjl
-/xjy6721
 /xjzb
 /xk
 /xkemy
@@ -29475,7 +28852,6 @@
 /xlwupin
 /xlyd
 /xm
-/xm1123
 /XMAS
 /xmhcb
 /x_MIMA
@@ -29495,7 +28871,6 @@
 /xmyxmy
 /xnejx
 /xnex
-/xnq962129
 /Xp
 /xp2
 /xpay
@@ -29509,7 +28884,6 @@
 /xqfs
 /xrf
 /xs
-/xs015
 /xsd
 /xslly
 /xslt
@@ -29521,7 +28895,6 @@
 /xswl
 /xsxw
 /XtAdmin
-/xtf617
 /xthemes
 /xtkj
 /xtkm
@@ -29530,7 +28903,6 @@
 /xtwh
 /xtz
 /xu
-/xu2000
 /xucenyen
 /xue
 /XUELI
@@ -29593,8 +28965,6 @@
 /xxyy
 /xxzheng
 /xy
-/xy0109
-/xy7705
 /xyAdminedit
 /xyan
 /xybook
@@ -29642,7 +29012,6 @@
 /yabiao
 /yadottoday
 /yahoo
-/yaj129
 /yalanshi
 /yale
 /yalonda
@@ -29698,7 +29067,6 @@
 /ybkc
 /ybxygy
 /yc
-/ycc1977
 /ycl
 /ycskin
 /ycxche
@@ -29710,7 +29078,6 @@
 /yddad
 /ydfs
 /ydts
-/ydx9317
 /ydxcj
 /ydxy
 /ydyd
@@ -29742,7 +29109,6 @@
 /YeWuShow
 /YeWu_Upd
 /YeWuXuFei
-/yf315606
 /yfdai1
 /yfne
 /ygeshou
@@ -29794,11 +29160,8 @@
 /yjjb
 /yjjy
 /yjk
-/yjm1731
 /ykcussucky
 /yl
-/yl790307
-/yl889900
 /ylbz
 /yld
 /yldok
@@ -29839,7 +29202,6 @@
 /yoda
 /yogesh
 /yogesh1
-/yogesh2000
 /yogeshhsegoy
 /yoko
 /yolanda
@@ -29940,7 +29302,6 @@
 /yudong
 /yue
 /yue1
-/yue189
 /yueerwan
 /yuejlok
 /yuelao
@@ -29993,7 +29354,6 @@
 /yxs
 /yxwl
 /yy
-/yy5520
 /yycf
 /yyms
 /yynbb
@@ -30007,8 +29367,6 @@
 /yyyy
 /yyyyy
 /yyyyyy
-/yyyyyy2000
-/yyyyyy99
 /yyyyyyjjjjjj
 /yyzht
 /yz
@@ -30070,7 +29428,6 @@
 /zbjl_show
 /Z-Blog
 /zbok
-/zbw1108
 /zbyajing
 /zc
 /zcadd
@@ -30139,7 +29496,6 @@
 /zero
 /ZETA
 /zf
-/zf1020
 /zf11
 /zf11_check
 /zf11_GetCode
@@ -30163,7 +29519,6 @@
 /zgzkw
 /zgzm
 /zh
-/zh1024
 /zhaijia520
 /ZhaiShou
 /zhang
@@ -30184,14 +29539,12 @@
 /zhanshi
 /zhanshou
 /zhao
-/zhao454473625
 /zhaojing
 /zhaomeng
 /zhaopin
 /ZhaopinComNet
 /zhaopin_list
 /zhaoshengxinxi
-/zhb40232
 /zhchaxun
 /zh-cn
 /zh_cn
@@ -30209,8 +29562,6 @@
 /zhg
 /zhgkj
 /zhh
-/zhh1127
-/zhh508
 /zh-HK
 /zhichuang
 /zhidao
@@ -30285,7 +29636,6 @@
 /zhx
 /zhxw
 /zhy
-/zhy1024
 /zhyx
 /zhz
 /zhzh
@@ -30313,14 +29663,12 @@
 /ziyuan
 /zj
 /zjfj
-/zjh129
 /ZJHD
 /ZJHLLR
 /zjhzjh
 /zjiuling
 /zjjm
 /zjjs
-/zjl523
 /zjlds
 /zjlist
 /ZjMore
@@ -30329,7 +29677,6 @@
 /zj_up
 /zjwz
 /zjxh
-/zjy650408
 /zjyzjy
 /zjzz
 /zkcf
@@ -30407,9 +29754,6 @@
 /zrqd
 /zrspws
 /zs
-/zs1
-/zs1731
-/zs25762525
 /zsa
 /zsazsa
 /zsh
@@ -30417,12 +29761,10 @@
 /zskc
 /zsok
 /zstt
-/zsz6990
 /zt
 /zt1
 /zt2
 /ztbb
-/ztbbs10sp1
 /ztbd
 /ztcrxh
 /zthf
@@ -30433,7 +29775,6 @@
 /zujian
 /zulema
 /zulu
-/zulu44
 /zuobingzhanshi
 /zuo_member
 /zuopin
@@ -30449,22 +29790,14 @@
 /zuzhistart
 /zuzt
 /z_visual_upfile
-/zw0126
 /zwd
-/zwm711
 /zwzwzw
 /zx
-/zx1003
 /zx2
 /zxbm
 /zxc
 /zxc001
 /zxc002
-/zxc005
-/zxc007
-/zxc009
-/zxc010
-/zxc012
 /zxc51marry
 /zxcv
 /zxcvb
@@ -30493,7 +29826,6 @@
 /zxtbj
 /zxtj
 /zxxs
-/zxy7078
 /zxyyxz
 /zxzc
 /zxzp
@@ -30501,9 +29833,6 @@
 /zxzxzx
 /zxzxzx1
 /zy
-/zy1031
-/zy7806
-/zya1229
 /zyadmin
 /zyb
 /zycp
@@ -30517,16 +29846,13 @@
 /zyt0521
 /zytl
 /zyttx
-/zyw200000
 /zyyw
 /zyzx
 /zyzy
 /zyzz
 /zz
-/zzf49438
 /zz_fafang
 /zzhm
-/zzj2223446
 /zzjg
 /zzly
 /zznc
@@ -30540,14 +29866,10 @@
 /zzzzz
 /zzzzzz
 /zzzzzz1
-/zzzzzz2000
 /zzzzzzz
-/zzzzzzz2000
-/zzzzzzz99
 /zzzzzzzccccccc
 /zzzzzzzjjjjjjj
 /zzzzzzzkkkkkkk
 /zzzzzzzz
-/zzzzzzzz2000
 /zzzzzzzzzzzz
 /zzzzzzzzzzzzzz

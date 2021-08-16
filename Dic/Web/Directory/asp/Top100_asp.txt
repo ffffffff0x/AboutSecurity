@@ -21,7 +21,6 @@
 /news_view.asp
 /admin/index.asp
 /products.asp
-/nzcmslistnews.asp
 /read.asp
 /index1.asp
 /detail.asp
@@ -43,7 +42,6 @@
 /pic.asp
 /newsDetail.asp
 /job.asp
-/JBRCMS/Manager/jbrUploadConfig.asp
 /newsinfo.asp
 /newsbrow.asp
 /newsview.asp
