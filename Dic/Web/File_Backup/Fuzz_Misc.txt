@@ -641,7 +641,6 @@
 2018.tar.gz
 2018.tgz
 2018.zip
-2phpmyadmin/
 3.php
 4.php
 5.php
@@ -652,7 +651,6 @@
 8899.php
 9.php
 9678.php
-\..\..\..\..\..\..\..\..\..\etc\passwd
 _.htpasswd
 __admin
 __cache/
@@ -706,7 +704,6 @@ _logs/err.log
 _logs/error-log
 _logs/error.log
 _logs/error_log
-_LPHPMYADMIN/
 _mmServerScripts/
 _mmServerScripts/MMHTTPDB.asp
 _mmServerScripts/MMHTTPDB.php

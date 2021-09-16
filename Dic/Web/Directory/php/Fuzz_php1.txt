@@ -6131,7 +6131,6 @@
 /dlceshop/myship.php
 /dlog_db.php
 /dl.php
-/dlslbbs/phpmyadmin/index.php
 /dminadduser.php
 /dmonton.php
 /dm.php
@@ -7034,7 +7033,6 @@
 /evonshire.php
 /ev.php
 /evres.php
-/evslbbs/phpmyadmin/index.php
 /ewardpeninsula.php
 /ewark.php
 /ewbritain.php
@@ -7504,7 +7502,6 @@
 /flynn.php
 /fly.php
 /fm.php
-/fnisphpmyadmin/index.php
 /fn.php
 /foam.php
 /focke.php
@@ -8297,7 +8294,6 @@
 /guntis.php
 /guo.php
 /gu.php
-/gupuphpmyadmin/index.php
 /gust.php
 /gutter.php
 /guyana.php
@@ -9119,7 +9115,6 @@
 /imbroglio.php
 /imerick.php
 /img_upfile.php
-/imhpblog/phpmyadmin/index.php
 /imitate.php
 /imitation.php
 /imla.php
@@ -9551,11 +9546,6 @@
 /intimidate.php
 /intonation.php
 /into.php
-/intraAdmin/admin.php
-/intraAdmin/imagemanager.php
-/intraAdmin/modules/pm/include/install.php
-/intraAdmin/modules/pm/include/update.php
-/intraAdmin/phpmyadmin/db_create.php
 /intranet.php
 /intricate.php
 /intrigue.php
@@ -9589,7 +9579,6 @@
 /inxs.php
 /iodejaneiro.php
 /iogrande.php
-/ioluphpmyadmin/index.php
 /iongwe.php
 /ion.php
 /io.php
@@ -9771,7 +9760,6 @@
 /jewel.php
 /jew.php
 /jf.php
-/jglrphpmyadmin/index.php
 /jg.php
 /jh.php
 /jhset.php
@@ -11413,7 +11401,6 @@
 /ncwuforum/uc/reset.php
 /ndalusia.php
 /ndaman.php
-/ndcobbs/phpmyadmin/index.php
 /ndeeservu.php
 /nderbyland.php
 /ndes.php
@@ -11561,7 +11548,6 @@
 /newyork.php
 /newzealand.php
 /next.php
-/nfjgphpmyadmin/index.php
 /nf.php
 /ngara.php
 /ngkor.php
@@ -11883,7 +11869,6 @@
 /okosuka.php
 /ok_pass.php
 /ok.php
-/oktzphpmyadmin/index.php
 /okyo.php
 /okyotcukjcu.php
 /oland.php
@@ -12302,8 +12287,6 @@
 /oyanghu.php
 /oy.php
 /oyster.php
-/ozambique.php
-/ozhmphpmyadmin/index.php
 /oznan.php
 /ozone.php
 /oz.php
@@ -12561,7 +12544,6 @@
 /pforum/edituser.php
 /pf.php
 /pf_upload.php
-/pgcgbbs/phpmyadmin/index.php
 /pgonderin.php
 /pg.php
 /phase.php
@@ -12821,7 +12803,6 @@
 /pmyupma/index.php
 /pneumatic.php
 /pn.php
-/pnvpbbs/phpmyadmin/index.php
 /pocket.php
 /poem.php
 /poet.php
@@ -13929,7 +13910,6 @@
 /rotary.php
 /rotate.php
 /rotten.php
-/roufadmin/phpmyadmin/index.php
 /rough.php
 /rought.php
 /roundabout.php
@@ -15736,7 +15716,6 @@
 /tntimysql/index.php
 /toad.php
 /toast.php
-/toazphpmyadmin/index.php
 /tobacco.php
 /tockholm.php
 /tockport.php
@@ -17300,7 +17279,6 @@
 /y2k.php
 /yabbadabbadoo.php
 /yabba.php
-/yabhphpmyadmin/index.php
 /yacht.php
 /yaco.php
 /yahoo.php
@@ -17317,7 +17295,6 @@
 /yau.php
 /yawn.php
 /ybaris.php
-/ybjdphpmyadmin/index.php
 /yb.php
 /ybreapi/checkorder.php
 /ycenae.php
@@ -17413,7 +17390,6 @@
 /yourself.php
 /yours.php
 /youth.php
-/youxi_wangyou/index.php
 /y.php
 /yp/job.php
 /yp.php
@@ -17424,16 +17400,13 @@
 /yrenaica.php
 /yrenees.php
 /yria.php
-/yrkbbuy/myship.php
 /yroltirol.php
 /yrone.php
 /yr.php
-/yrrheniansea.php
 /yrshire.php
 /yrshu.php
 /ys.php
 /ytilene.php
-/ytlfmember/editor/admin/login.php
 /yt.php
 /yuang.php
 /yuan.php
@@ -17447,13 +17420,11 @@
 /yutthaya.php
 /yv.php
 /yvwpbbs/reset.php
-/ywovphpmyadmin/index.php
 /yw.php
 /yx.php
 /yx_Update.php
 /yy.php
 /yz.php
-/yzskempireserver/index.php
 /zai.php
 /zambia.php
 /zang.php
@@ -17465,7 +17436,6 @@
 /zau.php
 /zbekistan.php
 /zb.php
-/zcauecshop/affiche.php
 /zc.php
 /z_dgconn.php
 /z_dgdel.php
