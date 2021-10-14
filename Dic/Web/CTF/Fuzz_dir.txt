@@ -1,0 +1,14 @@
+/robots.txt
+/index.php~
+/index.php.bak
+/index.php.swp
+/.index.php.swp
+/login.php
+/login.php~
+/login.php.bak
+/.git/
+/dir.php
+/phpinfo.php
+/phpinfo.php~
+/phpinfo.php.bak
+/img../
