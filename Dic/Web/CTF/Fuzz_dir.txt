@@ -12,3 +12,5 @@
 /phpinfo.php~
 /phpinfo.php.bak
 /img../
+/login.php
+/user.php
