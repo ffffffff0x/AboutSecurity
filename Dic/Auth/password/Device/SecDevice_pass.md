@@ -302,6 +302,11 @@ admin/adminer3200
 admin/adminer3260
 ```
 
+**H3C vStor**
+```
+root/123456
+```
+
 ---
 
 ## 迪普

@@ -52,6 +52,7 @@ a123456!
 A123456
 a123456789
 aa123456
+Aa123456!
 Aa12345678
 aaa
 aaaaaa
@@ -70,10 +71,7 @@ admin123
 admin888
 administrator
 hello
-welcome
-iloveyou
 login
-love
 master
 MyPassword
 P@$$w0rd
@@ -91,8 +89,6 @@ qwerty
 qwerty123
 qwertyuiop
 sapassword
-superman
 test
 toor
-wanning
-zxcvbn
+welcome

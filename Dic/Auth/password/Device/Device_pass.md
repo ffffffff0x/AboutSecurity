@@ -356,3 +356,46 @@ admin/admin
 ```
 admin/admin
 ```
+
+## dptech
+
+```
+admin/admin_default
+```
+
+**设备串口默认密码**
+```
+DPTECH
+```
+
+**UMC统一管理中心**
+```
+admin/UMCAdministrator
+```
+
+**INM智能网点系统**
+```
+admin/admin_default
+```
+
+**iNAC**
+```
+admin/UMCAdministrator
+```
+
+**态势感知**
+```
+admin/admin
+```
+
+**保密局版本UMC**
+```
+系统管理员:system  12345678
+安全保密员:secrecy 12345678
+安全审计员:audit   12345678
+```
+
+**卫士通定制FW串口默认密码**
+```
+WSTsuper.123
+```

@@ -20,6 +20,7 @@
 /001888.do
 /001923.do
 /001942.do
+/console-selfservice/SelfService.do
 /001997.do
 /001.do
 /002350.do

@@ -19,6 +19,7 @@ test2
 123123
 assessor
 user
+guest
 ceshi
 supervisor
 0
@@ -31,5 +32,4 @@ testuser
 测试账号0
 测试账号1
 superadmin
-riseadmin
 qwer

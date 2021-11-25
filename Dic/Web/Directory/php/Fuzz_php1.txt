@@ -29,6 +29,9 @@
 /0manager/admin.php
 /0uutadmin.php
 /0x5emyup.php
+/admin.php
+/radiusmanager/user.php
+/user.php
 /1010.php
 /101223.php
 /10173.php
