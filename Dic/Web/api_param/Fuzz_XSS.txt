@@ -14,12 +14,14 @@
 ?name=
 ?p=
 ?month=
-?immagine=
+?image=
 ?list_type=
 ?url=
 ?terms=
 ?categoryid=
 ?key=
-?l=
+?login=
 ?begindate=
 ?enddate=
+?l=
+?error=

