@@ -18,9 +18,12 @@ admin/ruijie  apdebug
 ## HUAWEI
 
 ```
+admin/admin@123
 admin/Admin@123
 root/mduadmin
 eudemon/eudemon
+administrator/Huawei12#$
+administrator/Huawei@123
 admin
 root
 12345
@@ -634,6 +637,8 @@ auditor/venus
 ```
 admin/firewall
 firewall/firewall
+administrator/qianxin12#$
+adminqax/qax@123
 ```
 
 ---

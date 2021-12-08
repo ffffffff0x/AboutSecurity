@@ -56,6 +56,7 @@
 /abcd.asp
 /abcde.asp
 /about.asp
+/smqtt/admin#/login
 /aboutme/conn.asp
 /acblog.asp
 /acceso.php
