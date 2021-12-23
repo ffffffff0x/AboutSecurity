@@ -562,6 +562,7 @@
 /adm_menu.asp
 /admpanel
 /admpanel/admin.php
+/cas/login
 /admpanel/admin_wizard.php
 /adm.php
 /adm.phtml

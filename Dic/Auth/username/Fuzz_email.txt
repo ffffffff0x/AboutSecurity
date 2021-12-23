@@ -6,6 +6,7 @@ admin@gmail.com
 admin@yahoo.com
 admin@hotmail.com
 admin@dingtalk.com
+test@q.com
 admin@1.com
 admin@test.com
 admin@mail.com

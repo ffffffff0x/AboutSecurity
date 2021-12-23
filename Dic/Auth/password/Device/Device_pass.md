@@ -816,6 +816,10 @@ admin/firewall
 
 ## 天融信
 
+```
+Talnet@123456
+```
+
 **网络卫士入侵检测系统**
 ```
 admin/talent
@@ -826,6 +830,7 @@ admin/talent
 superman/talent
 superman/talent!23
 test/123456
+topsec/123456
 ```
 
 **天融信防火墙 NGFW4000**
@@ -846,6 +851,11 @@ superman/talent
 **天融信 vpn**
 ```
 test/123456
+```
+
+**桌面云**
+```
+test/test/test
 ```
 
 ---

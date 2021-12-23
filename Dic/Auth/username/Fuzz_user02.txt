@@ -1356,11 +1356,11 @@ demo6
 demo7
 demo8
 demo9
-TEST3
-TEST4
-TEST5
-TEST6
-TEST7
+test3
+test4
+test5
+test6
+test7
 test8
 test9
 USER1
@@ -1379,9 +1379,9 @@ guest2
 guest3
 supadm
 SYSADM
-TEST01
+test01
 test02
-TEST03
+test03
 user02
 user03
 webadm
@@ -1755,7 +1755,7 @@ PUBSUB
 PVM
 RDM470
 RE
-REPORT
+report
 RJE
 RMAIL
 RMAN
@@ -6454,6 +6454,7 @@ kattie
 katuscha
 katusha
 katy
+hr
 katya
 kay
 kaycee

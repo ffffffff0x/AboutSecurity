@@ -36,6 +36,7 @@
 /3800cc
 /4
 /5
+/jeeplus
 /5000
 /5555
 /5555544444
@@ -237,6 +238,8 @@
 /addclass
 /addclientinf
 /ADDCOMP
+/ui/
+/dac
 /addCompany
 /addcompmap
 /addcompok
