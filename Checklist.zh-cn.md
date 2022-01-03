@@ -355,7 +355,7 @@
 
 ## CMS框架 / 中间件框架 / WEB组件 / WEB服务 漏洞
 
-- 见 [BS-Exploits](https://github.com/No-Github/1earn/blob/master/1earn/Security/RedTeam/Web%E5%AE%89%E5%85%A8/BS-Exploits.md)
+- 见 [BS-Exploits](https://github.com/ffffffff0x/1earn/blob/master/1earn/Security/RedTeam/Web%E5%AE%89%E5%85%A8/BS-Exploits.md)
 
 ---
 
@@ -481,7 +481,7 @@
 
 # 安全设备(WAF、EDR)
 
-- 见 [SecDevice-Exploits](https://github.com/No-Github/1earn/blob/master/1earn/Security/RedTeam/%E5%AE%89%E9%98%B2%E8%AE%BE%E5%A4%87/SecDevice-Exploits.md)
+- 见 [SecDevice-Exploits](https://github.com/ffffffff0x/1earn/blob/master/1earn/Security/RedTeam/%E5%AE%89%E9%98%B2%E8%AE%BE%E5%A4%87/SecDevice-Exploits.md)
 
 ---
 

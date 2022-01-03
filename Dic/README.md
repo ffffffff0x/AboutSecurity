@@ -57,6 +57,12 @@
 - Admin
 - admIn
 
+姓名全拼
+- zhangsan
+
+姓名带点
+- jing.zhang
+
 单位名+`@`+`年份/123/或常见弱口令` (company + sth.)
 - Huawei@123
 
@@ -72,12 +78,13 @@
 管理员名+`@`+`年份/123/或常见弱口令` (Administrator + sth.)
 - tony@2019
 
-医院工号 (Hospital staff ID)
+工号 (staff ID)
 - 0000-9999
 
 公司相关信息 域名+简称 (Company Information Domain+Abbreviation)
 - wy@360buy
 - xxx.com@123
+- 企业缩写@2021
 
 ---
 
