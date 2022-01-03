@@ -14,7 +14,6 @@
 
 * **简介** : 分享字典和 payload
 * **定位** : ffffffff0x 团队军火库
-* **更新时间** : 不定期
 * **项目地址** : https://github.com/ffffffff0x/AboutSecurity
 
 ---

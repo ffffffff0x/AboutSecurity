@@ -14,7 +14,6 @@ English | [简体中文](README.zh-cn.md)
 
 * **INTRODUCTION** : Share dictionaries and payloads.
 * **Attributions** : ffffffff0x Team
-* **Update Time** : indefinite
 * **Repository Link** : https://github.com/ffffffff0x/AboutSecurity
 
 ---
