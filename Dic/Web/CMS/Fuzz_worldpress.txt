@@ -93,7 +93,6 @@
 /footer.php
 /header.php
 /sidebar.php
-
 /wp-settings.php
 /wp-admin/admin-functions.php
 /wp-admin/menu-header.php

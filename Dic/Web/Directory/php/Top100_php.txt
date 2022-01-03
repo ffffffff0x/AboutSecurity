@@ -14,7 +14,6 @@
 /CmxDownload.php
 /cmxlogin.php
 /cn/products.php
-/common/web_meeting/index.php
 /content.php
 /cp.php
 /default.php
@@ -27,9 +26,7 @@
 /faq.php
 /forum.php
 /home.php
-/impl/rpccompanyinfo_minkh.php
 /include/web_content.php
-//index.php
 /index.php
 /info.php
 /i.php
@@ -63,9 +60,7 @@
 /pics_list.php
 /plugin.php
 /plus/mytag_js.php
-//plus/recommend.php
 /plus/recommend.php
-//plus/search.php
 /plus/search.php
 /product.php
 /products_display.php
