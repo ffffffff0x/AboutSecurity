@@ -264,3 +264,4 @@
 /xls.js
 /zh-cn.js
 /zyupload.js
+/config/index.js

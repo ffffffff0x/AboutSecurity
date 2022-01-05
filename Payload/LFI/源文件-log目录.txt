@@ -1,6 +1,0 @@
-/var/log/nginx/
-/var/log/httpd/
-/var/log/apache2/
-/var/log/apache22/
-/var/log/apache/
-/var/log/
