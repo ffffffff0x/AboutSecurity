@@ -40,7 +40,7 @@ nameid
 namerealName
 namemobilePhone
 namecardNo
-idid
+id
 idrealName
 idmobilePhone
 idcardNo
