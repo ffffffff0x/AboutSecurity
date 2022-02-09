@@ -84,5 +84,6 @@
 ?view=/\example.com
 ?view=/example.com
 ?view=example.com
+?to=example.com
 @%E2%80%AE@example.com
 @example.com
