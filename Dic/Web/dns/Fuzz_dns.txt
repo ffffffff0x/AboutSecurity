@@ -39823,7 +39823,6 @@ sink
 sinkcare
 sinkleader
 sinkysoft
-sinmaimamahonyubin
 sinnam
 sinop
 sinope
@@ -40229,7 +40228,6 @@ slackware
 slade
 slai
 slakovci
-slaktforskarbloggen
 slam
 slapshot
 slash
@@ -40257,7 +40255,6 @@ sleep
 sleepy
 slehtola
 sleipnir
-slektsforskerbloggen
 slender
 sleng
 sles
