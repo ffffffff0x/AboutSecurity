@@ -1,14 +1,9 @@
 password
-__VIEWSTATE
-__EVENTVALIDATION
 username
-__EVENTTARGET
-__EVENTARGUMENT
 type
 name
 id
 Submit
-__VIEWSTATEGENERATOR
 action
 email
 mobile
@@ -21,7 +16,6 @@ phone
 code
 userName
 keyword
-__LASTFOCUS
 city
 userid
 content
@@ -47,8 +41,6 @@ txtUserName
 url
 sort
 key
-ImageButton1.y
-ImageButton1.x
 user
 pageNo
 method
@@ -64,7 +56,6 @@ pass
 user_id
 domain
 rows
-?>
 from
 sign
 uname
@@ -88,9 +79,6 @@ B1
 appid
 area
 hash
-}
-imageField.y
-imageField.x
 limit
 loginname
 txtName
