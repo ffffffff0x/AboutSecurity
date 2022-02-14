@@ -16,3 +16,4 @@ Forwarded
 X-Host
 Proxy-Client-IP
 WL-Proxy-Client-IP
+CF-Connecting-IP
