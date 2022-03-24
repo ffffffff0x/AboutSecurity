@@ -190,9 +190,6 @@ Function("alert`𒁃𒅋𒃺𒂞`")``
 
 <script>onerror=alert;throw 1337</script>
 
-Classical #XSS WAF Bypass
-Inline HTMLi + #PHP Strip Tags
-
 Code:
 <a href="<?=strip_tags($_GET['url']);?>">
 
