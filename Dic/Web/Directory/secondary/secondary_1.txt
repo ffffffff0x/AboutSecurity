@@ -19,6 +19,7 @@
 /application/
 /APPMicro/
 /arcgis/
+/ticket/
 /Article/
 /ASPFrame/
 /ASPFrame_test/
