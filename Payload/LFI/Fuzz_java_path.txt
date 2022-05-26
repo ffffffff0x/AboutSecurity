@@ -1,0 +1,8 @@
+/WEB-INF/
+/WEB-INF/classes/
+/WEB-INF/conf/
+/WEB-INF/config/
+/WEB-INF/resources/
+/WEB-INF/spring-configuration/
+/WEB-INF/spring/
+/META-INF/

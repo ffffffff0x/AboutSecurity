@@ -17,6 +17,7 @@
 /api/list/toggle/
 /api/login
 /api/logout
+/api/v1/log/diagnostics
 /api/offers
 /api/program/progrnnn
 /apis
