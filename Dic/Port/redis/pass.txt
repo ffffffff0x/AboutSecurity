@@ -31,3 +31,7 @@ test123
 q1w2e3r4
 user
 web
+P@ssw0rd
+redis
+redis123
+redis@123

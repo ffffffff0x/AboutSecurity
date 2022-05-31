@@ -33,3 +33,5 @@ test123
 q1w2e3r4
 user
 web
+postgres123
+P@ssw0rd

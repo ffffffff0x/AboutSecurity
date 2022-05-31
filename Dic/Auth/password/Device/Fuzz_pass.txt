@@ -451,3 +451,5 @@ zsun1188
 Zte521
 zte9x15
 zyad1234
+initpass
+admin_default
