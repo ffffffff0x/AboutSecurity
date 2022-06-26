@@ -292,6 +292,7 @@ admin/admin@huawei.com
 ```
 admin  初始密码一般设为 12345 123456  888888  admin
 admin/Admin@123
+admin/hk123456
 ```
 
 ---
