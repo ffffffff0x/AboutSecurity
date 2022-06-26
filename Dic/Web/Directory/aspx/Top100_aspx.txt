@@ -92,3 +92,4 @@
 /Admin/fileManage.aspx
 /ShowNews.aspx
 /Web_Site/Search.aspx
+/AjaxHandler/UploadHandler.ashx
