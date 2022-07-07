@@ -1688,3 +1688,4 @@
 /Zuqiu_Tianxia/index.asp
 /zyadmin/login.asp
 /Zzm.asp
+/user/login
