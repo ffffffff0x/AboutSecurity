@@ -642,6 +642,11 @@ administrator/qianxin12#$
 adminqax/qax@123
 ```
 
+**奇安信新一代智慧虚拟化防火墙(NSG 系列)**
+```
+admin/!1fw@2soc#3vpn
+```
+
 ---
 
 ## 网御星云
