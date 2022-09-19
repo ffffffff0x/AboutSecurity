@@ -1316,3 +1316,6 @@
 /7.txt
 /9.txt
 /backupdata.txt
+/说明.txt
+/备份.txt
+/部署文档.txt
