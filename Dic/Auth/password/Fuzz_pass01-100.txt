@@ -157,9 +157,7 @@ toor
 root
 root123
 rootroot
-w123456
-w123456789
-wang123456
 welcome
 www123456
 123qwe!@#
+a12345678.
