@@ -108,10 +108,6 @@ C:/sysprep/sysprep.xml
 C:/sysprep.xml
 C:/system32/inetsrv/metabase.xml
 C:/system volume information/wpsettings.dat
-C:/unattended.txt
-C:/unattended.xml
-C:/unattend.txt
-C:/unattend.xml
 C:/users/administrator/desktop/desktop.ini
 C:/users/administrator/ntuser.dat
 C:/users/administrator/ntuser.ini
