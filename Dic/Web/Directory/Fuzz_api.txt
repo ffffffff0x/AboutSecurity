@@ -139,7 +139,6 @@
 /api/v1/product/distinct/store
 /api/v1/product/list
 /api/v1/product/productsIn/category/Pets
-/api/v1/projects/logo/{{id}}
 /api/v1/proxy/namespaces/kube-system/services/kibana-logging/app/kibana
 /api/v1/pubcategorys
 /api/v1/pubfiles
